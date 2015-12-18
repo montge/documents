@@ -53,8 +53,8 @@ Extra deliverables not explicitly numbered in the PWS ...
 \# | Name | Schedule | Git | Content(s) | Format(s)
 :---: | :---: | :---: | :---: | :--- | :---: 
 E1 | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM) | a package that implements the VDM inside a VISTA. Such a package is needed for the VDM Module of deliverable 11 and for the prototypes of 5.4. It would provide a Javascript service for creating, reading, updating and deleting (CRUD) VISTA Data according to the VDM. | Javascript (node.js), MUMPS (KIDS) 
-E2 | VDMN Module | Q1 &#8594; Q4 | [VDMN](https://github.com/vistadataproject/VDMN) | a module that will run inside a VISTA process and map to and from the VDM Package using a set of heuristics | 
-E3 | FileMan TEST VistA | Q1 &#8594; Q4 | [NodeVistA](https://github.com/vistadataproject/NodeVistA) | a test VistA that can host many different test datasets | 
-E4 | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated for all applications using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/).
+E2 | VDMN Module | Q1 &#8594; Q4 | [VDMN](https://github.com/vistadataproject/VDMN) | a module that will run inside a VISTA process and map to and from the VDM Package using a set of heuristics | Javascript (node.js)
+E3 | FileMan TEST VistA | Q1 &#8594; Q4 | [NodeVistA](https://github.com/vistadataproject/NodeVistA) | a test VistA that can host many different test datasets | VistA System, Vagrant
+E4 | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated for all applications using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). | Python, Javascript
 
 
