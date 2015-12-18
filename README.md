@@ -2,7 +2,7 @@
 
 Cross Project Documentation not hosted on the website
 
-# Project Objective and Method of Delivery
+## Project Objective and Method of Delivery
 
 > __providing a single 
 > comprehensive security- enabled read/write data model for all VA VISTA data__ 
@@ -15,6 +15,10 @@ Cross Project Documentation not hosted on the website
 > __all artifacts and deliverables__ shall be developed, version-controlled, stored, and delivered on an industry-standard public __Github__ repository (“Project Repository”). ... The Project Repository shall contain the one and only authoritative version of all artifacts produced under this contract. The government, all necessary stakeholders, and the __public__ shall have full read and download access of all artifacts on the Project Repository at all times
 
 --- 1.6.15.1
+
+## Project Deliverables and Estimated Schedule
+
+The following deliverables are called for.
 
 \# | Name | Schedule | Git | Content(s) | Format(s) | PWS Section | 
 :---: | :---: | :---: | :---: | :--- | :---: | :--- 
