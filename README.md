@@ -2,6 +2,8 @@
 
 Cross Project Documentation not hosted on the website
 
+Programmer documentation will be generated for all applications using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/).
+
 # Project Objective and Method of Delivery
 
 > The objective of this performance work statement (PWS) is to prototype and demonstrate 
@@ -64,6 +66,12 @@ Cross Project Documentation not hosted on the website
 18 | Machine-processable (PIKS) Annotations | Q2 | VDM | Enables Patient-centric security (#28), distinguished patient from other types of data | JSON-LD | 5.3.4
 19 | Software code (for PIKS) | Q2 | VDM | _PIKS Annotation Generator_ | Python | 5.3.4
 &nbsp; ||||||
+25 | VDM Query Prototype that uses a FileMan Query Service ("FQS") | Q1 -> Q2 | VDM | Example clients that query the FileMan Test VISTA using a REST-based FQS implemented over the VDM Package | Javascript, Python, JSON-LD | 5.4.1
+28 | Prototype Patient-centric Data Security | Q3 | VDM | document and provide a self-contained prototype that shows how PIKS-enabled annotations enable patient-centric secure queries | Javascript, Markdown | 5.4.1
+32 | Prototype Web-based Rules Hub | Q4 | VDMNmap | prototype a sharable, crowdsource-able mechanism to exchange and grow a library of open, standards-based, validated, and exchangeable transformation rules Web-based interface | 5.4.1
+33 | Prototype Web-Based Query Interface to FileMan (VDM) Data | Q2 | VDM | Simple GUI (VDM UI) for VDM Package | Javascript | 5.4.1
+&nbsp; ||||||
+
 
 
 
