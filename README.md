@@ -1,4 +1,4 @@
-Cross Project Documentation not hosted on the website
+General Project Documentation not hosted on the website
 
 ## Project Objective and Method of Delivery
 
