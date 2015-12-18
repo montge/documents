@@ -42,12 +42,12 @@ Programmer documentation will be generated for all applications using tools such
 32 | Prototype Web-based Rules Hub | Q4 | VDMNmap | prototype a sharable, crowdsource-able mechanism to exchange and grow a library of open, standards-based, validated, and exchangeable transformation rules | Web-based interface | 5.4.1
 33 | Prototype Web-Based Query Interface to FileMan (VDM) Data | Q2 | VDM | Simple GUI (VDM UI) for VDM Package | Javascript | 5.4.1
 &nbsp; ||||||
-35 | VISTA Application model(s)/Prototype(s) (Testing) | Q1 -> Q4 | VDMN | VDMN write back tests (tier 1 through 3), enabled by vdmn.js configurations | Javascript | 5.4.2
+35 | VISTA Application model(s)/Prototype(s) (Testing) | Q1 &#8594; Q4 | VDMN | VDMN write back tests (tier 1 through 3), enabled by vdmn.js configurations | Javascript | 5.4.2
 &nbsp; ||||||
-36A | Meta-model(s) - VPR Prototype(s)5 | Q1 -> Q3 | VDMN | Test code that shows how well the VDMN supports VPR convenience methods
+36A | Meta-model(s) - VPR Prototype(s)5 | Q1 &#8594; Q3 | VDMN | Test code that shows how well the VDMN supports VPR convenience methods
 Javascript, Python | 5.4.2
 &nbsp; ||||||
-39 | Reference model(s)/Prototype(s) | Q3 -> Q4 | VDMNmap | Prototype that demonstrates a mapping from VDMN to FHIR | Javascript and/or other translation rules languages | 5.4.2
+39 | Reference model(s)/Prototype(s) | Q3 &#8594; Q4 | VDMNmap | Prototype that demonstrates a mapping from VDMN to FHIR | Javascript and/or other translation rules languages | 5.4.2
 40 | Document VISTA-ese vs. FHIR | Q4 | VDMN | Human-readable mapping descriptions | Markdown | 5.4.2
 &nbsp; ||||||
 
@@ -55,8 +55,8 @@ Extra deliverables not explicitly numbered in the PWS ...
 
 \# | Name | Schedule | Git | Content(s) | Format(s)
 :---: | :---: | :---: | :---: | :--- | :---: 
-E1 | VDM Package | Q1 -> Q3 | VDM | a package that implements the VDM inside a VISTA. Such a package is needed for the VDM Module of deliverable 11 and for the prototypes of 5.4. It would provide a Javascript service for creating, reading, updating and deleting (CRUD) VISTA Data according to the VDM. | Javascript (node.js), MUMPS (KIDS) 
-
+E1 | VDM Package | Q1 &#8594; Q3 | VDM | a package that implements the VDM inside a VISTA. Such a package is needed for the VDM Module of deliverable 11 and for the prototypes of 5.4. It would provide a Javascript service for creating, reading, updating and deleting (CRUD) VISTA Data according to the VDM. | Javascript (node.js), MUMPS (KIDS) 
+E2 | VMDN Module | Q1 &#8594; Q4 | VDMN | a module that will run inside a VISTA process and map to and from the VDM Package using a set of heuristics | 
 
 
 
