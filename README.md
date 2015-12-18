@@ -47,23 +47,23 @@ Cross Project Documentation not hosted on the website
 39 | Reference model(s)/Prototype(s) | VDMNmap | 3rd Quarter
 40 | Document VISTA-ese vs. FHIR | VDMNmap | 3rd Quarter
 
-\# | Name | Schedule | Content(s) | Format(s) | PWS Section
-:---: | :---: | :---: | :---: | :---: | :--- | :---:
-7 | Machine Processable VISTA Data Model (VDM) | Q1 | vdm.jsonld, the native VISTA data model in JSON-LD based on one or more dd.jsonld's<br><br>VDM Maker, a program that creates vdm.jsonld from dd.jsonld's. | JSONLD, Python, Javascript | 5.3.1
+\# | Name | Schedule | Content(s) | Format(s)/GIT | PWS Section | 
+:---: | :---: | :---: | :---: | :---: | :--- 
+7 | Machine Processable VISTA Data Model (VDM) | Q1 | vdm.jsonld, the native VISTA data model in JSON-LD based on one or more dd.jsonld's<br><br>VDM Maker, a program that creates vdm.jsonld from dd.jsonld's. | JSONLD, Python, Javascript <br><br>VDM | 5.3.1
 8 | Date-stamped FileMan Data Model Implementations (Definitions) (cross refs, triggers ...) | Q1 | dd.jsonld, a data dictionary captured in JSON-LD<br><br>DD Cacher, a program that caches the dictionaries from VISTAs | JSONLD, Python, Javascript | 5.3.1
 9 | (Document) Approach to “Live VDM” Maintenance of Current State | Q4 | In a wiki page, describe ways in which dd.jsonld definitions and hence vdm.jsonld could keep pace with changes in VISTAs | Markdown | 5.3.1
-&nbsp; ||||||
-10 | Normalized VISTA Data Model (VDMN) | Q1 -> Q3 | vdmn.jsonld, a formal “VDMN Subset” definition with much of the scope of the VPR RPC | JSON-LD | 5.3.2 | VDMN
-11 | (VDMN over VDM) Heuristic (mapping) code | Q1 -> Q3 | mapping tables and rules built over the course of the project in the VDMN module to enable expanding VDMN to VDM mapping | Javascript, JSON | 5.3.2 | VDMN
-12 | (VDMN) Normalization Reports | Q1 -> Q3 | Documents VDM to VDMN mapping as implemented in Deliverable 11 in a git wiki | Markdown | 5.3.2 | VDMN (Wiki)
-13 | Website | Q1 -> Q4 | website, infographics to showcase the contents of the VDM and VDMN Subset | HTML, Javascript (d3.js) | 5.3.2 | Website
-14 | Document (VDMN ) exposure of older models (schedule, lab ...) report | Q3 | describe how older, cruder models could be handled in the VDMN | Markdown | 5.3.2 | VDMN Wiki
-&nbsp; ||||||
+&nbsp; |||||
+10 | Normalized VISTA Data Model (VDMN) | Q1 -> Q3 | vdmn.jsonld, a formal “VDMN Subset” definition with much of the scope of the VPR RPC | JSON-LD | 5.3.2
+11 | (VDMN over VDM) Heuristic (mapping) code | Q1 -> Q3 | mapping tables and rules built over the course of the project in the VDMN module to enable expanding VDMN to VDM mapping | Javascript, JSON | 5.3.2
+12 | (VDMN) Normalization Reports | Q1 -> Q3 | Documents VDM to VDMN mapping as implemented in Deliverable 11 in a git wiki | Markdown | 5.3.2
+13 | Website | Q1 -> Q4 | website, infographics to showcase the contents of the VDM and VDMN Subset | HTML, Javascript (d3.js) | 5.3.2
+14 | Document (VDMN ) exposure of older models (schedule, lab ...) report | Q3 | describe how older, cruder models could be handled in the VDMN | Markdown | 5.3.2
+&nbsp; |||||
 15 | Date Stamped (Application) Meta Data for lab, surgery and other applications | Q2 | Meta Data Cacher that queries meta-data using the VDM package. The results will be hosted on the project’s github. | Python, JSON-LD | 5.3.3
-&nbsp; ||||||
-18 | Machine-processable (PIKS) Annotations | Q2 | Enables Patient-centric security (#28), distinguished patient from other types of data | JSON-LD | 5.3.4 | VDM
-19 | Software code (for PIKS) | Q2 | Generate the annotations | Python | 5.3.4 | VDM
-&nbsp; ||||||
+&nbsp; |||||
+18 | Machine-processable (PIKS) Annotations | Q2 | Enables Patient-centric security (#28), distinguished patient from other types of data | JSON-LD | 5.3.4
+19 | Software code (for PIKS) | Q2 | Generate the annotations | Python | 5.3.4
+&nbsp; |||||
 
 
 
