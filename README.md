@@ -6,9 +6,7 @@ Programmer documentation will be generated for all applications using tools such
 
 # Project Objective and Method of Delivery
 
-> The objective of this performance work statement (PWS) is to prototype and demonstrate 
-> the __exposure, analytics, and automation of VA VISTA metadata__ using modern, 
-> machine- processable, web-centric metadata standards, __providing a single 
+> __providing a single 
 > comprehensive security- enabled read/write data model for all VA VISTA data__ 
 > across all VA VISTA operational systems, establishing a common technical foundation
 > for master data management and computable data representation and __exchange between 
