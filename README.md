@@ -16,7 +16,7 @@ General Project Documentation not hosted on the website
 
 ## Project Deliverables and Estimated Schedule
 
-The following deliverables are called for.
+The following deliverables are called for in the Project Work Statement (PWS).
 
 \# | Name | Schedule | Git | Content(s) | Format(s) | PWS Section | 
 :---: | :---: | :---: | :---: | :--- | :---: | :--- 
