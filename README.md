@@ -42,8 +42,7 @@ Programmer documentation will be generated for all applications using tools such
 &nbsp; ||||||
 35 | VISTA Application model(s)/Prototype(s) (Testing) | Q1 &#8594; Q4 | VDMN | VDMN write back tests (tier 1 through 3), enabled by vdmn.js configurations | Javascript | 5.4.2
 &nbsp; ||||||
-36A | Meta-model(s) - VPR Prototype(s)5 | Q1 &#8594; Q3 | VDMN | Test code that shows how well the VDMN supports VPR convenience methods
-Javascript, Python | 5.4.2
+36A | Meta-model(s) - VPR Prototype(s)5 | Q1 &#8594; Q3 | VDMN | Test code that shows how well the VDMN supports VPR convenience methods | Javascript, Python | 5.4.2
 &nbsp; ||||||
 39 | Reference model(s)/Prototype(s) | Q3 &#8594; Q4 | VDMNmap | Prototype that demonstrates a mapping from VDMN to FHIR | Javascript and/or other translation rules languages | 5.4.2
 40 | Document VISTA-ese vs. FHIR | Q4 | VDMN | Human-readable mapping descriptions | Markdown | 5.4.2
@@ -54,7 +53,7 @@ Extra deliverables not explicitly numbered in the PWS ...
 \# | Name | Schedule | Git | Content(s) | Format(s)
 :---: | :---: | :---: | :---: | :--- | :---: 
 E1 | VDM Package | Q1 &#8594; Q3 | VDM | a package that implements the VDM inside a VISTA. Such a package is needed for the VDM Module of deliverable 11 and for the prototypes of 5.4. It would provide a Javascript service for creating, reading, updating and deleting (CRUD) VISTA Data according to the VDM. | Javascript (node.js), MUMPS (KIDS) 
-E2 | VMDN Module | Q1 &#8594; Q4 | VDMN | a module that will run inside a VISTA process and map to and from the VDM Package using a set of heuristics | 
-
+E2 | VDMN Module | Q1 &#8594; Q4 | VDMN | a module that will run inside a VISTA process and map to and from the VDM Package using a set of heuristics | 
+E3 | FileMan TEST VistA | Q1 &#8594; Q4 | NodeVistA | a test VistA that can host many different test datasets | 
 
 
