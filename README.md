@@ -20,35 +20,6 @@ Programmer documentation will be generated for all applications using tools such
 
 --- 1.6.15.1
 
-# 19 Technical Deliverables
-
- # | Name | GIT | Schedule
-:---: | :---: | :---: | :---
-7 | Machine Processable VISTA Data Model (VDM) | VDM | Q1
-8 | Date-stamped FileMan Data Model Definitions (cross refs, triggers ...)<sup>2</sup> | VDM | Q1
-9 | Approach to “Live VDM” Maintenance of Current State | VDM (wiki) | Q4
-&nbsp; |||
-10 | Normalized VISTA Data Model (VDMN) | VDMN | 30 days/Continuous - start with VPR domains
-11 | (VDMN) Heuristic code | VDMN | 60 days/Continuous
-12 | (VDMN) Normalization Reports | VDMN (wiki) | 30 days/Continuous
-13 | Website | website, infographics | Q1-Q4
-14 | (VDMN) Exposure of older models (schedule, lab ...) report | VDMN (wiki) | 2nd Quarter
-&nbsp; |||
-15 | Date Stamped (Application) Meta Data | VDM | 3rd Quarter 
-&nbsp; |||
-18 | Machine-processable (PIKS) Annotations | VDM | 1st Quarter
-19 | Software code (for PIKS) | VDM | 1st Quarter
-&nbsp; |||
-25 | Prototype query access to VISTA Data Against VDM | VDM | 30 days, Continuous 
-28 | Prototype Patient-centric Data Security | VDMN | 2nd Quarter
-32 | Prototype Web-based Rules Hub | VDMNmap | 2nd Quarter, Continuous
-33 | Prototype Web-Based Query Interface to FileMan Data | VDM | 2nd Quarter
-&nbsp; |||
-35 | VISTA Application model(s)/Prototype(s) | VDMN | 2nd Quarter, Continuous
-36A | Meta-model(s) - VPR<sup>1</sup> Test | VDMN | 1st Quarter, Continuous (VPR), 4th Quarter MDWS
-39 | Reference model(s)/Prototype(s) | VDMNmap | 3rd Quarter
-40 | Document VISTA-ese vs. FHIR | VDMNmap | 3rd Quarter
-
 \# | Name | Schedule | Git | Content(s) | Format(s) | PWS Section | 
 :---: | :---: | :---: | :---: | :--- | :---: | :--- 
 7 | Machine Processable VISTA Data Model (VDM) | Q1 | VDM  | _vdm.jsonld_, the native VISTA data model in JSON-LD based on one or more dd.jsonld's<br><br>_VDM Maker_, a program that creates vdm.jsonld from dd.jsonld's. | JSONLD, Python, Javascript | 5.3.1
@@ -71,8 +42,20 @@ Programmer documentation will be generated for all applications using tools such
 32 | Prototype Web-based Rules Hub | Q4 | VDMNmap | prototype a sharable, crowdsource-able mechanism to exchange and grow a library of open, standards-based, validated, and exchangeable transformation rules | Web-based interface | 5.4.1
 33 | Prototype Web-Based Query Interface to FileMan (VDM) Data | Q2 | VDM | Simple GUI (VDM UI) for VDM Package | Javascript | 5.4.1
 &nbsp; ||||||
+35 | VISTA Application model(s)/Prototype(s) (Testing) | Q1 -> Q4 | VDMN | VDMN write back tests (tier 1 through 3), enabled by vdmn.js configurations | Javascript | 5.4.2
+&nbsp; ||||||
+36A | Meta-model(s) - VPR Prototype(s)5 | Q1 -> Q3 | VDMN | Test code that shows how well the VDMN supports VPR convenience methods
+Javascript, Python | 5.4.2
+&nbsp; ||||||
+39 | Reference model(s)/Prototype(s) | Q3 -> Q4 | VDMNmap | Prototype that demonstrates a mapping from VDMN to FHIR | Javascript and/or other translation rules languages | 5.4.2
+40 | Document VISTA-ese vs. FHIR | Q4 | VDMN | Human-readable mapping descriptions | Markdown | 5.4.2
+&nbsp; ||||||
 
+Extra deliverables not explicitly numbered in the PWS ...
 
+\# | Name | Schedule | Git | Content(s) | Format(s)
+:---: | :---: | :---: | :---: | :--- | :---: 
+E1 | VDM Package | Q1 -> Q3 | VDM | a package that implements the VDM inside a VISTA. Such a package is needed for the VDM Module of deliverable 11 and for the prototypes of 5.4. It would provide a Javascript service for creating, reading, updating and deleting (CRUD) VISTA Data according to the VDM. | Javascript (node.js), MUMPS (KIDS) 
 
 
 
