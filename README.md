@@ -27,9 +27,9 @@ Programmer documentation will be generated for all applications using tools such
 9 | (Document) Approach to “Live VDM” Maintenance of Current State | Q4 | VDM (Wiki) | In a wiki page, describe ways in which _dd.jsonld_ definitions and hence vdm.jsonld could keep pace with changes in VISTAs | Markdown | 5.3.1
 &nbsp; ||||||
 10 | Normalized VISTA Data Model (VDMN) | Q1 -> Q3 | VDMN | _vdmn.jsonld_, a formal “VDMN Subset” definition with much of the scope of the VPR RPC | JSON-LD | 5.3.2
-11 | (VDMN over VDM) Heuristic (mapping) code | Q1 -> Q3 | VDMN | mapping tables and rules built over the course of the project in the _VDMN module_ to enable expanding VDMN to VDM mapping | Javascript, JSON | 5.3.2
-12 | (VDMN) Normalization Reports | Q1 -> Q3 | VDMN (Wiki) | Documents VDM to VDMN mapping as implemented in Deliverable 11 in a git wiki | Markdown | 5.3.2
-13 | Website | Q1 -> Q4 | Website | website, infographics to showcase the contents of the VDM and VDMN Subset | HTML, Javascript (d3.js) | 5.3.2
+11 | (VDMN over VDM) Heuristic (mapping) code | Q1 &#8594; Q3 | VDMN | mapping tables and rules built over the course of the project in the _VDMN module_ to enable expanding VDMN to VDM mapping | Javascript, JSON | 5.3.2
+12 | (VDMN) Normalization Reports | Q1 &#8594; Q3 | VDMN (Wiki) | Documents VDM to VDMN mapping as implemented in Deliverable 11 in a git wiki | Markdown | 5.3.2
+13 | Website | Q1 &#8594; Q4 | Website | website, infographics to showcase the contents of the VDM and VDMN Subset | HTML, Javascript (d3.js) | 5.3.2
 14 | Document (VDMN ) exposure of older models (schedule, lab ...) report | Q3 | VDMN (Wiki) | describe how older, cruder models could be handled in the VDMN | Markdown | 5.3.2
 &nbsp; ||||||
 15 | Date Stamped (Application) Meta Data for lab, surgery and other applications | Q2 | VDM | _Meta Data Cacher_ that queries meta-data using the _VDM package_. The results will be hosted on the project’s github. | Python, JSON-LD | 5.3.3
@@ -37,7 +37,7 @@ Programmer documentation will be generated for all applications using tools such
 18 | Machine-processable (PIKS) Annotations | Q2 | VDM | Enables Patient-centric security (#28), distinguished patient from other types of data | JSON-LD | 5.3.4
 19 | Software code (for PIKS) | Q2 | VDM | _PIKS Annotation Generator_ | Python | 5.3.4
 &nbsp; ||||||
-25 | VDM Query Prototype that uses a FileMan Query Service ("FQS") | Q1 -> Q2 | VDM | Example clients that query the FileMan Test VISTA using a REST-based FQS implemented over the VDM Package | Javascript, Python, JSON-LD | 5.4.1
+25 | VDM Query Prototype that uses a FileMan Query Service ("FQS") | Q1 &#8594; Q2 | VDM | Example clients that query the FileMan Test VISTA using a REST-based FQS implemented over the VDM Package | Javascript, Python, JSON-LD | 5.4.1
 28 | Prototype Patient-centric Data Security | Q3 | VDM | document and provide a self-contained prototype that shows how PIKS-enabled annotations enable patient-centric secure queries | Javascript, Markdown | 5.4.1
 32 | Prototype Web-based Rules Hub | Q4 | VDMNmap | prototype a sharable, crowdsource-able mechanism to exchange and grow a library of open, standards-based, validated, and exchangeable transformation rules | Web-based interface | 5.4.1
 33 | Prototype Web-Based Query Interface to FileMan (VDM) Data | Q2 | VDM | Simple GUI (VDM UI) for VDM Package | Javascript | 5.4.1
