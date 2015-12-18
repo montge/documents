@@ -46,7 +46,6 @@ The following deliverables are called for.
 &nbsp; ||||||
 39 | Reference model(s)/Prototype(s) | Q3 &#8594; Q4 | VDMNmap | Prototype that demonstrates a mapping from VDMN to FHIR | Javascript and/or other translation rules languages | 5.4.2
 40 | Document VISTA-ese vs. FHIR | Q4 | VDMN | Human-readable mapping descriptions | Markdown | 5.4.2
-&nbsp; ||||||
 
 Extra deliverables not explicitly numbered in the PWS ...
 
