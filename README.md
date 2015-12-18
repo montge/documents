@@ -45,7 +45,7 @@ The following deliverables are called for.
 36A | Meta-model(s) - VPR Prototype(s) | Q1 &#8594; Q3 | VDMN | Test code that shows how well the VDMN supports VPR convenience methods | Javascript, Python | 5.4.2
 &nbsp; ||||||
 39 | Reference model(s)/Prototype(s) | Q3 &#8594; Q4 | VDMNmap | Prototype that demonstrates a mapping from VDMN to FHIR | Javascript and/or other translation rules languages | 5.4.2
-40 | Document VISTA-ese vs. FHIR | Q4 | VDMN | Human-readable mapping descriptions | Markdown | 5.4.2
+40 | Document VISTA-ese vs. FHIR | Q4 | VDMNmap | Human-readable mapping descriptions | Markdown | 5.4.2
 
 Extra deliverables not explicitly numbered in the PWS ...
 
