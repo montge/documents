@@ -39,7 +39,7 @@ The following deliverables are called for in the Project Work Statement (PWS).
 2	| Program Management Plan (PMP)	| Q1 | documents | &nbsp; | &nbsp; | 5.0
 3	| Program Schedule and Monthly Updates | Monthly | documents | &nbsp; | &nbsp; | 5.0
 4	| Monthly Progress Report | Monthly | &nbsp; |  &nbsp; | &nbsp; | &nbsp; | 5.0
-5	| Quarterly Strategic Communications Message | Quarterly | documents | 5.0
+5	| Quarterly Strategic Communications Message | Quarterly | documents | &nbsp; | &nbsp; | 5.0
 7 | Machine Processable VISTA Data Model (VDM) | Q1 | [VDM](https://github.com/vistadataproject/VDM)  | _vdm.jsonld_, the native VISTA data model in JSON-LD based on one or more dd.jsonld's<br><br>_VDM Maker_, a program that creates vdm.jsonld from dd.jsonld's. | JSON-LD, Python, Javascript | 5.3.1
 8 | Date-stamped FileMan Data Model Implementations (Definitions) (cross refs, triggers ...) | Q1 | [VDM](https://github.com/vistadataproject/VDM) | _dd.jsonld_, a data dictionary captured in JSON-LD<br><br>_DD Cacher_, a program that caches the dictionaries from VISTAs | JSON-LD, Python, Javascript | 5.3.1
 9 | (Document) Approach to “Live VDM” Maintenance of Current State | Q4 | [VDM](https://github.com/vistadataproject/VDM) (Wiki) | In a wiki page, describe ways in which _dd.jsonld_ definitions and hence vdm.jsonld could keep pace with changes in VISTAs | Markdown | 5.3.1
