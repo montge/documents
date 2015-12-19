@@ -20,7 +20,7 @@ Where?
 
 ## Deliverables and Estimated Schedule
 
-Work breaks into 5 tracks, each managed and performed in one or more gits under the _vistadataproject_ organization.
+Work breaks into __5 tracks__, each managed and performed in one or more gits under the _vistadataproject_ organization.
 
 Track # | Name | Description | GIT
 :---: | :---: | :--- | :---
