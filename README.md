@@ -14,7 +14,7 @@ and
 
 Note that 
 
-> this project is not about creating a new health-care system. It is creating a __data-centric, node.js based framework__ for __efficiently using the powerful, multi-faceted, widely-deployed VISTA system.
+> this project is not about creating a new health-care system. It is creating a __data-centric, node.js based framework__ for efficiently using the powerful, multi-faceted, widely-deployed VISTA system.
 
 ## Project Deliverables and Estimated Schedule
 
