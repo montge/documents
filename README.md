@@ -105,7 +105,7 @@ In addition, the Project requested that within 30 days of contract award the Gov
 
   1. A copy of the latest version of the VPR RPC software and documentation.
   2. The latest copy of the FileMan namespace spreadsheet.
-  3. A FileMan namespace exclusively for the Team to allow for the creation of Project files and fields in FileMan.
+  3. A FileMan namespace exclusively for the Project to allow for the creation of Project files and fields in FileMan.
   4. Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
   5. Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
   6. VA VISTA Sandbox Account with full Linux VM.
