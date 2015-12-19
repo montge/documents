@@ -22,10 +22,10 @@ Work breaks into 5 tracks, each managed and performed in one or more gits under 
 
 Track # | Name | Description | GIT
 :---: | :---: | :--- | :---
-1 | VDM | VistA Native Data model (VDM) - exposure and package implementation | VDM
-2 | VDMN | VistA Normalized Data model (VDMN) - definition and module implementation | VDMN
-3 | VDMNmap | Mapping VDMN to other models like FHIR | VDMNmap
-4 | Infrastructure | Website, Test VISTA ("nodeVistA"), gits, tooling | nodeVistA, [website], documents 
+1 | VDM | VistA Native Data model (VDM) - exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) 
+2 | VDMN | VistA Normalized Data model (VDMN) - definition and module implementation | [VDMN](https://github.com/vistadataproject/VDMN)
+3 | VDMNmap | Mapping VDMN to other models like FHIR | [VDMNmap](https://github.com/vistadataproject/VDMNmap) 
+4 | Infrastructure | Website, Test VISTA ("nodeVistA"), gits, tooling | [nodeVistA](https://github.com/vistadataproject/nodeVistA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), documents 
 5 | Project Management | Progress reports etc | documents 
 
 The following deliverables are called for in the Project Work Statement (PWS).
