@@ -32,8 +32,8 @@ The following deliverables are called for in the Project Work Statement (PWS).
 
 \# | Name | Schedule | Git | Content(s) | Format(s) | PWS Section | 
 :---: | :---: | :---: | :---: | :--- | :---: | :--- 
-1AA |	Artifact Repository |	Q1 | &nbsp; | Vista Data Project Organization and Gits | 5.2
-1A | Non-disclosure/Non-Use Agreement	| Q1 | &nbsp; | &nbsp; | 5.0
+1AA |	Artifact Repository |	Q1 | &nbsp; | Vista Data Project Organization and Gits | &nbsp; | 5.2
+1A | Non-disclosure/Non-Use Agreement	| Q1 | &nbsp; | &nbsp; | &nbsp; | 5.0
 1B | Quality Control Plan | Q1 | &nbsp; | documents | 5.0
 1C | Phase-out Migration Plan | Q4 | &nbsp; | documents | 5.0
 2	| Program Management Plan (PMP)	| Q1 | &nbsp; | documents	| 5.0
