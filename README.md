@@ -98,5 +98,3 @@ From PWS 3.1 - within 30 days of contract award the Government will provide cont
   4. Copy of at least one real operational VISTA ("Prod Clone" or “Test VISTA”) which would be kept
 within the NIPRed network, as it will have non de-identified patient data. 
   5. A VISTA with real but de-identified patient data
-
-__Note__: initial work can proceed using OSEHRA VistA. However, the pace of development of write-back support for VDMN will be impacted without access to the "VISTA with real but de-identified patient data".
