@@ -68,6 +68,17 @@ E1 | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM
 E2 | FileMan TEST VistA | Q1 &#8594; Q4 | [nodeVistA](https://github.com/vistadataproject/nodeVistA) | a test VistA that can host many different test datasets | VistA System, Vagrant
 E3 | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated for all applications using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). | Python, Javascript
 
+__TODO__: order by quarter using a dynamic table.
+
+Formats and Licenses of deliverable artifacts (PWS 8.2) 
+
+Artifact | Format(s) | License
+:---: | --- | ---
+Data | CSV if tabular structure; JSON-LD for all other structures. | Creative Commons CC0.
+Metadata | JSON-LD. | Creative Commons CC0.
+Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0.
+Code (Software) | Source code, and all dependent code, with full version control history. | Apache 2.0.
+
 ## System Access (3.1)
 
 Within 30 days of contract award the Government will provide contractor access to:
@@ -80,14 +91,3 @@ within the NIPRed network, as it will have non de-identified patient data.
   5. A VISTA with real but de-identified patient data
 
 __Note__: initial work can proceed using OSEHRA VistA. However, the pace of development of write-back support for VDMN will be impacted without access to the "VISTA with real but de-identified patient data".
-
-## Formats and Licenses of deliverable artifacts
-
-From section 8.2 of PWS.
-
-Artifact | Format(s) | License
-:---: | --- | ---
-Data | CSV if tabular structure; JSON-LD for all other structures. | Creative Commons CC0.
-Metadata | JSON-LD. | Creative Commons CC0.
-Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0.
-Code (Software) | Source code, and all dependent code, with full version control history. | Apache 2.0.
