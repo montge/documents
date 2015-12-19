@@ -67,3 +67,27 @@ Extra deliverables not explicitly numbered in the PWS ...
 E1 | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM) | a package that implements the VDM inside a VISTA. Such a package is needed for the VDMN Module of deliverable 11 and for the prototypes of 5.4. It would provide a Javascript service for creating, reading, updating and deleting (CRUD) VISTA Data according to the VDM. | Javascript (node.js), MUMPS (KIDS) 
 E2 | FileMan TEST VistA | Q1 &#8594; Q4 | [nodeVistA](https://github.com/vistadataproject/nodeVistA) | a test VistA that can host many different test datasets | VistA System, Vagrant
 E3 | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated for all applications using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). | Python, Javascript
+
+## System Access (3.1)
+
+Within 30 days of contract award the Government will provide contractor access to:
+
+  1. Data Dictionary (^DD) extract from at least five current operational VISTAs. These data dictionaries contain no patient data, PHI, or PII (i.e. no sensitive information).
+  2. Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions.13 The metadata does not contain any patient data, PHI, or PII (i.e. no sensitive information).
+  3. Copy of a VISTA with test patients used by VA for internal projects
+  4. Copy of at least one real operational VISTA ("Prod Clone" or “Test VISTA”) which would be kept
+within the NIPRed network, as it will have non de-identified patient data. 
+  5. A VISTA with real but de-identified patient data
+
+__Note__: initial work can proceed using OSEHRA VistA. However, the pace of development of write-back support for VDMN will be impacted without access to the "VISTA with real but de-identified patient data".
+
+## Formats and Licenses of deliverable artifacts
+
+From section 8.2 of PWS.
+
+Artifact | Format(s) | License
+:---: | --- | ---
+Data | CSV if tabular structure; JSON-LD for all other structures. | Creative Commons CC0.
+Metadata | JSON-LD. | Creative Commons CC0.
+Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0.
+Code (Software) | Source code, and all dependent code, with full version control history. | Apache 2.0.
