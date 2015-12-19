@@ -22,8 +22,8 @@ Work breaks into 5 tracks, each managed and performed in one or more gits under 
 
 Track # | Name | Description | GIT
 :---: | :---: | :--- | :---
-1 | VDM | VistA Native Data model exposure and package implementation | VDM
-2 | VDMN | VistA Normalized Data model - definition and module implementation | VDMN
+1 | VDM | VistA Native Data model (VDM) - exposure and package implementation | VDM
+2 | VDMN | VistA Normalized Data model (VDMN) - definition and module implementation | VDMN
 3 | VDMNmap | Mapping VDMN to other models like FHIR | VDMNmap
 4 | Infrastructure | Website, Test VISTA ("nodeVistA"), gits, tooling | nodeVistA, [website], documents 
 5 | Project Management | Progress reports etc | documents 
