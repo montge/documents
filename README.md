@@ -88,9 +88,9 @@ Metadata | JSON-LD. | Creative Commons CC0.
 Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0.
 Code (Software) | Source code, and all dependent code, with full version control history. | Apache 2.0.
 
-## System Access (3.1)
+## System Access 
 
-Within 30 days of contract award the Government will provide contractor access to:
+From PWS 3.1 - within 30 days of contract award the Government will provide contractor access to:
 
   1. Data Dictionary (^DD) extract from at least five current operational VISTAs. These data dictionaries contain no patient data, PHI, or PII (i.e. no sensitive information).
   2. Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions.13 The metadata does not contain any patient data, PHI, or PII (i.e. no sensitive information).
