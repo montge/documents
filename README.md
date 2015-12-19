@@ -24,7 +24,7 @@ Track # | Name | Description | GIT
 :---: | :---: | :--- | :---
 1 | VDM | VistA Native Data model (VDM) - exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) 
 2 | VDMN | VistA Normalized Data model (VDMN) - definition and module implementation | [VDMN](https://github.com/vistadataproject/VDMN)
-3 | VDMNmap | Mapping VDMN to other models like FHIR | [VDMNmap](https://github.com/vistadataproject/VDMNmap) 
+3 | VDMNmap | Mapping VDMN to other models such as FHIR | [VDMNmap](https://github.com/vistadataproject/VDMNmap) 
 4 | Infrastructure | Website, Test VISTA ("nodeVistA"), gits, tooling | [nodeVistA](https://github.com/vistadataproject/nodeVistA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), documents 
 5 | Project Management | Progress reports etc | documents 
 
