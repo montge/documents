@@ -26,25 +26,27 @@ Track # | Name | Description | GIT
 2 | VDMN | VistA Normalized Data model (VDMN) - definition and module implementation | [VDMN](https://github.com/vistadataproject/VDMN)
 3 | VDMNmap | Mapping VDMN to other models such as FHIR | [VDMNmap](https://github.com/vistadataproject/VDMNmap) 
 4 | Infrastructure | Website, Test VISTA ("nodeVistA"), gits, tooling | [nodeVistA](https://github.com/vistadataproject/nodeVistA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), documents 
-5 | Project Management | Progress reports etc | documents 
+5 | Project Management | Business/Project Management (Deliverables 1A &#8594; 5) | documents 
 
 The following deliverables are called for in the Project Work Statement (PWS).
 
 \# | Name | Schedule | Git | Content(s) | Format(s) | PWS Section | 
 :---: | :---: | :---: | :---: | :--- | :---: | :--- 
 1AA |	Artifact Repository |	Q1 | &nbsp; | Vista Data Project Organization and Gits | &nbsp; | 5.2
+&nbsp; ||||||
 1A | Non-disclosure/Non-Use Agreement	| Q1 | &nbsp; | &nbsp; | &nbsp; | 5.0
 1B | Quality Control Plan | Q1 | documents | &nbsp; |  &nbsp; | 5.0
 1C | Phase-out Migration Plan | Q4 | documents | &nbsp; |  &nbsp; | 5.0
 2	| Program Management Plan (PMP)	| Q1 | documents | &nbsp; | &nbsp; | 5.0
 3	| Program Schedule and Monthly Updates | Monthly | documents | &nbsp; | &nbsp; | 5.0
-4	| Monthly Progress Report | Monthly | &nbsp; |  &nbsp; | &nbsp; | &nbsp; | 5.0
+4	| Monthly Progress Report | Monthly | &nbsp; |  &nbsp; | &nbsp; | 5.0
 5	| Quarterly Strategic Communications Message | Quarterly | documents | &nbsp; | &nbsp; | 5.0
+&nbsp; ||||||
 7 | Machine Processable VISTA Data Model (VDM) | Q1 | [VDM](https://github.com/vistadataproject/VDM)  | _vdm.jsonld_, the native VISTA data model in JSON-LD based on one or more dd.jsonld's<br><br>_VDM Maker_, a program that creates vdm.jsonld from dd.jsonld's. | JSON-LD, Python, Javascript | 5.3.1
 8 | Date-stamped FileMan Data Model Implementations (Definitions) (cross refs, triggers ...) | Q1 | [VDM](https://github.com/vistadataproject/VDM) | _dd.jsonld_, a data dictionary captured in JSON-LD<br><br>_DD Cacher_, a program that caches the dictionaries from VISTAs | JSON-LD, Python, Javascript | 5.3.1
 9 | (Document) Approach to “Live VDM” Maintenance of Current State | Q4 | [VDM](https://github.com/vistadataproject/VDM) (Wiki) | In a wiki page, describe ways in which _dd.jsonld_ definitions and hence vdm.jsonld could keep pace with changes in VISTAs | Markdown | 5.3.1
 &nbsp; ||||||
-10 | Normalized VISTA Data Model (VDMN) | Q1 -> Q3 | [VDMN](https://github.com/vistadataproject/VDMN) | _vdmn.jsonld_, a formal “VDMN Subset” definition with much of the scope of the VPR RPC | JSON-LD | 5.3.2
+10 | Normalized VISTA Data Model (VDMN) | Q1 &#8594; Q3 | [VDMN](https://github.com/vistadataproject/VDMN) | _vdmn.jsonld_, a formal “VDMN Subset” definition with much of the scope of the VPR RPC | JSON-LD | 5.3.2
 11 | [VDMN over VDM] Heuristic (mapping) code [_VDMN Module_] | Q1 &#8594; Q3 | [VDMN](https://github.com/vistadataproject/VDMN) | mapping tables and rules built over the course of the project in a _VDMN module_ to enable expanding VDMN to VDM mapping | Javascript (node.js), JSON | 5.3.2
 12 | [VDMN] Normalization Reports | Q1 &#8594; Q3 | [VDMN](https://github.com/vistadataproject/VDMN) (Wiki) | Documents VDM to VDMN mapping as implemented in Deliverable 11 in a git wiki | Markdown | 5.3.2
 13 | Website | Q1 &#8594; Q4 | [Website](https://github.com/vistadataproject/vistadataproject.github.io) | website, infographics to showcase the contents of the VDM and VDMN Subset | HTML, Javascript (d3.js) | 5.3.2
