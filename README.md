@@ -30,7 +30,7 @@ Track # | Name | Description | GIT
 4 | Infrastructure | Website, Test VISTA ("nodeVistA"), gits, tooling | [nodeVistA](https://github.com/vistadataproject/nodeVistA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), documents 
 5 | Project Management | Business/Project Management (Deliverables 1A &#8594; 5) | documents 
 
-__For current work plans, see the [VDM Track](https://github.com/vistadataproject/VDM), [VDMN Track](https://github.com/vistadataproject/VDMN) and [nodeVistA](https://github.com/vistadataproject/nodeVistA/tree/master/Commands) gits.__
+__For current work plans, see the [VDM Track](https://github.com/vistadataproject/VDM), [VDMN Track](https://github.com/vistadataproject/VDMN) and [nodeVistA](https://github.com/vistadataproject/nodeVistA/tree/master/Commands) gits.__ The order of work emphasizes assembling all the pieces needed for the VDMN Module (definitions and testing code paths) before implementing it.
 
 The following deliverables are called for in the Project Work Statement (PWS).
 
