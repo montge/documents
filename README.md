@@ -6,13 +6,15 @@ General Project Documentation not hosted on the website
 > comprehensive security- enabled read/write data model for all VA VISTA data__ 
 > across all VA VISTA operational systems, establishing a common technical foundation
 > for master data management and computable data representation and __exchange between 
-> VA and DoD clinical information systems__.
+> VA and DoD clinical information systems__. --- PWS 1.1
 
---- 1.1
+and
 
-> __all artifacts and deliverables__ shall be developed, version-controlled, stored, and delivered on an industry-standard public __Github__ repository (“Project Repository”). ... The Project Repository shall contain the one and only authoritative version of all artifacts produced under this contract. The government, all necessary stakeholders, and the __public__ shall have full read and download access of all artifacts on the Project Repository at all times
+> __all artifacts and deliverables__ shall be developed, version-controlled, stored, and delivered on an industry-standard public __Github__ repository (“Project Repository”). ... The Project Repository shall contain the one and only authoritative version of all artifacts produced under this contract. The government, all necessary stakeholders, and the __public__ shall have full read and download access of all artifacts on the Project Repository at all times --- PWS 1.6.15.1
 
---- 1.6.15.1
+Note that 
+
+> we are not establishing a new system here. We are creating a __data-centric, node.js based framework__ for __efficiently using VISTA__, a powerful, multi-faceted working system.
 
 ## Project Deliverables and Estimated Schedule
 
