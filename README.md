@@ -18,6 +18,16 @@ Note that
 
 ## Deliverables and Estimated Schedule
 
+Work breaks into 5 tracks, each managed and performed in one or more gits under the _vistadataproject_ organization.
+
+Track # | Name | Description | GIT
+:---: | :---: | :--- | :---
+1 | VDM | VistA Native Data model exposure and package implementation | VDM
+2 | VDMN | VistA Normalized Data model - definition and module implementation | VDMN
+3 | VDMNmap | Mapping VDMN to other models like FHIR | VDMNmap
+4 | Infrastructure | Website, Test VISTA ("nodeVistA"), gits, tooling | nodeVistA, [website], documents 
+5 | Project Management | Progress reports etc | documents 
+
 The following deliverables are called for in the Project Work Statement (PWS).
 
 \# | Name | Schedule | Git | Content(s) | Format(s) | PWS Section | 
@@ -57,5 +67,3 @@ Extra deliverables not explicitly numbered in the PWS ...
 E1 | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM) | a package that implements the VDM inside a VISTA. Such a package is needed for the VDMN Module of deliverable 11 and for the prototypes of 5.4. It would provide a Javascript service for creating, reading, updating and deleting (CRUD) VISTA Data according to the VDM. | Javascript (node.js), MUMPS (KIDS) 
 E2 | FileMan TEST VistA | Q1 &#8594; Q4 | [nodeVistA](https://github.com/vistadataproject/nodeVistA) | a test VistA that can host many different test datasets | VistA System, Vagrant
 E3 | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated for all applications using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). | Python, Javascript
-
-
