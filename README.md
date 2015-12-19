@@ -1,6 +1,6 @@
 General Project Documentation not hosted on the website
 
-## Project Objective and Method of Delivery
+## Objective and Method of Delivery
 
 > __providing a single 
 > comprehensive security- enabled read/write data model for all VA VISTA data__ 
@@ -16,7 +16,7 @@ Note that
 
 > this project is not about creating a new health-care system. It is creating a __data-centric, node.js based framework__ for efficiently using the powerful, multi-faceted, widely-deployed VISTA system. Without VISTA, the framework would be useless. With the framework, VISTA will be a lot more useable.
 
-## Project Deliverables and Estimated Schedule
+## Deliverables and Estimated Schedule
 
 The following deliverables are called for in the Project Work Statement (PWS).
 
