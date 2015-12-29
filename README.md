@@ -28,6 +28,15 @@ George Timson<br>Tom Munnecke | FileMan | VDM | The pair who made VistA
 Rob Tweed | Node/M | nodeVistA | The man who introduced node.js to VistA and MUMPS
 Chris Edwards | Vagrant Installer for VistA | nodeVistA | Packaged VistA for today 
 
+## Technology Stack
+
+Overview of the VistA Data Project's technology stack (TODO: Infographic)
+
+1. __VISTA current:__  M/FM/ {APIs, HL7, M  procedural code, interface code}  => fixed, narrow data slices (code-locked) 
+2. __NodeVISTA:__  M / FM /NodeM/ {RPC wrappers} / Javascript => fixed, narrow data slices (code-locked)
+3. __VDM:__  M / FM / NodeM / VDM {JSON-LD} / Javascript  => Comprehensive access to *all* VISTA data via one mechanism (data-centric)
+4. __VDMN:__ M / FM / NodeM / VDMN {JSON-LD} / Javascript => Consistent read / write across VISTA instances
+
 ## Deliverables and Estimated Schedule
 
 Work breaks into __5 tracks__, each managed and performed in one or more gits under the _vistadataproject_ organization.
