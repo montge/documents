@@ -23,7 +23,7 @@ Where?
 This project builds on the work of many.
 
 Who | Work | In Project | Comment
---- | :---: | :---: | ---
+--- | --- | :---: | ---
 George Timson<br>Tom Munnecke | FileMan | VDM | The pair who made VistA
 Rob Tweed | Node/M | nodeVistA | The man who introduced node.js to VistA and MUMPS
 Nancy Anthracite | Opening up VistA and its information | &nbsp; | Pushed for open and not closed off, in-house development
