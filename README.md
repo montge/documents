@@ -26,7 +26,7 @@ Who | Work | In Project | Comment
 :--- | --- | :---: | ---
 George Timson<br>Tom Munnecke | FileMan | VDM | The pair who made VistA
 Rob Tweed | Node/M | nodeVistA | The man who introduced node.js to VistA and MUMPS
-Nancy Anthracite | Opening up VistA and its information | &nbsp; | Pushed for open and not closed off, in-house development
+Nancy Anthracite | Opening up VistA and its information | &nbsp; | Advocated tirelessly for in-the-open, not closed off, in-house VISTA development
 Chris Edwards | Vagrant Installer for VistA | nodeVistA | Packaged VistA for today 
 
 ## Deliverables and Estimated Schedule
