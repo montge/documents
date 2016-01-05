@@ -38,8 +38,8 @@ Work breaks into __four main tracks__ (A-D) in addition to Project Management (P
 Track | Name | Description | GIT
 :---: | :---: | :--- | :---
 A | Infrastructure | Test VISTA ("nodeVISTA"), gits, tooling, website | [nodeVISTA](https://github.com/vistadataproject/nodeVistA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), [documents](https://github.com/vistadataproject/documents) 
-B | VDM | VistA Native Data model (VDM) - exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) 
-C | VDMN | VistA Normalized Data model (VDMN) - definition and module implementation | [VDMN](https://github.com/vistadataproject/VDMN)
+B | VDM | VistA Data Model (VDM) - exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) 
+C | VDMN | VistA Data Model Normalized (VDMN) - definition and module implementation | [VDMN](https://github.com/vistadataproject/VDMN)
 D | VDMNmap | Mapping VDMN to other models such as FHIR | [VDMNmap](https://github.com/vistadataproject/VDMNmap) 
 PM | Project Management | Business/Project Management  | [documents](https://github.com/vistadataproject/documents)
 
