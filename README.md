@@ -95,7 +95,8 @@ E1 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject
 E2 | A | FileMan TEST VistA | Q1 &#8594; Q4 | [nodeVISTA](https://github.com/vistadataproject/nodeVistA) | a test VistA that can host many different test datasets | VistA System, Vagrant
 E3 | A | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated for all applications using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). | Python, Javascript
 
-### Deleted deliverables (redundant or out of scope): 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
+
+Deliverables omitted (redundant or out of scope per government determination): 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
 
 __TODO__: order by quarter using a dynamic table.
 
