@@ -26,7 +26,7 @@ Who | Work | In Project Track | Comment
 :--- | --- | :---: | ---
 George Timson<br>Tom Munnecke | FileMan | VDM | The pair who made VistA
 Nancy Anthracite | Opening up VistA | &nbsp; | Advocated tirelessly for in-the-open VISTA development
-Rob Tweed | Node/M | Infrastructure | Integrated node.js with VistA and MUMPS
+Rob Tweed | Node/M | Infrastructure | Integrated node.js with VistA and MUMPS ("nodeVISTA")
 Manu Sporny | JSON-LD | VDMN | Created and promoted the JSON-LD standard
 Kevin Meldrum | VPR RPC | VDMN | Created a JSON-based mechanism for accessing VISTA's patient data 
 Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VistA for today 
