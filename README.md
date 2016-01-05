@@ -41,7 +41,7 @@ A | Infrastructure | Test VISTA ("nodeVISTA"), gits, tooling, website | [nodeVIS
 B | VDM | VistA Native Data model (VDM) - exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) 
 C | VDMN | VistA Normalized Data model (VDMN) - definition and module implementation | [VDMN](https://github.com/vistadataproject/VDMN)
 D | VDMNmap | Mapping VDMN to other models such as FHIR | [VDMNmap](https://github.com/vistadataproject/VDMNmap) 
-PM | Project Management | Business/Project Management (Deliverables 1A &#8594; 5) | [documents](https://github.com/vistadataproject/documents)
+PM | Project Management | Business/Project Management  | [documents](https://github.com/vistadataproject/documents)
 
 __For current work plans, see the [VDM Track](https://github.com/vistadataproject/VDM), [VDMN Track](https://github.com/vistadataproject/VDMN) and [nodeVistA](https://github.com/vistadataproject/nodeVistA/tree/master/Commands) gits.__ The order of work emphasizes assembling and demonstrating all the pieces needed for the VDMN Module (definitions and testing code paths) before implementing it.
 
