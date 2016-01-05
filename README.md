@@ -24,12 +24,12 @@ This project builds on the work of many.
 
 Who | Work | In Project Track | Comment
 :--- | --- | :---: | ---
-George Timson<br>Tom Munnecke | FileMan | VDM | The pair who made VistA
-Nancy Anthracite | Opening up VistA | &nbsp; | Advocated tirelessly for in-the-open VISTA development
-Rob Tweed | Node/M | Infrastructure | Integrated node.js with VistA and MUMPS ("nodeVISTA")
+George Timson<br>Tom Munnecke | FileMan | VDM | The pair who made VISTA
+Nancy Anthracite | Opening up VISTA | &nbsp; | Advocated tirelessly for in-the-open VISTA development
+Rob Tweed | Node/M | Infrastructure | Integrated node.js with VISTA and MUMPS ("nodeVISTA")
 Manu Sporny | JSON-LD | MVDM | Created and promoted the JSON-LD standard
 Kevin Meldrum | VPR RPC | MVDM | Created a JSON-based mechanism for accessing VISTA's patient data 
-Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VistA for today 
+Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VISTA for today 
 
 ## Deliverables and Estimated Schedule
 
@@ -37,13 +37,13 @@ In addition to Project Management (PM), the work breaks into __four main tracks_
 
 Track | Name | Description | GIT
 :---: | :---: | :--- | :---
-A | Infrastructure | Test VISTA ("nodeVISTA"), gits, tooling, website | [nodeVISTA](https://github.com/vistadataproject/nodeVistA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), [documents](https://github.com/vistadataproject/documents) 
-B | VDM | VistA Data Model (VDM) - exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) 
-C | MVDM | Master VistA Data Model (MVDM) - definition and module implementation | [MVDM](https://github.com/vistadataproject/MVDM)
+A | Infrastructure | Test VISTA ("nodeVISTA"), gits, tooling, website | [nodeVISTA](https://github.com/vistadataproject/nodeVISTA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), [documents](https://github.com/vistadataproject/documents) 
+B | VDM | VISTA Data Model (VDM) - exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) 
+C | MVDM | Master VISTA Data Model (MVDM) - definition and module implementation | [MVDM](https://github.com/vistadataproject/MVDM)
 D | MVDMmap | Mapping MVDM to other models such as FHIR | [MVDMmap](https://github.com/vistadataproject/MVDMmap) 
 PM | Project Management | Business/Project Management  | [documents](https://github.com/vistadataproject/documents)
 
-__For current work plans, see the [VDM Track](https://github.com/vistadataproject/VDM), [MVDM Track](https://github.com/vistadataproject/MVDM) and [nodeVistA](https://github.com/vistadataproject/nodeVistA/tree/master/Commands) gits.__ The order of work emphasizes assembling and demonstrating all the pieces needed for the MVDM Module (definitions and testing code paths) before implementing it.
+__For current work plans, see the [VDM Track](https://github.com/vistadataproject/VDM), [MVDM Track](https://github.com/vistadataproject/MVDM) and [nodeVISTA](https://github.com/vistadataproject/nodeVISTA/tree/master/Commands) gits.__ The order of work emphasizes assembling and demonstrating all the pieces needed for the MVDM Module (definitions and testing code paths) before implementing it.
 
 The following deliverables are called for in the Project Work Statement (PWS).
 
@@ -91,7 +91,7 @@ The following deliverables are called for in the Project Work Statement (PWS).
 
 \# | Track | Name | Schedule | Git | Content(s) | Format(s) |
 :---: | :---: | :---: | :---: | :---: | :--- | :---: 
-E1 | A | FileMan TEST VistA | Q1 &#8594; Q4 | [nodeVISTA](https://github.com/vistadataproject/nodeVistA) | a test VistA that can host many different test datasets | VistA System, Vagrant
+E1 | A | FileMan TEST VISTA | Q1 &#8594; Q4 | [nodeVISTA](https://github.com/vistadataproject/nodeVISTA) | a test VISTA that can host many different test datasets | VISTA System, Vagrant
 E2 | A | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated for all applications using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). | Python, Javascript
 E3 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM) | a package that implements the VDM inside a VISTA. Such a package is needed for the MVDM Module of deliverable 11 and for the prototypes of 5.4. It would provide a Javascript service for creating, reading, updating and deleting (CRUD) VISTA Data according to the VDM. | Javascript (node.js), MUMPS (KIDS) 
 
@@ -103,7 +103,7 @@ Deliverables omitted (redundant or out of scope per government determination): 6
 :---: | :---: | :---: | :---: | :---: | :--- | :---: | :--- 
 1AA | A |Artifact Repository | Q1 | &nbsp; | Project Gits | &nbsp; | 8.2
 13 | A |  Website | Q1 &#8594; Q4 | [Website](https://github.com/vistadataproject/vistadataproject.github.io) | website, infographics to showcase the contents of the VDM and MVDM Subset | HTML, Javascript (d3.js) | 5.3.2
-E1 | A | FileMan TEST VistA | Q1 &#8594; Q4 | [nodeVISTA](https://github.com/vistadataproject/nodeVistA) | a test VistA that can host many different test datasets | VistA System, Vagrant | &nbsp
+E1 | A | FileMan TEST VISTA | Q1 &#8594; Q4 | [nodeVISTA](https://github.com/vistadataproject/nodeVISTA) | a test VISTA that can host many different test datasets | VISTA System, Vagrant | &nbsp
 E2 | A | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated for all applications using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). | Python, Javascript | &nbsp
 &nbsp; ||||||
 &nbsp; ||||||
