@@ -51,15 +51,18 @@ The following deliverables are called for in the Project Work Statement (PWS).
 :---: | :---: | :---: | :---: | :---: | :--- | :---: | :--- 
 1AA | A |Artifact Repository | Q1 | &nbsp; | Project Gits | &nbsp; | 8.2
 13 | A |  Website | Q1 &#8594; Q4 | [Website](https://github.com/vistadataproject/vistadataproject.github.io) | website, infographics to showcase the contents of the VDM and MVDM Subset | HTML, Javascript (d3.js) | 5.3.2
-E1 | A | FileMan TEST VISTA | Q1 &#8594; Q4 | [nodeVISTA](https://github.com/vistadataproject/nodeVISTA) | a test VISTA that hosts many test datasets | VISTA System, Vagrant | &nbsp;
-E2 | A | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). | Python, Javascript | &nbsp;
+E2 | A | FileMan TEST VISTA | Q1 &#8594; Q4 | [nodeVISTA](https://github.com/vistadataproject/nodeVISTA) | a test VISTA that hosts many test datasets | VISTA System, Vagrant | &nbsp;
+E3 | A | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). | Python, Javascript | &nbsp;
 &nbsp; ||||||
 &nbsp; ||||||
 7 | B |  Machine Processable VISTA Data Model (VDM) | Q1 | [VDM](https://github.com/vistadataproject/VDM)  | _vdm.jsonld_, the native VISTA data model in JSON-LD based on one or more dd.jsonld's<br><br>_VDM Maker_, a program that creates vdm.jsonld from dd.jsonld's. | JSON-LD, Python, Javascript | 5.3.1
 8 | B |  Date-stamped FileMan Data Model Implementations (Definitions) (cross refs, triggers ...) | Q1 | [VDM](https://github.com/vistadataproject/VDM) | _dd.jsonld_, a data dictionary captured in JSON-LD<br><br>_DD Cacher_, a program that caches the dictionaries from VISTAs | JSON-LD, Python, Javascript | 5.3.1
+E1 | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM), [nodeVISTA](https://github.com/vistadataproject/nodeVISTA) | a package that implements the VDM inside a VISTA. Such a package is needed for the VDMN Module of deliverable 11 and for the prototypes of 5.4. It would provide a Javascript service for creating, reading, updating and deleting (CRUD) VISTA Data according to the VDM. | Javascript (node.js), MUMPS (KIDS) | &nbsp;
 9 | B |  (Document) Approach to “Live VDM” Maintenance of Current State | Q4 | [VDM](https://github.com/vistadataproject/VDM) (Wiki) | In a wiki page, describe ways in which _dd.jsonld_ definitions and hence vdm.jsonld could keep pace with changes in VISTAs | Markdown | 5.3.1
-25 | B |  Prototype query access to VISTA Data against VDM ["FQS"] | Q1 &#8594; Q2 | [VDM](https://github.com/vistadataproject/VDM) | Example clients that query the FileMan Test VISTA using a REST-based FileMan Query Service (FQS) implemented over the VDM Package | Javascript, Python, JSON-LD | 5.4.1
-33 | B |  Prototype Web-Based Query Interface to FileMan [VDM] Data | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Simple GUI (VDM UI) for VDM Package | Javascript | 5.4.1
+18 | B |  Machine-processable [PIKS] Annotations | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Distinguish patient data from other types of VISTA data. VDM PIKS enables MVDM PIKS which enables patient-centric security (#28) | JSON-LD | 5.3.4
+19 | B |  Software code [for PIKS] | Q2 | [VDM](https://github.com/vistadataproject/VDM) | _PIKS Annotation Generator_ | Python | 5.3.4
+25 | B |  Prototype query access to VISTA Data against VDM ["FQS"] | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Example clients that query (read-only) the FileMan Test VISTA using a REST-based FileMan Query Service (FQS) implemented over a read-only version of the VDM Package | Javascript, Python, JSON-LD | 5.4.1
+33 | B |  Prototype Web-Based Query Interface to FileMan [VDM] Data | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Simple Web Client for using a read-only version of the VDM Package | Javascript | 5.4.1
 &nbsp; ||||||
 &nbsp; ||||||
 10 | C |  Master VISTA Data Model (MVDM) | Q1 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) | _vdmn.jsonld_, a formal “MVDM Subset” definition with much of the scope of the VPR RPC | JSON-LD | 5.3.2
@@ -67,16 +70,14 @@ E2 | A | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vis
 12 | C |  [MVDM] Normalization Reports | Q1 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Documents VDM to MVDM mapping as implemented in Deliverable 11 in a git wiki | Markdown | 5.3.2
 14 | C |  Report on [MVDM] Exposure of older models | Q3 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Describe how older, cruder models could be handled in the MVDM | Markdown | 5.3.2
 15 | C |  Date Stamped (Application) Meta Data for lab, surgery and other applications | Q2 | [VDM](https://github.com/vistadataproject/VDM) | _Metadata Cacher_ that queries meta-data using the _VDM package_. The results will be hosted on the project’s github. | Python, JSON-LD | 5.3.3
-18 | C |  Machine-processable [PIKS] Annotations | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Enables Patient-centric security (Deliverable 28), distinguishing patient data from other types of VISTA data | JSON-LD | 5.3.4
-19 | C |  Software code [for PIKS] | Q2 | [VDM](https://github.com/vistadataproject/VDM) | _PIKS Annotation Generator_ | Python | 5.3.4
-28 | C |  Prototype Patient-centric Data Security | Q3 | [VDM](https://github.com/vistadataproject/VDM) | Document and provide a self- contained prototype that shows how PIKS- enabled annotations enable patient-centric secure queries | Javascript, Markdown | 5.4.1
+28 | C |  Prototype Patient-centric Data Security | Q3 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | First document and then provide a self- contained prototype that shows how PIKS- enabled annotations enable patient-centric secure queries | Javascript, Markdown | 5.4.1
 35 | C |  VISTA Application model(s)/Prototype(s) [Tests] | Q1 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | MVDM write back tests (tier 1 through 3), enabled by vdmn.js configurations. Test scenarios for Deliverable 11. | Javascript, [Python] | 5.4.2
-36 | C |  Meta-model(s) [VPR] Prototype(s) | Q1 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) | Test code that shows how well the MVDM supports VPR convenience methods | Javascript, Python | 5.4.2
+36 | C |  Meta-model(s) [VPR] Prototype(s) | Q2 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) | Test code that shows how well the MVDM supports VPR convenience methods | Javascript, Python | 5.4.2
 &nbsp; ||||||
 &nbsp; ||||||
-32 | D |  Prototype Web-based Rules Hub | Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototype a sharable, crowd source-able mechanism to exchange and grow a library of open, standards-based, validated, and exchangeable transformation rules | Web-based interface | 5.4.1
-39 | D |  Reference model(s)/Prototype(s) | Q3 &#8594; Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototype that demonstrates a mapping from MVDM to FHIR | Javascript and/or other translation rules languages | 5.4.2
-40 | D |  Document VISTA-ese vs. FHIR | Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Human-readable mapping descriptions | Markdown | 5.4.2
+32 | D |  Prototype Web-based Rules Hub | Q3 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototype a sharable, crowd source-able mechanism to exchange and grow a library of open, standards-based, validated, and exchangeable transformation rules | Web-based interface | 5.4.1
+39 | D |  Reference model(s)/Prototype(s) | Q2 &#8594; Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototype that demonstrates a mapping from MVDM to FHIR | Javascript and/or other translation rules languages | 5.4.2
+40 | D |  Document VISTA-ese vs. FHIR | Q3 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Human-readable mapping descriptions | Markdown | 5.4.2
 &nbsp; ||||||
 &nbsp; ||||||
 1A | PM | Non-disclosure/Non-Use Agreement	| Q1 | &nbsp; | &nbsp; | &nbsp; | 6.1
