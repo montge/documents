@@ -33,7 +33,7 @@ Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VistA fo
 
 ## Deliverables and Estimated Schedule
 
-Work breaks into __four main tracks__ (A-D) in addition to Project Management (PM), each managed and performed in one or more gits under the _vistadataproject_ organization.
+In addition to Project Management (PM), the work breaks into __four main tracks__ (A-D) each managed and performed in one or more gits under the _vistadataproject_ organization.
 
 Track | Name | Description | GIT
 :---: | :---: | :--- | :---
