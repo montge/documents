@@ -22,7 +22,7 @@ Where?
 
 This project builds on the work of many.
 
-Who | Work | In Project | Comment
+Who | Work | In Project Track | Comment
 :--- | --- | :---: | ---
 George Timson<br>Tom Munnecke | FileMan | VDM | The pair who made VistA
 Nancy Anthracite | Opening up VistA | &nbsp; | Advocated tirelessly for in-the-open VISTA development
@@ -35,13 +35,13 @@ Chris Edwards | Vagrant Installer for VistA | nodeVistA | Packaged VistA for tod
 
 Work breaks into __5 tracks__, each managed and performed in one or more gits under the _vistadataproject_ organization.
 
-Track # | Name | Description | GIT
+Track | Name | Description | GIT
 :---: | :---: | :--- | :---
-1 | VDM | VistA Native Data model (VDM) - exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) 
-2 | VDMN | VistA Normalized Data model (VDMN) - definition and module implementation | [VDMN](https://github.com/vistadataproject/VDMN)
-3 | VDMNmap | Mapping VDMN to other models such as FHIR | [VDMNmap](https://github.com/vistadataproject/VDMNmap) 
-4 | Infrastructure | Website, Test VISTA ("nodeVistA"), gits, tooling | [nodeVistA](https://github.com/vistadataproject/nodeVistA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), documents 
-5 | Project Management | Business/Project Management (Deliverables 1A &#8594; 5) | documents 
+A | Infrastructure | Website, Test VISTA ("nodeVistA"), gits, tooling | [nodeVistA](https://github.com/vistadataproject/nodeVistA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), [documents](https://github.com/vistadataproject/documents) 
+B | VDM | VistA Native Data model (VDM) - exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) 
+C | VDMN | VistA Normalized Data model (VDMN) - definition and module implementation | [VDMN](https://github.com/vistadataproject/VDMN)
+D | VDMNmap | Mapping VDMN to other models such as FHIR | [VDMNmap](https://github.com/vistadataproject/VDMNmap) 
+E | Project Management | Business/Project Management (Deliverables 1A &#8594; 5) | [documents](https://github.com/vistadataproject/documents)
 
 __For current work plans, see the [VDM Track](https://github.com/vistadataproject/VDM), [VDMN Track](https://github.com/vistadataproject/VDMN) and [nodeVistA](https://github.com/vistadataproject/nodeVistA/tree/master/Commands) gits.__ The order of work emphasizes assembling and demonstrating all the pieces needed for the VDMN Module (definitions and testing code paths) before implementing it.
 
