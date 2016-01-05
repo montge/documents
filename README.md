@@ -86,7 +86,7 @@ The following deliverables are called for in the Project Work Statement (PWS).
 39 | Reference model(s)/Prototype(s) | Q3 &#8594; Q4 | [VDMNmap](https://github.com/vistadataproject/VDMNmap) | Prototype that demonstrates a mapping from VDMN to FHIR | Javascript and/or other translation rules languages | 5.4.2
 40 | Document VISTA-ese vs. FHIR | Q4 | [VDMNmap](https://github.com/vistadataproject/VDMNmap) | Human-readable mapping descriptions | Markdown | 5.4.2
 
-Deleted deliverables (redundant or out of scope): 6, 16, 17, 20-24, 26, 27, 29-31, 34, 
+Deleted deliverables (redundant or out of scope): 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
 
 Extra deliverables not explicitly numbered in the PWS ...
 
