@@ -27,8 +27,8 @@ Who | Work | In Project Track | Comment
 George Timson<br>Tom Munnecke | FileMan | VDM | The pair who made VistA
 Nancy Anthracite | Opening up VistA | &nbsp; | Advocated tirelessly for in-the-open VISTA development
 Rob Tweed | Node/M | Infrastructure | Integrated node.js with VistA and MUMPS ("nodeVISTA")
-Manu Sporny | JSON-LD | VDMN | Created and promoted the JSON-LD standard
-Kevin Meldrum | VPR RPC | VDMN | Created a JSON-based mechanism for accessing VISTA's patient data 
+Manu Sporny | JSON-LD | MVDM | Created and promoted the JSON-LD standard
+Kevin Meldrum | VPR RPC | MVDM | Created a JSON-based mechanism for accessing VISTA's patient data 
 Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VistA for today 
 
 ## Deliverables and Estimated Schedule
@@ -39,11 +39,11 @@ Track | Name | Description | GIT
 :---: | :---: | :--- | :---
 A | Infrastructure | Test VISTA ("nodeVISTA"), gits, tooling, website | [nodeVISTA](https://github.com/vistadataproject/nodeVistA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), [documents](https://github.com/vistadataproject/documents) 
 B | VDM | VistA Data Model (VDM) - exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) 
-C | VDMN | VistA Data Model Normalized (VDMN) - definition and module implementation | [VDMN](https://github.com/vistadataproject/VDMN)
-D | VDMNmap | Mapping VDMN to other models such as FHIR | [VDMNmap](https://github.com/vistadataproject/VDMNmap) 
+C | MVDM | Master VistA Data Model (MVDM) - definition and module implementation | [MVDM](https://github.com/vistadataproject/MVDM)
+D | MVDMmap | Mapping MVDM to other models such as FHIR | [MVDMmap](https://github.com/vistadataproject/MVDMmap) 
 PM | Project Management | Business/Project Management  | [documents](https://github.com/vistadataproject/documents)
 
-__For current work plans, see the [VDM Track](https://github.com/vistadataproject/VDM), [VDMN Track](https://github.com/vistadataproject/VDMN) and [nodeVistA](https://github.com/vistadataproject/nodeVistA/tree/master/Commands) gits.__ The order of work emphasizes assembling and demonstrating all the pieces needed for the VDMN Module (definitions and testing code paths) before implementing it.
+__For current work plans, see the [VDM Track](https://github.com/vistadataproject/VDM), [MVDM Track](https://github.com/vistadataproject/MVDM) and [nodeVistA](https://github.com/vistadataproject/nodeVistA/tree/master/Commands) gits.__ The order of work emphasizes assembling and demonstrating all the pieces needed for the MVDM Module (definitions and testing code paths) before implementing it.
 
 The following deliverables are called for in the Project Work Statement (PWS).
 
@@ -55,11 +55,11 @@ The following deliverables are called for in the Project Work Statement (PWS).
 8 | B |  Date-stamped FileMan Data Model Implementations (Definitions) (cross refs, triggers ...) | Q1 | [VDM](https://github.com/vistadataproject/VDM) | _dd.jsonld_, a data dictionary captured in JSON-LD<br><br>_DD Cacher_, a program that caches the dictionaries from VISTAs | JSON-LD, Python, Javascript | 5.3.1
 9 | B |  (Document) Approach to “Live VDM” Maintenance of Current State | Q4 | [VDM](https://github.com/vistadataproject/VDM) (Wiki) | In a wiki page, describe ways in which _dd.jsonld_ definitions and hence vdm.jsonld could keep pace with changes in VISTAs | Markdown | 5.3.1
 &nbsp; ||||||
-10 | C |  Normalized VISTA Data Model (VDMN) | Q1 &#8594; Q3 | [VDMN](https://github.com/vistadataproject/VDMN) | _vdmn.jsonld_, a formal “VDMN Subset” definition with much of the scope of the VPR RPC | JSON-LD | 5.3.2
-11 | C |  [VDMN over VDM] Heuristic (mapping) code [_VDMN Module_] | Q1 &#8594; Q3 | [VDMN](https://github.com/vistadataproject/VDMN) | mapping tables and rules built over the course of the project in a _VDMN module_ to enable expanding VDMN to VDM mapping | Javascript (node.js), JSON | 5.3.2
-12 | C |  [VDMN] Normalization Reports | Q1 &#8594; Q3 | [VDMN](https://github.com/vistadataproject/VDMN) (Wiki) | Documents VDM to VDMN mapping as implemented in Deliverable 11 in a git wiki | Markdown | 5.3.2
-13 | B, C|  Website | Q1 &#8594; Q4 | [Website](https://github.com/vistadataproject/vistadataproject.github.io) | website, infographics to showcase the contents of the VDM and VDMN Subset | HTML, Javascript (d3.js) | 5.3.2
-14 | C |  Report on [VDMN] Exposure of older models | Q3 | [VDMN](https://github.com/vistadataproject/VDMN) (Wiki) | Describe how older, cruder models could be handled in the VDMN | Markdown | 5.3.2
+10 | C |  Master VISTA Data Model (MVDM) | Q1 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) | _vdmn.jsonld_, a formal “MVDM Subset” definition with much of the scope of the VPR RPC | JSON-LD | 5.3.2
+11 | C |  [MVDM over VDM] Heuristic (mapping) code [_MVDM Module_] | Q1 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) | mapping tables and rules built over the course of the project in a _MVDM module_ to enable expanding MVDM to VDM mapping | Javascript (node.js), JSON | 5.3.2
+12 | C |  [MVDM] Normalization Reports | Q1 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Documents VDM to MVDM mapping as implemented in Deliverable 11 in a git wiki | Markdown | 5.3.2
+13 | B, C|  Website | Q1 &#8594; Q4 | [Website](https://github.com/vistadataproject/vistadataproject.github.io) | website, infographics to showcase the contents of the VDM and MVDM Subset | HTML, Javascript (d3.js) | 5.3.2
+14 | C |  Report on [MVDM] Exposure of older models | Q3 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Describe how older, cruder models could be handled in the MVDM | Markdown | 5.3.2
 &nbsp; ||||||
 15 | C |  Date Stamped (Application) Meta Data for lab, surgery and other applications | Q2 | [VDM](https://github.com/vistadataproject/VDM) | _Metadata Cacher_ that queries meta-data using the _VDM package_. The results will be hosted on the project’s github. | Python, JSON-LD | 5.3.3
 &nbsp; ||||||
@@ -68,15 +68,15 @@ The following deliverables are called for in the Project Work Statement (PWS).
 &nbsp; ||||||
 25 | B |  Prototype query access to VISTA Data against VDM ["FQS"] | Q1 &#8594; Q2 | [VDM](https://github.com/vistadataproject/VDM) | Example clients that query the FileMan Test VISTA using a REST-based FileMan Query Service (FQS) implemented over the VDM Package | Javascript, Python, JSON-LD | 5.4.1
 28 | C |  Prototype Patient-centric Data Security | Q3 | [VDM](https://github.com/vistadataproject/VDM) | Document and provide a self- contained prototype that shows how PIKS- enabled annotations enable patient-centric secure queries | Javascript, Markdown | 5.4.1
-32 | D |  Prototype Web-based Rules Hub | Q4 | [VDMNmap](https://github.com/vistadataproject/VDMNmap) | Prototype a sharable, crowd source-able mechanism to exchange and grow a library of open, standards-based, validated, and exchangeable transformation rules | Web-based interface | 5.4.1
+32 | D |  Prototype Web-based Rules Hub | Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototype a sharable, crowd source-able mechanism to exchange and grow a library of open, standards-based, validated, and exchangeable transformation rules | Web-based interface | 5.4.1
 33 | B |  Prototype Web-Based Query Interface to FileMan [VDM] Data | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Simple GUI (VDM UI) for VDM Package | Javascript | 5.4.1
 &nbsp; ||||||
-35 | C |  VISTA Application model(s)/Prototype(s) [Tests] | Q1 &#8594; Q4 | [VDMN](https://github.com/vistadataproject/VDMN) | VDMN write back tests (tier 1 through 3), enabled by vdmn.js configurations. Test scenarios for Deliverable 11. | Javascript, [Python] | 5.4.2
+35 | C |  VISTA Application model(s)/Prototype(s) [Tests] | Q1 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | MVDM write back tests (tier 1 through 3), enabled by vdmn.js configurations. Test scenarios for Deliverable 11. | Javascript, [Python] | 5.4.2
 &nbsp; ||||||
-36 | C |  Meta-model(s) [VPR] Prototype(s) | Q1 &#8594; Q3 | [VDMN](https://github.com/vistadataproject/VDMN) | Test code that shows how well the VDMN supports VPR convenience methods | Javascript, Python | 5.4.2
+36 | C |  Meta-model(s) [VPR] Prototype(s) | Q1 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) | Test code that shows how well the MVDM supports VPR convenience methods | Javascript, Python | 5.4.2
 &nbsp; ||||||
-39 | D |  Reference model(s)/Prototype(s) | Q3 &#8594; Q4 | [VDMNmap](https://github.com/vistadataproject/VDMNmap) | Prototype that demonstrates a mapping from VDMN to FHIR | Javascript and/or other translation rules languages | 5.4.2
-40 | D |  Document VISTA-ese vs. FHIR | Q4 | [VDMNmap](https://github.com/vistadataproject/VDMNmap) | Human-readable mapping descriptions | Markdown | 5.4.2
+39 | D |  Reference model(s)/Prototype(s) | Q3 &#8594; Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototype that demonstrates a mapping from MVDM to FHIR | Javascript and/or other translation rules languages | 5.4.2
+40 | D |  Document VISTA-ese vs. FHIR | Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Human-readable mapping descriptions | Markdown | 5.4.2
 &nbsp; ||||||
 1A | PM | Non-disclosure/Non-Use Agreement	| Q1 | &nbsp; | &nbsp; | &nbsp; | 6.1
 1B | PM |  Quality Control Plan [QCP] | Q1 | documents | an effective quality control program |  &nbsp; | 1.6.1
@@ -93,7 +93,7 @@ The following deliverables are called for in the Project Work Statement (PWS).
 :---: | :---: | :---: | :---: | :---: | :--- | :---: 
 E1 | A | FileMan TEST VistA | Q1 &#8594; Q4 | [nodeVISTA](https://github.com/vistadataproject/nodeVistA) | a test VistA that can host many different test datasets | VistA System, Vagrant
 E2 | A | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated for all applications using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). | Python, Javascript
-E3 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM) | a package that implements the VDM inside a VISTA. Such a package is needed for the VDMN Module of deliverable 11 and for the prototypes of 5.4. It would provide a Javascript service for creating, reading, updating and deleting (CRUD) VISTA Data according to the VDM. | Javascript (node.js), MUMPS (KIDS) 
+E3 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM) | a package that implements the VDM inside a VISTA. Such a package is needed for the MVDM Module of deliverable 11 and for the prototypes of 5.4. It would provide a Javascript service for creating, reading, updating and deleting (CRUD) VISTA Data according to the VDM. | Javascript (node.js), MUMPS (KIDS) 
 
 
 Deliverables omitted (redundant or out of scope per government determination): 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
