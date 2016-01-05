@@ -51,14 +51,6 @@ The following deliverables are called for in the Project Work Statement (PWS).
 :---: | :---: | :---: | :---: | :---: | :--- | :---: | :--- 
 1AA |	A |Artifact Repository |	Q1 | &nbsp; | Vista Data Project Organization and Gits | &nbsp; | 8.2
 &nbsp; ||||||
-1A | E | Non-disclosure/Non-Use Agreement	| Q1 | &nbsp; | &nbsp; | &nbsp; | 6.1
-1B | E |  Quality Control Plan [QCP] | Q1 | documents | an effective quality control program |  &nbsp; | 1.6.1
-1C | E |  Phase-out Migration Plan | Q4 | documents | elaborates the artifacts to be transitioned on the Project Repository, and a schedule for transition completion |  &nbsp; | 1.6.17
-2	| E |  Program Management Plan (PMP)	| Q1 | documents | strategy to accomplish the tasks and include the risk, quality and technical management approach, work breakdown structure (WBS), schedule management approach, schedule, cost requirements, and proposed staffing  | &nbsp; | 5.2
-3	| E |  Program Schedule and Monthly Updates | Monthly | documents | schedule, updated monthly | &nbsp; | 5.2
-4	| E |  Monthly Progress Report | Monthly | &nbsp; | includes project status and financial management reporting | &nbsp; | 5.2
-5	| E |  Quarterly Strategic Communications Message | Quarterly | documents | project progress and feasibility of transition to production | &nbsp; | 5.2
-&nbsp; ||||||
 7 | |  Machine Processable VISTA Data Model (VDM) | Q1 | [VDM](https://github.com/vistadataproject/VDM)  | _vdm.jsonld_, the native VISTA data model in JSON-LD based on one or more dd.jsonld's<br><br>_VDM Maker_, a program that creates vdm.jsonld from dd.jsonld's. | JSON-LD, Python, Javascript | 5.3.1
 8 | |  Date-stamped FileMan Data Model Implementations (Definitions) (cross refs, triggers ...) | Q1 | [VDM](https://github.com/vistadataproject/VDM) | _dd.jsonld_, a data dictionary captured in JSON-LD<br><br>_DD Cacher_, a program that caches the dictionaries from VISTAs | JSON-LD, Python, Javascript | 5.3.1
 9 | |  (Document) Approach to “Live VDM” Maintenance of Current State | Q4 | [VDM](https://github.com/vistadataproject/VDM) (Wiki) | In a wiki page, describe ways in which _dd.jsonld_ definitions and hence vdm.jsonld could keep pace with changes in VISTAs | Markdown | 5.3.1
@@ -85,6 +77,14 @@ The following deliverables are called for in the Project Work Statement (PWS).
 &nbsp; ||||||
 39 | |  Reference model(s)/Prototype(s) | Q3 &#8594; Q4 | [VDMNmap](https://github.com/vistadataproject/VDMNmap) | Prototype that demonstrates a mapping from VDMN to FHIR | Javascript and/or other translation rules languages | 5.4.2
 40 | |  Document VISTA-ese vs. FHIR | Q4 | [VDMNmap](https://github.com/vistadataproject/VDMNmap) | Human-readable mapping descriptions | Markdown | 5.4.2
+&nbsp; ||||||
+1A | E | Non-disclosure/Non-Use Agreement	| Q1 | &nbsp; | &nbsp; | &nbsp; | 6.1
+1B | E |  Quality Control Plan [QCP] | Q1 | documents | an effective quality control program |  &nbsp; | 1.6.1
+1C | E |  Phase-out Migration Plan | Q4 | documents | elaborates the artifacts to be transitioned on the Project Repository, and a schedule for transition completion |  &nbsp; | 1.6.17
+2	| E |  Program Management Plan (PMP)	| Q1 | documents | strategy to accomplish the tasks and include the risk, quality and technical management approach, work breakdown structure (WBS), schedule management approach, schedule, cost requirements, and proposed staffing  | &nbsp; | 5.2
+3	| E |  Program Schedule and Monthly Updates | Monthly | documents | schedule, updated monthly | &nbsp; | 5.2
+4	| E |  Monthly Progress Report | Monthly | &nbsp; | includes project status and financial management reporting | &nbsp; | 5.2
+5	| E |  Quarterly Strategic Communications Message | Quarterly | documents | project progress and feasibility of transition to production | &nbsp; | 5.2
 
 Deleted deliverables (redundant or out of scope): 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
 
