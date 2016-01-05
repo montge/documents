@@ -37,9 +37,9 @@ In addition to Project Management (PM), the work breaks into __four main tracks_
 
 Track | Name | Description | GIT
 :---: | :---: | :--- | :---
-A | Infrastructure | Test VISTA ("nodeVISTA"), gits, tooling, website | [nodeVISTA](https://github.com/vistadataproject/nodeVISTA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), [documents](https://github.com/vistadataproject/documents) 
-B | VDM | VISTA Data Model (VDM) - exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) 
-C | MVDM | Master VISTA Data Model (MVDM) - definition and module implementation | [MVDM](https://github.com/vistadataproject/MVDM)
+A | Infrastructure | Project infrastructure including Test VISTA (“nodeVISTA”), gits, tooling, website | [nodeVISTA](https://github.com/vistadataproject/nodeVISTA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), [documents](https://github.com/vistadataproject/documents) 
+B | VDM | VISTA Data Model (VDM) - native model exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) 
+C | MVDM | Master VISTA Data Model (MVDM) - definition and implementation of master data model for VISTA | [MVDM](https://github.com/vistadataproject/MVDM)
 D | MVDMmap | Mapping MVDM to other models such as FHIR | [MVDMmap](https://github.com/vistadataproject/MVDMmap) 
 PM | Project Management | Business/Project Management  | [documents](https://github.com/vistadataproject/documents)
 
@@ -73,12 +73,12 @@ E2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject
 14 | C |  Report on [MVDM] Exposure of older models | Q4 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Describe how older, cruder models could be handled in the MVDM | Markdown | 5.3.2
 28 | C |  Prototype Patient-centric Data Security | Q3 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | First document and then provide a self- contained prototype that shows how PIKS- enabled annotations enable patient-centric secure queries | Javascript, Markdown | 5.4.1
 35 | C |  VISTA Application model(s)/Prototype(s) [Tests] | Q1 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | MVDM write back tests (tier 1 through 3), enabled by vdmn.js configurations. Test scenarios for Deliverable #11. | Javascript, Python | 5.4.2
-36 | C |  Meta-model(s) [VPR] Prototype(s) | Q2 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) | Test code that shows how well the MVDM supports VPR convenience methods | Javascript, Python | 5.4.2
+36 | C |  Meta-model(s) [VPR] Prototype(s) | Q2 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) | Test code that shows how well the MVDM supports VPR (Read-only) convenience methods | Javascript, Python | 5.4.2
 &nbsp; ||||||
 &nbsp; ||||||
 32 | D |  Prototype Web-based Rules Hub | Q3 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototype a sharable, crowd source-able mechanism to exchange and grow a library of open, standards-based, validated, and exchangeable transformation rules | Web-based interface | 5.4.1
-39 | D |  Reference model(s)/Prototype(s) | Q2 &#8594; Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototype that demonstrates a mapping from MVDM to FHIR | Javascript and/or other translation rules languages | 5.4.2
-40 | D |  Document VISTA-ese vs. FHIR | Q3 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Human-readable mapping descriptions | Markdown | 5.4.2
+39 | D |  Reference model(s)/Prototype(s) | Q3 &#8594; Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototype that demonstrates a mapping from MVDM to FHIR | Javascript and/or other translation rules languages | 5.4.2
+40 | D |  Document VISTA-ese vs. FHIR | Q3 &#8594; Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Human-readable mapping descriptions | Markdown | 5.4.2
 &nbsp; ||||||
 &nbsp; ||||||
 1A | PM | Non-disclosure/Non-Use Agreement	| Q1 | &nbsp; | &nbsp; | &nbsp; | 6.1
@@ -91,7 +91,7 @@ E2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject
 
 Notes: 
   * E1-4 are deliverables required but not explicitly enumerated in the PWS.
-  * Deliverables omitted (redundant or out of scope per government determination): 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
+  * Deliverable #’s have gaps. The following PWS deliverables were removed as redundant or out of scope per government determination: 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
 
 ### Formats and Licenses of deliverable artifacts (PWS 8.2) 
 
