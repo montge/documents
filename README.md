@@ -49,7 +49,7 @@ The following deliverables are called for in the Project Work Statement (PWS).
 
 \# | Track | Name | Schedule | Git | Content(s) | Format(s) | PWS Section | 
 :---: | :---: | :---: | :---: | :---: | :--- | :---: | :--- 
-1AA |	A |Artifact Repository |	Q1 | &nbsp; | Vista Data Project Organization and Gits | &nbsp; | 8.2
+1AA |	A |Artifact Repository |	Q1 | &nbsp; | Project Gits | &nbsp; | 8.2
 &nbsp; ||||||
 7 | B |  Machine Processable VISTA Data Model (VDM) | Q1 | [VDM](https://github.com/vistadataproject/VDM)  | _vdm.jsonld_, the native VISTA data model in JSON-LD based on one or more dd.jsonld's<br><br>_VDM Maker_, a program that creates vdm.jsonld from dd.jsonld's. | JSON-LD, Python, Javascript | 5.3.1
 8 | B |  Date-stamped FileMan Data Model Implementations (Definitions) (cross refs, triggers ...) | Q1 | [VDM](https://github.com/vistadataproject/VDM) | _dd.jsonld_, a data dictionary captured in JSON-LD<br><br>_DD Cacher_, a program that caches the dictionaries from VISTAs | JSON-LD, Python, Javascript | 5.3.1
@@ -101,7 +101,7 @@ Deliverables omitted (redundant or out of scope per government determination): 6
 
 \# | Track | Name | Schedule | Git | Content(s) | Format(s) | PWS Section | 
 :---: | :---: | :---: | :---: | :---: | :--- | :---: | :--- 
-1AA | A |Artifact Repository | Q1 | &nbsp; | Vista Data Project Organization and Gits | &nbsp; | 8.2
+1AA | A |Artifact Repository | Q1 | &nbsp; | Project Gits | &nbsp; | 8.2
 13 | A |  Website | Q1 &#8594; Q4 | [Website](https://github.com/vistadataproject/vistadataproject.github.io) | website, infographics to showcase the contents of the VDM and MVDM Subset | HTML, Javascript (d3.js) | 5.3.2
 E1 | A | FileMan TEST VistA | Q1 &#8594; Q4 | [nodeVISTA](https://github.com/vistadataproject/nodeVistA) | a test VistA that can host many different test datasets | VistA System, Vagrant | &nbsp
 E2 | A | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated for all applications using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). | Python, Javascript | &nbsp
