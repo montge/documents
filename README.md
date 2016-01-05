@@ -57,9 +57,10 @@ E4 | A | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vis
 &nbsp; ||||||
 7 | B |  Machine Processable VISTA Data Model (VDM) | Q1 | [VDM](https://github.com/vistadataproject/VDM)  | _vdm.jsonld_, the native VISTA data model in JSON-LD based on one or more dd.jsonld's and rpc.jsonld.<br><br>_VDM Maker_, a program that creates vdm.jsonld from dd.jsonld's and rpc.jsonld. | JSON-LD, Python, Javascript | 5.3.1
 8 | B |  Date-stamped FileMan Data Model Implementations (Definitions) (cross refs, triggers ...) | Q1 | [VDM](https://github.com/vistadataproject/VDM) | _dd.jsonld_, a data dictionary captured in JSON-LD<br><br>_DD Cacher_, a program that caches the dictionaries from VISTAs | JSON-LD, Python, Javascript | 5.3.1
-E1 | B | RPC Model | Q1 &#8594; Q2 | [VDM](https://github.com/vistadataproject/VDM), [nodeVISTA](https://github.com/vistadataproject/nodeVISTA) | formal definition of the model implicit in RPCs (rpc.jsonld) for vdm.jsonld (#7) | JSON-LD, Python | &nbsp;
+E1 | B | RPC Model | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM), [nodeVISTA](https://github.com/vistadataproject/nodeVISTA) | formal definition of the model implicit in RPCs (rpc.jsonld) for vdm.jsonld (#7) | JSON-LD, Python | &nbsp;
 E2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM), [nodeVISTA](https://github.com/vistadataproject/nodeVISTA) | a package that implements the VDM inside a VISTA. Such a package is needed for the VDMN Module of deliverable 11 and for the prototypes of 5.4. It would provide a Javascript service for creating, reading, updating and deleting (CRUD) VISTA Data according to the VDM. | Javascript (node.js), MUMPS (KIDS) | &nbsp;
 9 | B |  (Document) Approach to “Live VDM” Maintenance of Current State | Q4 | [VDM](https://github.com/vistadataproject/VDM) (Wiki) | In a wiki page, describe ways in which _dd.jsonld_ definitions and hence vdm.jsonld could keep pace with changes in VISTAs | Markdown | 5.3.1
+15 | B |  Date Stamped (Application) Meta Data for lab, surgery and other applications | Q2 | [VDM](https://github.com/vistadataproject/VDM) | _Metadata Cacher_ that queries meta-data using the (read-only) _VDM package_. The results will be hosted on the project’s github. | Python, JSON-LD | 5.3.3
 18 | B |  Machine-processable [PIKS] Annotations | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Distinguish patient data from other types of VISTA data. VDM PIKS enables MVDM PIKS which enables patient-centric security (#28) | JSON-LD | 5.3.4
 19 | B |  Software code [for PIKS] | Q2 | [VDM](https://github.com/vistadataproject/VDM) | _PIKS Annotation Generator_ | Python | 5.3.4
 25 | B |  Prototype query access to VISTA Data against VDM ["FQS"] | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Example clients that query (read-only) nodeVISTA using a REST-based FileMan Query Service (FQS) implemented over a read-only version of the VDM Package | Javascript, Python, JSON-LD | 5.4.1
@@ -69,10 +70,9 @@ E2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject
 10 | C |  Master VISTA Data Model (MVDM) | Q1 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) | _mvdm.jsonld_, a formal “MVDM Subset” definition with much of the scope of the VPR RPC | JSON-LD | 5.3.2
 11 | C |  [MVDM over VDM] Heuristic (mapping) code [_MVDM Module_] | Q2 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | mapping tables and rules implemented in a _MVDM module_ to enable expanding MVDM to VDM mapping.<br>Builds on the _VDM Package_ (#E1) | Javascript (node.js), JSON | 5.3.2
 12 | C |  [MVDM] Normalization Reports | Q1 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Documents VDM to MVDM mapping as implemented in Deliverable #11 | Markdown | 5.3.2
-14 | C |  Report on [MVDM] Exposure of older models | Q3 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Describe how older, cruder models could be handled in the MVDM | Markdown | 5.3.2
-15 | C |  Date Stamped (Application) Meta Data for lab, surgery and other applications | Q2 | [VDM](https://github.com/vistadataproject/VDM) | _Metadata Cacher_ that queries meta-data using the _VDM package_. The results will be hosted on the project’s github. | Python, JSON-LD | 5.3.3
+14 | C |  Report on [MVDM] Exposure of older models | Q4 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Describe how older, cruder models could be handled in the MVDM | Markdown | 5.3.2
 28 | C |  Prototype Patient-centric Data Security | Q3 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | First document and then provide a self- contained prototype that shows how PIKS- enabled annotations enable patient-centric secure queries | Javascript, Markdown | 5.4.1
-35 | C |  VISTA Application model(s)/Prototype(s) [Tests] | Q1 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | MVDM write back tests (tier 1 through 3), enabled by vdmn.js configurations. Test scenarios for Deliverable 11. | Javascript, [Python] | 5.4.2
+35 | C |  VISTA Application model(s)/Prototype(s) [Tests] | Q1 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | MVDM write back tests (tier 1 through 3), enabled by vdmn.js configurations. Test scenarios for Deliverable #11. | Javascript, Python | 5.4.2
 36 | C |  Meta-model(s) [VPR] Prototype(s) | Q2 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) | Test code that shows how well the MVDM supports VPR convenience methods | Javascript, Python | 5.4.2
 &nbsp; ||||||
 &nbsp; ||||||
@@ -90,7 +90,7 @@ E2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject
 5	| PM |  Quarterly Strategic Communications Message | Quarterly | documents | project progress and feasibility of transition to production | &nbsp; | 5.2
 
 Notes: 
-  * E1-3 are deliverables required but not explicitly enumerated in the PWS.
+  * E1-4 are deliverables required but not explicitly enumerated in the PWS.
   * Deliverables omitted (redundant or out of scope per government determination): 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
 
 ### Formats and Licenses of deliverable artifacts (PWS 8.2) 
