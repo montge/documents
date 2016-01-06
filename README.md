@@ -80,7 +80,7 @@ E2.2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproje
 4	| PM |  Monthly Progress Report | Monthly | &nbsp; | includes project status and financial management reporting | &nbsp; | 5.2
 5	| PM |  Quarterly Strategic Communications Message | Quarterly | documents | project progress and feasibility of transition to production | &nbsp; | 5.2
 
-Notes: 
+Notes:
   * 25 technical deliverables (in _VDM_, _MVDM_, _MVDMmap_ aswell as _nodeVISTA_) are enumerated above.
   * E1-4 are deliverables required but not explicitly enumerated in the PWS.
   * Deliverable #’s have gaps. The following PWS deliverables were removed as redundant or out of scope per government determination: 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
@@ -88,54 +88,6 @@ Notes:
     * VDM "Read" and its package (#7.1 and #E1.1) are due in Q1; Deliverables #8, #15, #18, #19, #25, #33 only require such read-only functionality and are due in Q2
     * MVDM "Read" and its module (#10.1 and #11.1) are due in Q2: Deliverables #28, #36 and all of track D rely only on MVDM ("Read").
     * Read-only VDM and by extension MVDM will expand on open source [FMQL](https://github.com/caregraf/FMQL)
-
-
-## Definitions
-:---: | :---
-Metadata Cacher	| queries (VISTA Application) metadata using VDM Package
-PIKS Gen		|  PIKS (Patient-Institution-Knowlege-Systems) annnotation generator
-FQS				| Fileman Query Service based on embedded VDM model (REST service; read only)
-Mapping code	| mapping tables/rules in MVDM Package
-
-
-## Diagrams
-
-* VISTA DD -> [DD Cacher] -> dd.jsonld -> [VDM Maker] -> vdm.jsonld   (read-only)
-* VISTA RPCs ->[?RPC Cacher ] -> rpc.jsonld -> [VDM Maker] -> vdm.jsonld  (writeback)
-* mvdm.jsonld =  vdm.jsonld (embedded dd.jsonld + embedded rpc.jsonld)
-* Markdown -> [Doc Gen] -> HTML, Word, PDF
-
-
-### Formats and Licenses of deliverable artifacts (PWS 8.2) 
-:---: | :---: | :--- 
-Artifact | Format(s) | License
-Data | CSV if tabular structure; JSON-LD for all other structures. | Creative Commons CC0.
-Metadata | JSON-LD. | Creative Commons CC0.
-Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0.
-Code (Software) | Source code, and all dependent code, with full version control history. | Apache 2.0.
-
-
-## Deliverables by Type
-
-### Metadata
-Name | Format | Functon
-:---: | :---: | :---
-dd.jsonld 	| JSON-LD | 	native VISTA data dictionary, captured in JSON-LD
-rpc.jsonld | JSON-LD |		formal definition of the model implicit in RPCs, captured in JSON-LD
-vdm.jsonld | JSON-LD |		native VISTA data model based on one or more dd.jsonld's and/or rpc.jsonld's
-mvdm.jsonld | JSON-LD | 	MVDM subset of VDM that supports full CRUD
-PIKS | JSON-LD | 			annotations to VDM
-
-### Software
-Name | Language | Function
-:---: | :---: | :--- 
-DD Cacher | |	
-RPC Cacher | | 
-VDM Maker | | creates vdm.jsonld from dd.jsonld's
-VDM Package | | implements VDM inside Fileman - "embedded, explicit data model"
-MVDM Package | |implements MVDM inside Fileman - "embedded, explicit data and transactional model"
-vdmn.js | |		
-Doc Gen	| |		Sphinx, JSDoc,...
 
 
 ## System Access 
@@ -157,7 +109,56 @@ In addition, the Project requested that within 30 days of contract award the Gov
   4. Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
   5. Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
   6. VA VISTA Sandbox Account with full Linux VM.
-  
+ 
+### Formats and Licenses of Deliverables (PWS 8.2) 
+:---: | :---: | :--- 
+Artifact | Format(s) | License
+Data | CSV if tabular structure; JSON-LD for all other structures. | Creative Commons CC0.
+Metadata | JSON-LD | Creative Commons CC0.
+Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0.
+Code (Software) | Source code, and all dependent code, with full version control history. | Apache 2.0.
+
+
+## Definitions
+Term | Definition
+:---: | :---: 
+Metadata Cacher	| queries (VISTA Application) metadata using VDM Package
+PIKS Gen		|  PIKS (Patient-Institution-Knowlege-Systems) annnotation generator
+FQS				| Fileman Query Service based on embedded VDM model (REST service; read only)
+Mapping code	| mapping tables/rules in MVDM Package
+
+
+## Diagrams
+
+* VISTA DD -> [DD Cacher] -> dd.jsonld -> [VDM Maker] -> vdm.jsonld   (read-only)
+* VISTA RPCs ->[?RPC Cacher ] -> rpc.jsonld -> [VDM Maker] -> vdm.jsonld  (writeback)
+* mvdm.jsonld =  vdm.jsonld (embedded dd.jsonld + embedded rpc.jsonld)
+* Markdown -> [Doc Gen] -> HTML, Word, PDF
+
+
+## Deliverables by Type
+
+### Metadata
+Name | Format | Functon
+:---: | :---: | :---
+dd.jsonld 	| JSON-LD | 	Native VISTA data dictionary, captured in JSON-LD
+rpc.jsonld | JSON-LD |		Formal definition of the model implicit in RPCs, captured in JSON-LD
+vdm.jsonld | JSON-LD |		Native VISTA data model based on one or more dd.jsonld's and/or rpc.jsonld's
+mvdm.jsonld | JSON-LD | 	MVDM subset of VDM that supports full CRUD
+PIKS | JSON-LD | Annotations to VDM
+
+### Software
+Name | Language | Function
+:---: | :---: | :---
+DD Cacher | |	
+RPC Cacher | | 
+VDM Maker | | creates vdm.jsonld from dd.jsonld's
+VDM Package | | implements VDM inside Fileman - "embedded, explicit data model"
+MVDM Package | |implements MVDM inside Fileman - "embedded, explicit data and transactional model"
+vdmn.js | |		
+Doc Gen	| |		Sphinx, JSDoc,...
+
+ 
 ## Credits
 
 This project builds on the work of many.
