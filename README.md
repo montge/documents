@@ -130,3 +130,38 @@ Rob Tweed | Node/M | Infrastructure | Integrated node.js with VISTA and MUMPS ("
 Manu Sporny | JSON-LD | MVDM | Created and promoted the JSON-LD standard
 Kevin Meldrum | VPR RPC | MVDM | Created a JSON-based mechanism for accessing VISTA's patient data 
 Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VISTA for today 
+
+
+## DELIVERABLES BY CATEGORY
+
+### METADATA 	
+Name | format | functon
+:--- | --- | :---:
+dd.jsonld 	| JSON-LD | 	native VISTA data dictionary, captured in JSON-LD
+rpc.jsonld | JSON-LD |		formal definition of the model implicit in RPCs, captured in JSON-LD
+vdm.jsonld | JSON-LD |		native VISTA data model based on one or more dd.jsonld's and/or rpc.jsonld's
+mvdm.jsonld | JSON-LD | 	MVDM subset of VDM that supports full CRUD
+PIKS | JSON-LD | 			annotations to VDM
+
+
+### SOFTWARE 	Name | language | function
+DD Cacher 		?? needs definition
+RPC Cacher		?? Does this exist?
+VDM Maker		creates vdm.jsonld from dd.jsonld's
+VDM Package		implements VDM inside Fileman
+				"embedded, explicit data model"
+MVDM Package	?? (presumably exists; a MVDM 'module' was mentioned in PWS 11.1)
+				implements MVDM inside Fileman
+				"embedded, explicit data and transactional model"
+vdmn.js 		?? mentioned but no definition
+Doc Gen			Sphinx, JSDoc,...
+
+
+
+
+## DEFINITIONS
+* Metadata Cacher	- queries (VISTA Application) metadata using VDM Package
+* PIKS Gen		- PIKS annnotation generator
+* FQS				- Fileman Query Service (RESTful) based on embedded VDM model (read only)
+* Mapping code	- mapping tables/rules in MVDM Package
+
