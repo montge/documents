@@ -132,9 +132,17 @@ Kevin Meldrum | VPR RPC | MVDM | Created a JSON-based mechanism for accessing VI
 Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VISTA for today 
 
 
-## DELIVERABLES BY CATEGORY
+## Diagrams / Images
 
-### METADATA 	
+* VISTA DD -> [DD Cacher] -> dd.jsonld -> [VDM Maker] -> vdm.jsonld   (read-only)
+* VISTA RPCs ->[?RPC Cacher ] -> rpc.jsonld -> [VDM Maker] -> vdm.jsonld  (writeback)
+* mvdm.jsonld =  vdm.jsonld (embedded dd.jsonld + embedded rpc.jsonld)
+* Markdown -> [Doc Gen] -> HTML, Word, PDF
+
+
+## Deliverables by Type
+
+### Metadata
 Name | format | functon
 :--- | --- | :---:
 dd.jsonld 	| JSON-LD | 	native VISTA data dictionary, captured in JSON-LD
@@ -144,19 +152,16 @@ mvdm.jsonld | JSON-LD | 	MVDM subset of VDM that supports full CRUD
 PIKS | JSON-LD | 			annotations to VDM
 
 
-### SOFTWARE 	Name | language | function
-DD Cacher 		?? needs definition
-RPC Cacher		?? Does this exist?
-VDM Maker		creates vdm.jsonld from dd.jsonld's
-VDM Package		implements VDM inside Fileman
-				"embedded, explicit data model"
-MVDM Package	?? (presumably exists; a MVDM 'module' was mentioned in PWS 11.1)
-				implements MVDM inside Fileman
-				"embedded, explicit data and transactional model"
-vdmn.js 		?? mentioned but no definition
-Doc Gen			Sphinx, JSDoc,...
-
-
+### Software
+Name | language | function
+:--- | --- | :---:
+DD Cacher | |	?? needs definition
+RPC Cacher | | ?? Does this exist?
+VDM Maker | | creates vdm.jsonld from dd.jsonld's
+VDM Package | | implements VDM inside Fileman - "embedded, explicit data model"
+MVDM Package | |implements MVDM inside Fileman - "embedded, explicit data and transactional model"
+vdmn.js | |		?? mentioned but no definition
+Doc Gen	| |		Sphinx, JSDoc,...
 
 
 ## DEFINITIONS
