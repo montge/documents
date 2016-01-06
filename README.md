@@ -125,33 +125,26 @@ Code (Software) | Source code, and all dependent code, with full version control
 ### Metadata
 Name | Format | Functon
 :---: | :---: | :---
-dd.jsonld 	| JSON-LD | 	Native VISTA data dictionary, captured in JSON-LD
-rpc.jsonld | JSON-LD |		Formal definition of the model implicit in RPCs, captured in JSON-LD
-vdm.jsonld | JSON-LD |		Native VISTA data model based on one or more dd.jsonld's and/or rpc.jsonld's
-mvdm.jsonld | JSON-LD | 	MVDM subset of VDM that supports full CRUD
-PIKS | JSON-LD | Annotations to VDM
+dd.jsonld 	| JSON-LD | Formal, portable definition of the contents of a VISTA data dictionary
+rpc.jsonld | JSON-LD |	Formal definition of the model implicit in RPCs, captured in JSON-LD
+vdm.jsonld | JSON-LD |	Formal definition of Native VISTA data model based on one or more dd.jsonld's and rpc.jsonld
+mvdm.jsonld | JSON-LD | Formal definition of the MVDM subset of VDM that supports full CRUD
+piks.jsonld | JSON-LD | Formal annotation of vdm.jsonld that distinguishes Patient, Institution, Knowledge and System (PIKS) classes and properties
 
 ### Software
+
 Name | Language | Function
-:---: | :---: | :---
-DD Cacher | |	
-RPC Cacher | | 
-VDM Maker | | Creates vdm.jsonld from dd.jsonld's
-VDM Package | | Implements VDM inside Fileman - "embedded, explicit data model"
-MVDM Package | | Implements MVDM inside Fileman - "embedded, explicit data and transactional model"
-vdmn.js | |		
-Doc Gen	| |	Sphinx, JSDoc,...
-
- 
- 
-## Definitions
-Term | Definition
-:--- | ---
-Metadata Cacher	| queries (VISTA Application) metadata using VDM Package
-PIKS Gen		|  PIKS (Patient-Institution-Knowlege-Systems) annnotation generator
-FQS				| Fileman Query Service based on embedded VDM model (REST service; read only)
-Mapping code	| mapping tables/rules in MVDM Package
-
+:---: | :---: | ---
+DD Cacher | Python/ Javascript |	Caches FileMan Data Dictionary (dd) from a VISTA and creates a _dd.jsonld_
+RPC Cacher | Python/ Javascript | Caches RPC definitions from a VISTA and creates an _rpc.jsonld_
+VDM Maker | Python/ Javascript | Creates a VISTA Data Model (VDM), _vdm.jsonld_, from a VISTA's _dd.jsonld_ and _rpc.jsonld_
+VDM Package | Javascript (node.js module), MUMPS | Implements VDM inside Fileman
+FQS	| Javascript (node.js) | Fileman Query Service (FQS) based on embedded VDM model (REST service; read only)
+MVDM Maker | Python/ Javascript | Creates a Master VISTA Data Model (MVDM), _mvdm.jsonld_, from one or more _vdm.jsonld_'s and knowledge of the VPR model 
+MVDM Module | Javascript (node.js module) | Implements MVDM inside Fileman
+Metadata Cacher	| Javascript | queries (VISTA Application) metadata using VDM Package
+Doc Gen	| Various |	Generators of documentation leveraging common packages such as Sphinx and JSDoc
+PIKS Generator | Python | Generates Patient, Institution, Knowledge and System (PIKS) annotations in _piks.jsonld_ for a _vdm.jsonld_
 
 ## Diagrams
 * VISTA DD -> [DD Cacher] -> dd.jsonld -> [VDM Maker] -> vdm.jsonld   (read-only)
