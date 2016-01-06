@@ -154,7 +154,7 @@ PIKS | JSON-LD | 			annotations to VDM
 
 ### Software
 Name | language | function
-:--- | --- | :---:
+:--- | --- | :---
 DD Cacher | |	?? needs definition
 RPC Cacher | | ?? Does this exist?
 VDM Maker | | creates vdm.jsonld from dd.jsonld's
@@ -164,9 +164,10 @@ vdmn.js | |		?? mentioned but no definition
 Doc Gen	| |		Sphinx, JSDoc,...
 
 
-## DEFINITIONS
-* Metadata Cacher	- queries (VISTA Application) metadata using VDM Package
-* PIKS Gen		- PIKS annnotation generator
-* FQS				- Fileman Query Service (RESTful) based on embedded VDM model (read only)
-* Mapping code	- mapping tables/rules in MVDM Package
+## Definitions
+:--- | --- 
+Metadata Cacher	| queries (VISTA Application) metadata using VDM Package
+PIKS Gen		|  PIKS annnotation generator
+FQS				| Fileman Query Service (RESTful) based on embedded VDM model (read only)
+Mapping code	| mapping tables/rules in MVDM Package
 
