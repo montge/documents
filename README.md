@@ -18,19 +18,6 @@ Where?
 
 > __all artifacts and deliverables__ shall be developed, version-controlled, stored, and delivered on an industry-standard __public Github__ repository (“Project Repository”). ... The Project Repository shall contain the one and only authoritative version of all artifacts produced under this contract. The government, all necessary stakeholders, and the __public__ shall have full read and download access of all artifacts on the Project Repository at all times --- PWS 1.6.15.1
 
-## Credits
-
-This project builds on the work of many.
-
-Who | Work | In Project Track | Comment
-:--- | --- | :---: | ---
-George Timson<br>Tom Munnecke | FileMan | VDM | The pair who made VISTA
-Nancy Anthracite | Opening up VISTA | &nbsp; | Advocated tirelessly for in-the-open VISTA development
-Rob Tweed | Node/M | Infrastructure | Integrated node.js with VISTA and MUMPS ("nodeVISTA")
-Manu Sporny | JSON-LD | MVDM | Created and promoted the JSON-LD standard
-Kevin Meldrum | VPR RPC | MVDM | Created a JSON-based mechanism for accessing VISTA's patient data 
-Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VISTA for today 
-
 ## Deliverables and Estimated Schedule
 
 In addition to Project Management (PM), the work breaks into __four main tracks__ (A-D) each managed and performed in one or more gits under the _vistadataproject_ organization.
@@ -121,3 +108,16 @@ In addition, the Project requested that within 30 days of contract award the Gov
   4. Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
   5. Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
   6. VA VISTA Sandbox Account with full Linux VM.
+  
+## Credits
+
+This project builds on the work of many.
+
+Who | Work | In Project Track | Comment
+:--- | --- | :---: | ---
+George Timson<br>Tom Munnecke | FileMan | VDM | The pair who made VISTA
+Nancy Anthracite | Opening up VISTA | &nbsp; | Advocated tirelessly for in-the-open VISTA development
+Rob Tweed | Node/M | Infrastructure | Integrated node.js with VISTA and MUMPS ("nodeVISTA")
+Manu Sporny | JSON-LD | MVDM | Created and promoted the JSON-LD standard
+Kevin Meldrum | VPR RPC | MVDM | Created a JSON-based mechanism for accessing VISTA's patient data 
+Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VISTA for today 
