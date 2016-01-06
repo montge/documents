@@ -30,9 +30,7 @@ C | MVDM | Master VISTA Data Model (MVDM) - definition and implementation of mas
 D | MVDMmap | Mapping MVDM to other models such as FHIR | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | 3
 PM | Project Management | Business/Project Management  | [documents](https://github.com/vistadataproject/documents) | &nbsp;
 
-In all there are _27_ Technical Deliverables.
-
-__For current work plans, see the [VDM Track](https://github.com/vistadataproject/VDM), [MVDM Track](https://github.com/vistadataproject/MVDM) and [nodeVISTA](https://github.com/vistadataproject/nodeVISTA/tree/master/Commands) gits.__ The order of work emphasizes assembling and demonstrating all the pieces needed for the MVDM Module (definitions and testing code paths) before implementing it.
+There are 27 Technical Deliverables. Each deliverable belongs to a specific track. The VDM deliverables enable the MVDM deliverables which in turn enable the MVDMmap deliverables. 
 
 The following deliverables are called for in the Project Work Statement (PWS).
 
