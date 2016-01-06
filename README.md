@@ -79,6 +79,7 @@ E2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject
 Notes: 
   * E1-4 are deliverables required but not explicitly enumerated in the PWS.
   * Deliverable #’s have gaps. The following PWS deliverables were removed as redundant or out of scope per government determination: 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
+  * There is a substantial difference in complexity between read-only and read-write models. Both VDM and MVDM models and packages will be delivered in two phases, with read coming first.
 
 ### Formats and Licenses of deliverable artifacts (PWS 8.2) 
 
