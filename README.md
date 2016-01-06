@@ -42,18 +42,18 @@ E3 | A | FileMan TEST VISTA ["nodeVISTA"] | Q1 &#8594; Q4 | [nodeVISTA](https://
 E4 | A | Document Generator | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). | Python, Javascript | &nbsp;
 &nbsp; ||||||
 &nbsp; ||||||
-7.1 | B |  Machine Processable VISTA Data Model (VDM) "Read Only" | Q1 | [VDM](https://github.com/vistadataproject/VDM)  | _vdm.jsonld_, the native VISTA data model in JSON-LD based on one or more dd.jsonld's.<br><br>_VDM Maker_, a program that creates vdm.jsonld from dd.jsonld's.<br><br>This version will support query/read ("VDM (read)"). | JSON-LD, Python, Javascript | 5.3.1
+7.1 | B |  Machine Processable VISTA Data Model (VDM) "Read Only" | Q1 | [VDM](https://github.com/vistadataproject/VDM)  | _vdm.jsonld_, the native VISTA data model in JSON-LD based on one or more _dd.jsonld_'s.<br><br>_VDM Maker_, a program that creates _vdm.jsonld_ from _dd.jsonld_'s.<br><br>This version will support query/read ("VDM (read)"). | JSON-LD, Python, Javascript | 5.3.1
 7.2 | B |  Machine Processable VISTA Data Model (VDM) | Q2 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM)  | _vdm.jsonld_, enhanced by write-data in dd.jsonlds and rpc.jsonld.<br><br>_VDM Maker_ must process more information from dd.jsonld's and process rpc.jsonld. | JSON-LD, Python, Javascript | 5.3.1
-8 | B |  Date-stamped FileMan Data Model Implementations (Definitions) (cross refs, triggers ...) | Q1 | [VDM](https://github.com/vistadataproject/VDM) | _dd.jsonld_, a data dictionary captured in JSON-LD<br><br>_DD Cacher_, a program that caches the dictionaries from VISTAs in JSON-LD form | JSON-LD, Python, Javascript | 5.3.1
-E1 | B | RPC Model | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM), [nodeVISTA](https://github.com/vistadataproject/nodeVISTA) | formal definition of the model implicit in "write-back RPCs" (rpc.jsonld) for write support in vdm.jsonld (#7.2/#E2.2) | JSON-LD, Python | &nbsp;
+8 | B |  Date-stamped FileMan Data Model Implementations (Definitions) (cross refs, triggers ...) | Q1 &#8594; Q2 | [VDM](https://github.com/vistadataproject/VDM) | _dd.jsonld_, a data dictionary captured in JSON-LD<br><br>_DD Cacher_, a program that caches the dictionaries from VISTAs in JSON-LD form. MUMPS code reduction will be needed for write-back support | JSON-LD, Python, Javascript | 5.3.1
+E1 | B | RPC Model | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM), [nodeVISTA](https://github.com/vistadataproject/nodeVISTA) | formal definition of the model implicit in "write-back RPCs", _rpc.jsonld_. Required for write support in _vdm.jsonld_ (#7.2/#E2.2) | JSON-LD, Python | &nbsp;
 E2.1 | B | VDM Package "Read-only" | Q1 | [VDM](https://github.com/vistadataproject/VDM) | a package that implements the VDM inside a VISTA. It will allow any FileMan data to be queried according to the VDM. | Javascript (node.js), MUMPS (KIDS) | &nbsp;
-E2.2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM), [nodeVISTA](https://github.com/vistadataproject/nodeVISTA) | Will add support for creating, updating and deleting (full CRUD) VISTA Data according to a write-back supporting VDM (#7.2). | Javascript (node.js), MUMPS (KIDS) | &nbsp;
+E2.2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject/VDM), [nodeVISTA](https://github.com/vistadataproject/nodeVISTA) | Will add support for creating, updating and deleting (full CRUD) VISTA Data enabled by a write-back supporting VDM (#7.2). | Javascript (node.js), MUMPS (KIDS) | &nbsp;
 9 | B |  (Document) Approach to “Live VDM” Maintenance of Current State | Q4 | [VDM](https://github.com/vistadataproject/VDM) (Wiki) | In a wiki page, describe ways in which _dd.jsonld_ definitions and hence vdm.jsonld could keep pace with changes in VISTAs | Markdown | 5.3.1
 15 | B |  Date Stamped (Application) Meta Data for lab, surgery and other applications | Q2 | [VDM](https://github.com/vistadataproject/VDM) | _Metadata Cacher_ that queries meta-data using _VDM package (Read)_. The results will be hosted on the project’s github. | Python, JSON-LD | 5.3.3
-18 | B |  Machine-processable [PIKS] Annotations | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Distinguish patient data from other types of VISTA data. VDM PIKS enables MVDM PIKS which enables patient-centric security (#28) | JSON-LD | 5.3.4
-19 | B |  Software code [for PIKS] | Q2 | [VDM](https://github.com/vistadataproject/VDM) | _PIKS Annotation Generator_. Relies on _VDM Package (Read)_ | Python | 5.3.4
-25 | B |  Prototype query access to VISTA Data against VDM ["FQS"] | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Example clients that query (read-only) nodeVISTA using a REST-based FileMan Query Service (FQS) implemented over _VDM Package (Read)_ | Javascript, Python, JSON-LD | 5.4.1
-33 | B |  Prototype Web-Based Query Interface to FileMan [VDM] Data | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Simple Web Client for using _VDM Package (Read)_ | Javascript | 5.4.1
+18 | B |  Machine-processable [PIKS] Annotations | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Distinguish patient data from other types of VISTA data in a formal definition _piks.jsonld_. A VDM PIKS definition enables MVDM PIKS which in turn enables patient-centric security (#28) | JSON-LD | 5.3.4
+19 | B |  Software code [for PIKS] | Q2 | [VDM](https://github.com/vistadataproject/VDM) | _PIKS Annotation Generator_. Relies on _VDM Package (Read)_ to create a _piks.jsonld_ | Python | 5.3.4
+25 | B |  Prototype query access to VISTA Data against VDM ["FQS"] | Q2 | [VDM](https://github.com/vistadataproject/VDM) | _Example Query clients_ that query (read-only) nodeVISTA using a REST-based FileMan Query Service (FQS) implemented over _VDM Package (Read)_ | Javascript, Python, JSON-LD | 5.4.1
+33 | B |  Prototype Web-Based Query Interface to FileMan [VDM] Data | Q2 | [VDM](https://github.com/vistadataproject/VDM) | _FQS Web Client_ for using _VDM Package (Read)_ | Javascript | 5.4.1
 &nbsp; ||||||
 &nbsp; ||||||
 10.1 | C |  Master VISTA Data Model (MVDM) "Read-only" | Q2 | [MVDM](https://github.com/vistadataproject/MVDM) | _mvdm.jsonld_, a formal “MVDM Subset” definition with much of the scope of the VPR RPC. Read-only support built on top of _VDM "Read-only"_ | JSON-LD | 5.3.2
@@ -68,7 +68,7 @@ E2.2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproje
 &nbsp; ||||||
 &nbsp; ||||||
 32 | D |  Prototype Web-based Rules Hub | Q3 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototype a sharable, crowd source-able mechanism to exchange and grow a library of open, standards-based, validated, and exchangeable transformation rules | Web-based interface | 5.4.1
-39 | D |  Reference model(s)/Prototype(s) | Q3 &#8594; Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototype that demonstrates a mapping from MVDM to FHIR | Javascript and/or other translation rules languages | 5.4.2
+39 | D |  Reference model(s)/Prototype(s) | Q3 &#8594; Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototypes that demonstrate mapping from MVDM to FHIR | Javascript and/or other translation rules languages | 5.4.2
 40 | D |  Document VISTA-ese vs. FHIR | Q3 &#8594; Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Human-readable mapping descriptions | Markdown | 5.4.2
 &nbsp; ||||||
 &nbsp; ||||||
@@ -120,31 +120,50 @@ Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be 
 Code (Software) | Source code, and all dependent code, with full version control history | Apache 2.0
 
 
-## Deliverables by Type
+## Artifacts
 
-### Metadata
-Name | Format | Functon
-:---: | :---: | :---
-dd.jsonld 	| JSON-LD | Formal, portable definition of the contents of a VISTA data dictionary
-rpc.jsonld | JSON-LD |	Formal definition of the model implicit in RPCs, captured in JSON-LD
-vdm.jsonld | JSON-LD |	Formal definition of Native VISTA data model based on one or more dd.jsonld's and rpc.jsonld
-mvdm.jsonld | JSON-LD | Formal definition of the MVDM subset of VDM that supports full CRUD
-piks.jsonld | JSON-LD | Formal annotation of vdm.jsonld that distinguishes Patient, Institution, Knowledge and System (PIKS) classes and properties
+### Metadata/Model Definitions and System Configurations
+
+# | Name | Format | Functon
+:---: | :---: | :---: | :---
+1. | dd.jsonld 	| JSON-LD | Formal, portable definition of the contents of a VISTA data dictionary
+2. | rpc.jsonld | JSON-LD |	Formal definition of the model implicit in RPCs, captured in JSON-LD
+3. | vdm.jsonld | JSON-LD |	Formal definition of Native VISTA data model based on one or more dd.jsonld's and rpc.jsonld
+4. | mvdm.jsonld | JSON-LD | Formal definition of the MVDM subset of VDM that supports full CRUD
+5. | piks.jsonld | JSON-LD | Formal annotation of vdm.jsonld that distinguishes Patient, Institution, Knowledge and System (PIKS) classes and properties
+6. | nodeVISTA Scenarios | GT.M and Cache Databases | VISTA databases for testing and demonstrations
+7. | MVDM to FHIR Rules | Translation rules for turning MVDM data into FHIR
 
 ### Software
 
-Name | Language | Function
-:---: | :---: | ---
-DD Cacher | Python/ Javascript |	Caches FileMan Data Dictionary (dd) from a VISTA and creates a _dd.jsonld_
-RPC Cacher | Python/ Javascript | Caches RPC definitions from a VISTA and creates an _rpc.jsonld_
-VDM Maker | Python/ Javascript | Creates a VISTA Data Model (VDM), _vdm.jsonld_, from a VISTA's _dd.jsonld_ and _rpc.jsonld_
-VDM Package | Javascript (node.js module), MUMPS | Implements VDM inside Fileman
-FQS	| Javascript (node.js) | Fileman Query Service (FQS) based on embedded VDM model (REST service; read only)
-MVDM Maker | Python/ Javascript | Creates a Master VISTA Data Model (MVDM), _mvdm.jsonld_, from one or more _vdm.jsonld_'s and knowledge of the VPR model 
-MVDM Module | Javascript (node.js module) | Implements MVDM inside Fileman
-Metadata Cacher	| Javascript | queries (VISTA Application) metadata using VDM Package
-Doc Gen	| Various |	Generators of documentation leveraging common packages such as Sphinx and JSDoc
-PIKS Generator | Python | Generates Patient, Institution, Knowledge and System (PIKS) annotations in _piks.jsonld_ for a _vdm.jsonld_
+# | Name | Language | Function
+:---: | :---: | :---: | ---
+1. | DD Cacher | Python/ Javascript |	Caches FileMan Data Dictionary (dd) from a VISTA and creates a _dd.jsonld_
+2. | RPC Cacher | Python/ Javascript | Caches RPC definitions from a VISTA and creates an _rpc.jsonld_
+3. | nodeVISTA | VISTA, node.js | A test VISTA based on OSEHRA's VISTA and a simple node.js front end
+4. | nodeVISTA Commands | Javascript (node.js) | invocations of mainly write-back functions in VISTA to prepare for the write-back support of _VDM Package_
+5. | VDM Maker | Python/ Javascript | Creates a VISTA Data Model (VDM), _vdm.jsonld_, from a VISTA's _dd.jsonld_ and _rpc.jsonld_
+6. | __VDM Package__ | Javascript (node.js module), MUMPS | Implements VDM inside Fileman
+7. | MVDM Maker | Python/ Javascript | Creates a Master VISTA Data Model (MVDM), _mvdm.jsonld_, from one or more _vdm.jsonld_'s and knowledge of the VPR model 
+8. | __MVDM Module__ | Javascript (node.js module) | Implements MVDM inside Fileman
+9. | PIKS Generator | Python | Generates Patient, Institution, Knowledge and System (PIKS) annotations in _piks.jsonld_ for a _vdm.jsonld_
+10. | FQS	| Javascript (node.js) | Fileman Query Service (FQS) based on embedded VDM model (REST service; read only)
+11. | Example Query Clients | Python, Javascript | Example command line clients that show how to use the FQS
+12. | FQS Web Client | Javascript, HTML | Browser based client for using the FQS
+13. | Metadata Cacher	| Javascript | queries (VISTA Application) metadata using VDM Package
+14. | MVDMmap Prototypes | Javascript, Translation rules | prototypes showing mapping from VDMN to FHIR 
+15. | Web-based Rules Hub | Web | host for Translation rules
+16. | Doc Gen	| Various |	Generators of documentation leveraging common packages such as Sphinx and JSDoc
+
+Note that _VDM Package_ and _MVDM Module_ are the key software artifacts of the Project. Other software either helps in their development or configuration or illustrates their use.
+
+### Documents (not project management, PM)
+
+Per the PWS, all will be delivered on the Project Gits in the Markdown format.
+
+Name | Description
+:--- | ---
+... | ...
 
 ## Diagrams
 * VISTA DD -> [DD Cacher] -> dd.jsonld -> [VDM Maker] -> vdm.jsonld   (read-only)
