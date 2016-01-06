@@ -91,7 +91,6 @@ Notes:
 
 
 ## Definitions
-:--- | --- 
 Metadata Cacher	| queries (VISTA Application) metadata using VDM Package
 PIKS Gen		|  PIKS (Patient-Institution-Knowlege-Systems) annnotation generator
 FQS				| Fileman Query Service based on embedded VDM model (REST service; read only)
@@ -109,7 +108,6 @@ Mapping code	| mapping tables/rules in MVDM Package
 ### Formats and Licenses of deliverable artifacts (PWS 8.2) 
 
 Artifact | Format(s) | License
-:---: | --- | ---
 Data | CSV if tabular structure; JSON-LD for all other structures. | Creative Commons CC0.
 Metadata | JSON-LD. | Creative Commons CC0.
 Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0.
@@ -119,8 +117,7 @@ Code (Software) | Source code, and all dependent code, with full version control
 ## Deliverables by Type
 
 ### Metadata
-Name | format | functon
-:--- | --- | :---:
+Name | Format | Functon
 dd.jsonld 	| JSON-LD | 	native VISTA data dictionary, captured in JSON-LD
 rpc.jsonld | JSON-LD |		formal definition of the model implicit in RPCs, captured in JSON-LD
 vdm.jsonld | JSON-LD |		native VISTA data model based on one or more dd.jsonld's and/or rpc.jsonld's
@@ -128,8 +125,7 @@ mvdm.jsonld | JSON-LD | 	MVDM subset of VDM that supports full CRUD
 PIKS | JSON-LD | 			annotations to VDM
 
 ### Software
-Name | language | function
-:--- | --- | :---:
+Name | Language | Function
 DD Cacher | |	
 RPC Cacher | | 
 VDM Maker | | creates vdm.jsonld from dd.jsonld's
@@ -154,7 +150,7 @@ In addition, the Project requested that within 30 days of contract award the Gov
 
   1. A copy of the latest version of the VPR RPC software and documentation.
   2. The latest copy of the FileMan namespace spreadsheet.
-  3. A FileMan namespace exclusively for the Project to allow for the creation of Project files and fields in FileMan.
+  3. A FileMan namespace exclusively for the Project to allow for the creation of Project files and fields in FileMan (VDM, VDMN, etc.)
   4. Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
   5. Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
   6. VA VISTA Sandbox Account with full Linux VM.
