@@ -124,7 +124,7 @@ Code (Software) | Source code, and all dependent code, with full version control
 
 ### Metadata/Model Definitions and System Configurations
 
-# | Name | Format | Functon
+\# | Name | Format | Functon
 :---: | :---: | :---: | :---
 1. | dd.jsonld 	| JSON-LD | Formal, portable definition of the contents of a VISTA data dictionary
 2. | rpc.jsonld | JSON-LD |	Formal definition of the model implicit in RPCs, captured in JSON-LD
@@ -136,7 +136,7 @@ Code (Software) | Source code, and all dependent code, with full version control
 
 ### Software
 
-# | Name | Language | Function
+\# | Name | Language | Function
 :---: | :---: | :---: | ---
 1. | DD Cacher | Python/ Javascript |	Caches FileMan Data Dictionary (dd) from a VISTA and creates a _dd.jsonld_
 2. | RPC Cacher | Python/ Javascript | Caches RPC definitions from a VISTA and creates an _rpc.jsonld_
@@ -161,9 +161,9 @@ Note that _VDM Package_ and _MVDM Module_ are the key software artifacts of the 
 
 Per the PWS, all will be delivered on the Project Gits in the Markdown format.
 
-Name | Description
-:--- | ---
-... | ...
+\# | Name | Description
+:---: | :--- | ---
+1. | ... | ...
 
 ## Diagrams
 * VISTA DD -> [DD Cacher] -> dd.jsonld -> [VDM Maker] -> vdm.jsonld   (read-only)
