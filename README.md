@@ -98,6 +98,30 @@ Metadata | JSON-LD. | Creative Commons CC0.
 Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0.
 Code (Software) | Source code, and all dependent code, with full version control history. | Apache 2.0.
 
+
+## Deliverables by Type
+
+### Metadata
+Name | format | functon
+:--- | --- | :---:
+dd.jsonld 	| JSON-LD | 	native VISTA data dictionary, captured in JSON-LD
+rpc.jsonld | JSON-LD |		formal definition of the model implicit in RPCs, captured in JSON-LD
+vdm.jsonld | JSON-LD |		native VISTA data model based on one or more dd.jsonld's and/or rpc.jsonld's
+mvdm.jsonld | JSON-LD | 	MVDM subset of VDM that supports full CRUD
+PIKS | JSON-LD | 			annotations to VDM
+
+### Software
+Name | language | function
+:--- | --- | :---:
+DD Cacher | |	
+RPC Cacher | | 
+VDM Maker | | creates vdm.jsonld from dd.jsonld's
+VDM Package | | implements VDM inside Fileman - "embedded, explicit data model"
+MVDM Package | |implements MVDM inside Fileman - "embedded, explicit data and transactional model"
+vdmn.js | |		
+Doc Gen	| |		Sphinx, JSDoc,...
+
+
 ## System Access 
 
 From PWS 3.1 - within 30 days of contract award the Government will provide contractor access to:
@@ -132,6 +156,14 @@ Kevin Meldrum | VPR RPC | MVDM | Created a JSON-based mechanism for accessing VI
 Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VISTA for today 
 
 
+## Definitions
+:--- | --- 
+Metadata Cacher	| queries (VISTA Application) metadata using VDM Package
+PIKS Gen		|  PIKS annnotation generator
+FQS				| Fileman Query Service (RESTful) based on embedded VDM model (read only)
+Mapping code	| mapping tables/rules in MVDM Package
+
+
 ## Diagrams / Images
 
 * VISTA DD -> [DD Cacher] -> dd.jsonld -> [VDM Maker] -> vdm.jsonld   (read-only)
@@ -140,34 +172,5 @@ Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VISTA fo
 * Markdown -> [Doc Gen] -> HTML, Word, PDF
 
 
-## Deliverables by Type
 
-### Metadata
-Name | format | functon
-:--- | --- | :---:
-dd.jsonld 	| JSON-LD | 	native VISTA data dictionary, captured in JSON-LD
-rpc.jsonld | JSON-LD |		formal definition of the model implicit in RPCs, captured in JSON-LD
-vdm.jsonld | JSON-LD |		native VISTA data model based on one or more dd.jsonld's and/or rpc.jsonld's
-mvdm.jsonld | JSON-LD | 	MVDM subset of VDM that supports full CRUD
-PIKS | JSON-LD | 			annotations to VDM
-
-
-### Software
-Name | language | function
-:--- | --- | :---
-DD Cacher | |	?? needs definition
-RPC Cacher | | ?? Does this exist?
-VDM Maker | | creates vdm.jsonld from dd.jsonld's
-VDM Package | | implements VDM inside Fileman - "embedded, explicit data model"
-MVDM Package | |implements MVDM inside Fileman - "embedded, explicit data and transactional model"
-vdmn.js | |		?? mentioned but no definition
-Doc Gen	| |		Sphinx, JSDoc,...
-
-
-## Definitions
-:--- | --- 
-Metadata Cacher	| queries (VISTA Application) metadata using VDM Package
-PIKS Gen		|  PIKS annnotation generator
-FQS				| Fileman Query Service (RESTful) based on embedded VDM model (read only)
-Mapping code	| mapping tables/rules in MVDM Package
 
