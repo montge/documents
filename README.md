@@ -22,13 +22,15 @@ Where?
 
 In addition to Project Management (PM), the work breaks into __four main tracks__ (A-D) each managed and performed in one or more gits under the _vistadataproject_ organization.
 
-Track | Name | Description | GIT
+Track | Name | Description | GIT | Technical \#
 :---: | :---: | :--- | :---
-A | Infrastructure | Project infrastructure including Test VISTA (“nodeVISTA”), gits, tooling, website | [nodeVISTA](https://github.com/vistadataproject/nodeVISTA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), [documents](https://github.com/vistadataproject/documents) 
-B | VDM | VISTA Data Model (VDM) - native model exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) 
-C | MVDM | Master VISTA Data Model (MVDM) - definition and implementation of master data model for VISTA | [MVDM](https://github.com/vistadataproject/MVDM)
-D | MVDMmap | Mapping MVDM to other models such as FHIR | [MVDMmap](https://github.com/vistadataproject/MVDMmap) 
-PM | Project Management | Business/Project Management  | [documents](https://github.com/vistadataproject/documents)
+A | Infrastructure | Project infrastructure including Test VISTA (“nodeVISTA”), gits, tooling, website | [nodeVISTA](https://github.com/vistadataproject/nodeVISTA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), [documents](https://github.com/vistadataproject/documents) | 3
+B | VDM | VISTA Data Model (VDM) - native model exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) | 12
+C | MVDM | Master VISTA Data Model (MVDM) - definition and implementation of master data model for VISTA | [MVDM](https://github.com/vistadataproject/MVDM) | 9
+D | MVDMmap | Mapping MVDM to other models such as FHIR | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | 3
+PM | Project Management | Business/Project Management  | [documents](https://github.com/vistadataproject/documents) | &nbsp;
+
+In all there are _27_ Technical Deliverables.
 
 __For current work plans, see the [VDM Track](https://github.com/vistadataproject/VDM), [MVDM Track](https://github.com/vistadataproject/MVDM) and [nodeVISTA](https://github.com/vistadataproject/nodeVISTA/tree/master/Commands) gits.__ The order of work emphasizes assembling and demonstrating all the pieces needed for the MVDM Module (definitions and testing code paths) before implementing it.
 
@@ -39,7 +41,7 @@ The following deliverables are called for in the Project Work Statement (PWS).
 1AA | A |Artifact Repository | Q1 | &nbsp; | Project Gits | &nbsp; | 8.2
 13 | A |  Website | Q1 &#8594; Q4 | [Website](https://github.com/vistadataproject/vistadataproject.github.io) | website, infographics to showcase the contents of the VDM and MVDM Subset | HTML, Javascript (d3.js) | 5.3.2
 E3 | A | FileMan TEST VISTA ["nodeVISTA"] | Q1 &#8594; Q4 | [nodeVISTA](https://github.com/vistadataproject/nodeVISTA) | a test VISTA ("nodeVISTA") that hosts different test datasets ("nodeVISTA Scenarios") | VISTA System, Vagrant | &nbsp;
-E4 | A | Document Generators | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). Important Markdown-formatted documents need to be translated into PDF and Word | Various | &nbsp;
+E4 | A | Document Generators | Q1 &#8594; Q4 | [documents](https://github.com/vistadataproject/documents) | Programmer documentation will be generated using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). Important Markdown-formatted documents need to be translated into PDF and HTML | Various | &nbsp;
 &nbsp; ||||||
 &nbsp; ||||||
 7.1 | B |  Machine Processable VISTA Data Model (VDM) "Read Only" | Q1 | [VDM](https://github.com/vistadataproject/VDM)  | _vdm.jsonld_, the native VISTA data model in JSON-LD based on one or more _dd.jsonld_'s.<br><br>_VDM Maker_, a program that creates _vdm.jsonld_ from _dd.jsonld_'s.<br><br>This version will support query/read ("VDM (read)"). | JSON-LD, Python, Javascript | 5.3.1
@@ -62,7 +64,7 @@ E2.2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproje
 11.2 | C |  [MVDM over VDM] Heuristic (mapping) code [_MVDM Module_] | Q2 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | full CRUD support added to "Read-only" base. | Javascript (node.js), JSON | 5.3.2
 12 | C |  [MVDM] Normalization Reports | Q2 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Documents VDM to MVDM mapping as implemented in Deliverable #11. | Markdown | 5.3.2
 14 | C |  Report on [MVDM] Exposure of older models | Q4 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Describe how older, cruder models could be handled in the MVDM | Markdown | 5.3.2
-28 | C |  Prototype Patient-centric Data Security | Q3 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | First document and then provide a self- contained prototype that shows how PIKS- enabled annotations enable patient-centric secure queries | Javascript, Markdown | 5.4.1
+28 | C |  Prototype Patient-centric Data Security | Q3 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | First document and then provide a self- contained prototype ("Patient Security Prototype") that shows how PIKS- enabled annotations enable patient-centric secure queries. The prototype will enhance FQS and have an example client | Javascript, Markdown | 5.4.1
 35 | C |  VISTA Application model(s)/Prototype(s) [Tests] | Q3 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | MVDM write back tests (tier 1 through 3), enabled by vdmn.js configurations. Test scenarios for Deliverable #11. | Javascript, Python | 5.4.2
 36 | C |  Meta-model(s) [VPR] Prototype(s) | Q2 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) | Test code that shows how well the MVDM supports VPR (Read-only) convenience methods - read-only side of #35 | Javascript, Python | 5.4.2
 &nbsp; ||||||
@@ -81,7 +83,7 @@ E2.2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproje
 5	| PM |  Quarterly Strategic Communications Message | Quarterly | documents | project progress and feasibility of transition to production | &nbsp; | 5.2
 
 Notes:
-  * 25 technical deliverables (in _VDM_, _MVDM_, _MVDMmap_ aswell as _nodeVISTA_) are enumerated above.
+  * 27 technical deliverables (in _VDM_, _MVDM_, _MVDMmap_ aswell as 3 from Infrastructure) are enumerated above.
   * E1-4 are deliverables required but not explicitly enumerated in the PWS.
   * Deliverable #’s have gaps. The following PWS deliverables were removed as redundant or out of scope per government determination: 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
   * There is a substantial difference in complexity between read-only and read-write models and implementations. To write anything demands knowledge of rules that go beyond the demands of reading. As a result, both VDM and MVDM models and packages will be delivered in two phases, with read coming first. 
@@ -133,7 +135,7 @@ Code (Software) | Source code, and all dependent code, with full version control
 4. | mvdm.jsonld | JSON-LD | Formal definition of the MVDM subset of VDM that supports full CRUD | 10.1, 10.2
 5. | piks.jsonld | JSON-LD | Formal annotation of vdm.jsonld that distinguishes Patient, Institution, Knowledge and System (PIKS) classes and properties | 18
 6. | nodeVISTA Scenarios | GT.M and Cache Databases | VISTA databases for testing and demonstrations | Part of E2.2 Development
-7. | MVDM to FHIR Rules | Translation rules for turning MVDM data into FHIR | Part of 39
+7. | MVDM to FHIR Rules | Rules Format | Translation rules (MVDM to FHIR) | Part of 39
 
 ### Software
 
@@ -148,13 +150,14 @@ Code (Software) | Source code, and all dependent code, with full version control
 7. | MVDM Maker | Python/ Javascript | Creates a Master VISTA Data Model (MVDM), _mvdm.jsonld_, from one or more _vdm.jsonld_'s and knowledge of the VPR model | 10.1, 10.2
 8. | __MVDM Module__ | Javascript (node.js module) | Implements MVDM inside Fileman over the _VDM Package_. The first version will support querying ("Read-only"). The full version will support Create-Read-Update-Delete and transactions. | 11.1, 11.2
 9. | PIKS Generator | Python | Generates Patient, Institution, Knowledge and System (PIKS) annotations in _piks.jsonld_ for a _vdm.jsonld_ | 19
-10. | FQS	| Javascript (node.js) | Fileman Query Service (FQS) based on embedded VDM model (REST service; read only) | 25
-11. | Example Query Clients | Python, Javascript | Example command line clients that show how to use the FQS | 25
-12. | FQS Web Client | Javascript, HTML | Browser based client for using the FQS | 33
-13. | Metadata Cacher	| Javascript | queries (VISTA Application) metadata using VDM Package | 15
-14. | MVDMmap Prototypes | Javascript, Translation rules | prototypes showing mapping from VDMN to FHIR | 39
-15. | Web-based Rules Hub | Javascript, HTML | host for Translation rules | 32
-16. | Document Generators	| Various |	Generators of documentation leveraging common packages such as Sphinx and JSDoc and translators from Markdown to PDF and Word | E4
+10. | Patient Security Prototype | Javascript (node.js) | An illustration of PIKS-enabled Patient level security. This involves an example client and an addition to FQS | 28
+11. | FQS	| Javascript (node.js) | Fileman Query Service (FQS) based on embedded VDM model (REST service; read only) | 25
+12. | Example Query Clients | Python, Javascript | Example command line clients that show how to use the FQS | 25
+13. | FQS Web Client | Javascript, HTML | Browser based client for using the FQS | 33
+14. | Metadata Cacher	| Javascript | queries (VISTA Application) metadata using VDM Package | 15
+15. | MVDMmap Prototypes | Javascript, Translation rules | prototypes showing mapping from VDMN to FHIR | 39
+16. | Web-based Rules Hub | Javascript, HTML | host for Translation rules | 32
+17. | Document Generators	| Various |	Generators of documentation leveraging common packages such as Sphinx and JSDoc and translators from Markdown to PDF and HTML | E4
 
 Note that _VDM Package_ and _MVDM Module_ are the key software artifacts of the Project. Other software either helps in their development or configuration or illustrates their use.
 
