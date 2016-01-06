@@ -50,8 +50,8 @@ E2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproject
 15 | B |  Date Stamped (Application) Meta Data for lab, surgery and other applications | Q2 | [VDM](https://github.com/vistadataproject/VDM) | _Metadata Cacher_ that queries meta-data using the (read-only) _VDM package_. The results will be hosted on the project’s github. | Python, JSON-LD | 5.3.3
 18 | B |  Machine-processable [PIKS] Annotations | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Distinguish patient data from other types of VISTA data. VDM PIKS enables MVDM PIKS which enables patient-centric security (#28) | JSON-LD | 5.3.4
 19 | B |  Software code [for PIKS] | Q2 | [VDM](https://github.com/vistadataproject/VDM) | _PIKS Annotation Generator_ | Python | 5.3.4
-25 | B |  Prototype query access to VISTA Data against VDM ["FQS"] | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Example clients that query (read-only) nodeVISTA using a REST-based FileMan Query Service (FQS) implemented over a read-only version of the VDM Package | Javascript, Python, JSON-LD | 5.4.1
-33 | B |  Prototype Web-Based Query Interface to FileMan [VDM] Data | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Simple Web Client for using a read-only version of the VDM Package | Javascript | 5.4.1
+25 | B |  Prototype query access to VISTA Data against VDM ["FQS"] | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Example clients that query (read-only) nodeVISTA using a REST-based FileMan Query Service (FQS) implemented over a VDM Package (Read-Only) | Javascript, Python, JSON-LD | 5.4.1
+33 | B |  Prototype Web-Based Query Interface to FileMan [VDM] Data | Q2 | [VDM](https://github.com/vistadataproject/VDM) | Simple Web Client for using the VDM Package ("Read-only") | Javascript | 5.4.1
 &nbsp; ||||||
 &nbsp; ||||||
 10 | C |  Master VISTA Data Model (MVDM) | Q1 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) | _mvdm.jsonld_, a formal “MVDM Subset” definition with much of the scope of the VPR RPC.<br><br>The first version will support query/read ("MVDM (read)"); full CRUD support will follow. | JSON-LD | 5.3.2
