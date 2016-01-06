@@ -81,6 +81,7 @@ E2.2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproje
 5	| PM |  Quarterly Strategic Communications Message | Quarterly | documents | project progress and feasibility of transition to production | &nbsp; | 5.2
 
 Notes: 
+  * 25 technical deliverables (in _VDM_, _MVDM_, _MVDMmap_ and _nodeVISTA_) are enumerated above.
   * E1-4 are deliverables required but not explicitly enumerated in the PWS.
   * Deliverable #’s have gaps. The following PWS deliverables were removed as redundant or out of scope per government determination: 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
   * There is a substantial difference in complexity between read-only (_VDM Read_, _MVDM Read_) and read-write (_VDM Full_, MVDM Full_) models and implementations. To write anything demands knowledge of rules that go beyond the demands of reading. As a result, both VDM and MVDM models and packages will be delivered in two phases, with read coming first. 
