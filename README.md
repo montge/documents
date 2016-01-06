@@ -120,8 +120,12 @@ Metadata | JSON-LD | Creative Commons CC0
 Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0
 Code (Software) | Source code, and all dependent code, with full version control history | Apache 2.0
 
-
 ## Artifacts
+
+27 Technical Deliverables involve:
+  * 8 MetaData Definitions
+  * 18 Software Applications
+  * 6 Documents
 
 ### Metadata Definitions and System Configurations
 
