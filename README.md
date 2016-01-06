@@ -89,6 +89,23 @@ Notes:
     * MVDM "Read" and its module (#10.1 and #11.1) are due in Q2: Deliverables #28, #36 and all of track D rely only on MVDM ("Read").
     * Read-only VDM and by extension MVDM will expand on open source [FMQL](https://github.com/caregraf/FMQL)
 
+
+## Definitions
+:--- | --- 
+Metadata Cacher	| queries (VISTA Application) metadata using VDM Package
+PIKS Gen		|  PIKS (Patient-Institution-Knowlege-Systems) annnotation generator
+FQS				| Fileman Query Service based on embedded VDM model (REST service; read only)
+Mapping code	| mapping tables/rules in MVDM Package
+
+
+## Diagrams
+
+* VISTA DD -> [DD Cacher] -> dd.jsonld -> [VDM Maker] -> vdm.jsonld   (read-only)
+* VISTA RPCs ->[?RPC Cacher ] -> rpc.jsonld -> [VDM Maker] -> vdm.jsonld  (writeback)
+* mvdm.jsonld =  vdm.jsonld (embedded dd.jsonld + embedded rpc.jsonld)
+* Markdown -> [Doc Gen] -> HTML, Word, PDF
+
+
 ### Formats and Licenses of deliverable artifacts (PWS 8.2) 
 
 Artifact | Format(s) | License
@@ -154,22 +171,6 @@ Rob Tweed | Node/M | Infrastructure | Integrated node.js with VISTA and MUMPS ("
 Manu Sporny | JSON-LD | MVDM | Created and promoted the JSON-LD standard
 Kevin Meldrum | VPR RPC | MVDM | Created a JSON-based mechanism for accessing VISTA's patient data 
 Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VISTA for today 
-
-
-## Definitions
-:--- | --- 
-Metadata Cacher	| queries (VISTA Application) metadata using VDM Package
-PIKS Gen		|  PIKS annnotation generator
-FQS				| Fileman Query Service (RESTful) based on embedded VDM model (read only)
-Mapping code	| mapping tables/rules in MVDM Package
-
-
-## Diagrams / Images
-
-* VISTA DD -> [DD Cacher] -> dd.jsonld -> [VDM Maker] -> vdm.jsonld   (read-only)
-* VISTA RPCs ->[?RPC Cacher ] -> rpc.jsonld -> [VDM Maker] -> vdm.jsonld  (writeback)
-* mvdm.jsonld =  vdm.jsonld (embedded dd.jsonld + embedded rpc.jsonld)
-* Markdown -> [Doc Gen] -> HTML, Word, PDF
 
 
 
