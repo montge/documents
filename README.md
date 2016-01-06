@@ -91,6 +91,7 @@ Notes:
 
 
 ## Definitions
+:---: | :---
 Metadata Cacher	| queries (VISTA Application) metadata using VDM Package
 PIKS Gen		|  PIKS (Patient-Institution-Knowlege-Systems) annnotation generator
 FQS				| Fileman Query Service based on embedded VDM model (REST service; read only)
@@ -106,7 +107,7 @@ Mapping code	| mapping tables/rules in MVDM Package
 
 
 ### Formats and Licenses of deliverable artifacts (PWS 8.2) 
-
+:---: | :---: | :--- 
 Artifact | Format(s) | License
 Data | CSV if tabular structure; JSON-LD for all other structures. | Creative Commons CC0.
 Metadata | JSON-LD. | Creative Commons CC0.
@@ -118,6 +119,7 @@ Code (Software) | Source code, and all dependent code, with full version control
 
 ### Metadata
 Name | Format | Functon
+:---: | :---: | :---
 dd.jsonld 	| JSON-LD | 	native VISTA data dictionary, captured in JSON-LD
 rpc.jsonld | JSON-LD |		formal definition of the model implicit in RPCs, captured in JSON-LD
 vdm.jsonld | JSON-LD |		native VISTA data model based on one or more dd.jsonld's and/or rpc.jsonld's
@@ -126,6 +128,7 @@ PIKS | JSON-LD | 			annotations to VDM
 
 ### Software
 Name | Language | Function
+:---: | :---: | :--- 
 DD Cacher | |	
 RPC Cacher | | 
 VDM Maker | | creates vdm.jsonld from dd.jsonld's
