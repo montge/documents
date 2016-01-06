@@ -113,11 +113,11 @@ In addition, the Project requested that within 30 days of contract award the Gov
 
 ## Formats and Licenses of Deliverables (PWS 8.2) 
 Artifact | Format(s) | License
-:---: | :---: | :--- 
-Data | CSV if tabular structure; JSON-LD for all other structures. | Creative Commons CC0.
-Metadata | JSON-LD | Creative Commons CC0.
-Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0.
-Code (Software) | Source code, and all dependent code, with full version control history. | Apache 2.0.
+:---: | :--- | :--- 
+Data | CSV if tabular structure; JSON-LD for all other structures. | Creative Commons CC0
+Metadata | JSON-LD | Creative Commons CC0
+Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0
+Code (Software) | Source code, and all dependent code, with full version control history | Apache 2.0
 
 
 ## Deliverables by Type
@@ -136,11 +136,11 @@ Name | Language | Function
 :---: | :---: | :---
 DD Cacher | |	
 RPC Cacher | | 
-VDM Maker | | creates vdm.jsonld from dd.jsonld's
-VDM Package | | implements VDM inside Fileman - "embedded, explicit data model"
-MVDM Package | |implements MVDM inside Fileman - "embedded, explicit data and transactional model"
+VDM Maker | | Creates vdm.jsonld from dd.jsonld's
+VDM Package | | Implements VDM inside Fileman - "embedded, explicit data model"
+MVDM Package | | Implements MVDM inside Fileman - "embedded, explicit data and transactional model"
 vdmn.js | |		
-Doc Gen	| |		Sphinx, JSDoc,...
+Doc Gen	| |	Sphinx, JSDoc,...
 
  
  
