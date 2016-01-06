@@ -110,30 +110,14 @@ In addition, the Project requested that within 30 days of contract award the Gov
   5. Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
   6. VA VISTA Sandbox Account with full Linux VM.
  
-### Formats and Licenses of Deliverables (PWS 8.2) 
-:---: | :---: | :--- 
+
+## Formats and Licenses of Deliverables (PWS 8.2) 
 Artifact | Format(s) | License
+:---: | :---: | :--- 
 Data | CSV if tabular structure; JSON-LD for all other structures. | Creative Commons CC0.
 Metadata | JSON-LD | Creative Commons CC0.
 Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0.
 Code (Software) | Source code, and all dependent code, with full version control history. | Apache 2.0.
-
-
-## Definitions
-Term | Definition
-:---: | :---: 
-Metadata Cacher	| queries (VISTA Application) metadata using VDM Package
-PIKS Gen		|  PIKS (Patient-Institution-Knowlege-Systems) annnotation generator
-FQS				| Fileman Query Service based on embedded VDM model (REST service; read only)
-Mapping code	| mapping tables/rules in MVDM Package
-
-
-## Diagrams
-
-* VISTA DD -> [DD Cacher] -> dd.jsonld -> [VDM Maker] -> vdm.jsonld   (read-only)
-* VISTA RPCs ->[?RPC Cacher ] -> rpc.jsonld -> [VDM Maker] -> vdm.jsonld  (writeback)
-* mvdm.jsonld =  vdm.jsonld (embedded dd.jsonld + embedded rpc.jsonld)
-* Markdown -> [Doc Gen] -> HTML, Word, PDF
 
 
 ## Deliverables by Type
@@ -159,8 +143,24 @@ vdmn.js | |
 Doc Gen	| |		Sphinx, JSDoc,...
 
  
-## Credits
+ 
+## Definitions
+Term | Definition
+:--- | ---
+Metadata Cacher	| queries (VISTA Application) metadata using VDM Package
+PIKS Gen		|  PIKS (Patient-Institution-Knowlege-Systems) annnotation generator
+FQS				| Fileman Query Service based on embedded VDM model (REST service; read only)
+Mapping code	| mapping tables/rules in MVDM Package
 
+
+## Diagrams
+* VISTA DD -> [DD Cacher] -> dd.jsonld -> [VDM Maker] -> vdm.jsonld   (read-only)
+* VISTA RPCs ->[?RPC Cacher ] -> rpc.jsonld -> [VDM Maker] -> vdm.jsonld  (writeback)
+* mvdm.jsonld =  vdm.jsonld (embedded dd.jsonld + embedded rpc.jsonld)
+* Markdown -> [Doc Gen] -> HTML, Word, PDF
+
+
+## Credits
 This project builds on the work of many.
 
 Who | Work | In Project Track | Comment
