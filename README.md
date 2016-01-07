@@ -20,7 +20,7 @@ Where?
 
 ## Deliverables and Schedule
 
-The project’s work breaks into five “tracks” each backed by one or more Gits in the Project Repository.
+The Project organizes deliverables in five “tracks” each backed by one or more Gits in the Project Repository.
 
 Track | Name | Description | GIT | Tech Deliverables
 :---: | :---: | :--- | :--- | :---:
