@@ -32,7 +32,7 @@ PM | Project Management | Business/Project Management  | [documents](https://git
 
 There are 27 Technical Deliverables. Each deliverable belongs to a specific track. The VDM deliverables enable the MVDM deliverables which in turn enable the MVDMmap deliverables. 
 
-The following organizes deliverables by track.
+The following organizes deliverables by track. Where applicable the Project Work Statement (PWS) section is given.
 
 \# | Track | Name | Schedule | Git | Content(s) | Format(s) | PWS Section | 
 :---: | :---: | :---: | :---: | :---: | :--- | :---: | :--- 
