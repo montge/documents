@@ -20,7 +20,7 @@ Where?
 
 ## Deliverables and Schedule
 
-In addition to Project Management (PM), Project work breaks into __four technical tracks__ (A-D) each managed and performed in one or more gits under the _vistadataproject_ organization.
+The project’s work breaks into five “tracks” each backed by one or more Gits in the Project Repository.
 
 Track | Name | Description | GIT | Tech Deliverables
 :---: | :---: | :--- | :--- | :---:
