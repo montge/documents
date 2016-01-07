@@ -184,11 +184,6 @@ Per the PWS, all non PM documentation will be delivered on the Project Gits in t
 
 In addition, programmer documentation will be generated for both _VDM Package_, _MVDM Module_ and _FQS_.
 
-## Diagrams [TODO]
-
-  * RPCs + DD + nodeVISTA Commands --- informs ---> VDM
-  * VPR + VDM --- informs ---> MVDM
-
 ## Credits
 This project builds on the work of many.
 
