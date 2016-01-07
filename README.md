@@ -24,7 +24,7 @@ Where?
 
 ## Deliverables and Estimated Schedule
 
-In addition to Project Management (PM), the work breaks into __four main tracks__ (A-D) each managed and performed in one or more gits under the _vistadataproject_ organization.
+In addition to Project Management (PM), the work breaks into __four technical tracks__ (A-D) each managed and performed in one or more gits under the _vistadataproject_ organization.
 
 Track | Name | Description | GIT | Tech Deliverables
 :---: | :---: | :--- | :--- | :---:
