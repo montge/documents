@@ -18,9 +18,9 @@ Where?
 
 ![SKS Pieces Diagram](/images/vdpComponents.png?raw=true)
 
-## Deliverables and Estimated Schedule
+## Deliverables and Schedule
 
-In addition to Project Management (PM), the work breaks into __four technical tracks__ (A-D) each managed and performed in one or more gits under the _vistadataproject_ organization.
+In addition to Project Management (PM), Project work breaks into __four technical tracks__ (A-D) each managed and performed in one or more gits under the _vistadataproject_ organization.
 
 Track | Name | Description | GIT | Tech Deliverables
 :---: | :---: | :--- | :--- | :---:
