@@ -59,7 +59,7 @@ E2.2 | B | VDM Package | Q1 &#8594; Q3 | [VDM](https://github.com/vistadataproje
 10.1 | C |  Master VISTA Data Model (MVDM) "Read-only" | Q2 | [MVDM](https://github.com/vistadataproject/MVDM) | _mvdm.jsonld_, a formal “MVDM Subset” definition with much of the scope of the VPR RPC which must be formally captured in _vpr.jsonld_. | JSON-LD | 5.3.2
 10.2 | C |  Master VISTA Data Model (MVDM) | Q2 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | full CRUD support rounded out for _mvdm.jsonld_. | JSON-LD | 5.3.2
 11.1 | C |  [MVDM over VDM] Heuristic (mapping) code "Read-only" [_MVDM Module_] | Q2 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | mapping tables and rules implemented in a _MVDM module_ that delivers a read-only version of MVDM over the VDM Package "Read-only". | Javascript (node.js), JSON | 5.3.2
-11.2 | C |  [MVDM over VDM] Heuristic (mapping) code [_MVDM Module_] | Q2 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | full CRUD support added to "Read-only" base. | Javascript (node.js), JSON | 5.3.2
+11.2 | C |  [MVDM over VDM] Heuristic (mapping) code [_MVDM Module_] | Q2 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | full CRUD support added to _MVDM Module_ (Read). | Javascript (node.js), JSON | 5.3.2
 12 | C |  [MVDM] Normalization Reports | Q2 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Documents VDM to MVDM mapping as implemented in Deliverable #11. | Markdown | 5.3.2
 14 | C |  Report on [MVDM] Exposure of older models | Q4 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Describe how older, cruder models could be handled in the MVDM | Markdown | 5.3.2
 28 | C |  Prototype Patient-centric Data Security | Q3 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | First document and then provide a self- contained prototype ("Patient Security Prototype") that shows how PIKS- enabled annotations enable patient-centric secure queries. The prototype will enhance FQS and have an example client | Javascript, Markdown | 5.4.1
@@ -178,7 +178,7 @@ Per the PWS, all non PM documentation will be delivered on the Project Gits in t
 5. | Prototype Patient-centric Data Security [Document] | 28 (Document)
 6. | Document VISTA-ese vs. FHIR | 40
 
-In addition, programmer documentation will be generated for both _VDM Package_, _MVDM Module_ and _FQS_.
+In addition, programmer documentation will be generated for _VDM Package_, _MVDM Module_ and _FQS_.
 
 ## Credits
 This project builds on the work of many.
