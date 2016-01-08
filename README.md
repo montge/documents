@@ -7,7 +7,7 @@ __What?__
 > __Provide a single 
 > comprehensive security- enabled read/write data model for all VA VISTA data__ 
 > across all VA VISTA operational systems, establishing a common technical foundation
-> for master data management [MDM] and computable data representation and __exchange between 
+> for __master data management__  and computable data representation and __exchange between 
 > VA and DoD clinical information systems__. --- PWS 1.1
 
 __Where?__
