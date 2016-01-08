@@ -68,7 +68,7 @@ E2.2 | B | VDM Package | Q1 &#8594; Q4 | [VDM](https://github.com/vistadataproje
 &nbsp; ||||||
 &nbsp; ||||||
 32 | D |  Prototype Web-based Rules Hub | Q3 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototype a sharable, crowd source-able mechanism to exchange and grow a library of open, standards-based, validated, and exchangeable transformation rules | Web-based interface | 5.4.1
-39 | D |  Reference model(s)/Prototype(s) | Q3 &#8594; Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototypes that demonstrate mapping from MVDM to FHIR | Javascript and/or other translation rules languages | 5.4.2
+39 | D |  Reference model(s)/Prototype(s) ["FHIR Translator"] | Q3 &#8594; Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Prototypes that demonstrate mapping from MVDM to FHIR | Javascript and/or other translation rules languages | 5.4.2
 40 | D |  Document VISTA-ese vs. FHIR | Q3 &#8594; Q4 | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | Human-readable mapping descriptions | Markdown | 5.4.2
 &nbsp; ||||||
 &nbsp; ||||||
@@ -130,7 +130,7 @@ More artifacts may be identified as work proceeds.
 13. | Example Query Clients | Python, Javascript | Example command line clients that show how to use the FQS | 25
 14. | FQS Web Client | Javascript, HTML | Browser based client for using the FQS | 33
 15. | Metadata Cacher	| Javascript | queries (VISTA Application) metadata using VDM Package | 15
-16. | MVDMmap Prototypes | Javascript, Translation rules | prototypes showing mapping from VDMN to FHIR | 39
+16. | FHIR Translator | Javascript, Translation rules | prototypes showing mapping from VDMN to FHIR | 39
 17. | Web-based Rules Hub | Javascript, HTML | host for Translation rules | 32
 18. | Document Generators	| Various |	Generators of documentation leveraging common packages such as Sphinx and JSDoc and translators from Markdown to PDF and HTML | E4
 
