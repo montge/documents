@@ -89,43 +89,14 @@ Notes:
     * MVDM "Read" and its module (#10.1 and #11.1) are due in Q2: Deliverables #28, #36 and all of track D rely only on MVDM ("Read").
     * Read-only VDM and by extension MVDM will expand on open source [FMQL](https://github.com/caregraf/FMQL)
 
-
-## System Access 
-
-From PWS 3.1 - within 30 days of contract award the Government will provide contractor access to:
-
-  1. Data Dictionary (^DD) extract from at least five current operational VISTAs. These data dictionaries contain no patient data, PHI, or PII (i.e. no sensitive information).
-  2. Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions.13 The metadata does not contain any patient data, PHI, or PII (i.e. no sensitive information).
-  3. Copy of a VISTA with test patients used by VA for internal projects
-  4. Copy of at least one real operational VISTA ("Prod Clone" or “Test VISTA”) which would be kept
-within the NIPRed network, as it will have non de-identified patient data. 
-  5. A VISTA with real but de-identified patient data
-
-In addition, the Project requested that within 30 days of contract award the Government will provide the Project access to:
-
-  1. A copy of the latest version of the VPR RPC software and documentation.
-  2. The latest copy of the FileMan namespace spreadsheet.
-  3. A FileMan namespace exclusively for the Project to allow for the creation of Project files and fields in FileMan (VDM, VDMN, etc.)
-  4. Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
-  5. Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
-  6. VA VISTA Sandbox Account with full Linux VM.
- 
-
-## Formats and Licenses of Deliverables (PWS 8.2) 
-
-Artifact | Format(s) | License
-:---: | :--- | :--- 
-Data | CSV if tabular structure; JSON-LD for all other structures. | Creative Commons CC0
-Metadata | JSON-LD | Creative Commons CC0
-Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0
-Code (Software) | Source code, and all dependent code, with full version control history | Apache 2.0
-
 ## Artifacts
 
 27 Technical Deliverables involve:
-  * 8 MetaData Definitions
+  * 8 MetaData Definitions/System Configurations
   * 18 Software Applications
   * 6 Documents
+
+More artifacts may be identified as work proceeds.
 
 ### Metadata Definitions and System Configurations
 
@@ -180,17 +151,38 @@ Per the PWS, all non PM documentation will be delivered on the Project Gits in t
 
 In addition, programmer documentation will be generated for _VDM Package_, _MVDM Module_ and _FQS_.
 
-## Credits
-This project builds on the work of many.
+## Formats and Licenses of Deliverables 
 
-Who | Work | In Project Track | Comment
-:--- | --- | :---: | ---
-George Timson<br>Tom Munnecke | FileMan | VDM | The pair who made VISTA
-Nancy Anthracite | Opening up VISTA | &nbsp; | Advocated tirelessly for in-the-open VISTA development
-Rob Tweed | Node/M | Infrastructure | Integrated node.js with VISTA and MUMPS ("nodeVISTA")
-Manu Sporny | JSON-LD | MVDM | Created and promoted the JSON-LD standard
-Kevin Meldrum | VPR RPC | MVDM | Created a JSON-based mechanism for accessing VISTA's patient data 
-Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VISTA for today 
+From PWS 8.2 ...
+
+Artifact | Format(s) | License
+:---: | :--- | :--- 
+Data | CSV if tabular structure; JSON-LD for all other structures. | Creative Commons CC0
+Metadata | JSON-LD | Creative Commons CC0
+Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0
+Code (Software) | Source code, and all dependent code, with full version control history | Apache 2.0
+
+The forms and licenses are in keeping with the requirement that <q>All artifacts and deliverables shall be developed, version-controlled, stored, and delivered on an industry-standard public Github repository (“Project Repository”)</q>.
+
+## Government Furnished Artifacts 
+
+From PWS 3.1 - within 30 days of contract award the Government will provide contractor access to:
+
+  1. Data Dictionary (^DD) extract from at least five current operational VISTAs. These data dictionaries contain no patient data, PHI, or PII (i.e. no sensitive information).
+  2. Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions.13 The metadata does not contain any patient data, PHI, or PII (i.e. no sensitive information).
+  3. Copy of a VISTA with test patients used by VA for internal projects
+  4. Copy of at least one real operational VISTA ("Prod Clone" or “Test VISTA”) which would be kept
+within the NIPRed network, as it will have non de-identified patient data. 
+  5. A VISTA with real but de-identified patient data
+
+In addition, the Project requested that within 30 days of contract award the Government provide access to:
+
+  1. A copy of the latest version of the VPR RPC software and documentation.
+  2. The latest copy of the FileMan namespace spreadsheet.
+  3. A FileMan namespace exclusively for the Project to allow for the creation of Project files and fields in FileMan (VDM, VDMN, etc.)
+  4. Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
+  5. Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
+  6. VA VISTA Sandbox Account with full Linux VM.
 
 
 
