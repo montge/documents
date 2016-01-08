@@ -12,7 +12,7 @@ __What?__
 
 __Where?__
 
-> __All artifacts and deliverables__ shall be developed, version-controlled, stored, and delivered on an industry-standard __public Github__ repository (“Project Repository”). ... The Project Repository shall contain the one and only authoritative version of all artifacts produced under this contract. The government, all necessary stakeholders, and the __public__ shall have full read and download access of all artifacts on the Project Repository at all times --- PWS 1.6.15.1
+> __All artifacts and deliverables__ shall be developed, version-controlled, stored, and delivered on an industry-standard __public Github__ repository (“Project Repository”). ... The Project Repository shall contain the one and only authoritative version of all artifacts produced ... The government, all necessary stakeholders, and the __public__ shall have full read and download access of all artifacts on the Project Repository at all times --- PWS 1.6.15.1
 
 ## Architecture/Components
 
@@ -166,7 +166,7 @@ The forms and licenses are in keeping with the requirement that <q>All artifacts
 
 ## Government Furnished Artifacts 
 
-From PWS 3.1 - within 30 days of contract award the Government will provide contractor access to:
+From PWS 3.1 - within 30 days of Project start the Government will provide access to:
 
   1. Data Dictionary (^DD) extract from at least five current operational VISTAs. These data dictionaries contain no patient data, PHI, or PII (i.e. no sensitive information).
   2. Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions.13 The metadata does not contain any patient data, PHI, or PII (i.e. no sensitive information).
@@ -175,7 +175,7 @@ From PWS 3.1 - within 30 days of contract award the Government will provide cont
 within the NIPRed network, as it will have non de-identified patient data. 
   5. A VISTA with real but de-identified patient data
 
-In addition, the Project requested that within 30 days of contract award the Government provide access to:
+In addition, the Project requested that within 30 days of Project start the Government provide access to:
 
   1. A copy of the latest version of the VPR RPC software and documentation.
   2. The latest copy of the FileMan namespace spreadsheet.
