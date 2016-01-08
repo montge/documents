@@ -4,7 +4,7 @@
 
 __What?__
 
-> __provide a single 
+> __Provide a single 
 > comprehensive security- enabled read/write data model for all VA VISTA data__ 
 > across all VA VISTA operational systems, establishing a common technical foundation
 > for master data management [MDM] and computable data representation and __exchange between 
