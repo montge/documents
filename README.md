@@ -162,7 +162,7 @@ In addition, programmer documentation will be generated for _VDM Package_, _MVDM
 ## Model and Metadata Transformations
 
  Input | Software | Output
-:---: | :--- | --- 
+:--- | :--- | --- 
 Fileman DD 			| DDJLD Maker 	|  dd.jsonld 
 RPC models  				| RPCJLD Maker 	| rpc.jsonld
 VPR RPC models 			| VPR Maker 		|  vpr.jsonld
