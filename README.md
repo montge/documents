@@ -1,18 +1,18 @@
-# VISTA Data Project Overview
+# VISTA Data Project
 
 ## Objective and Method of Delivery
 
 __What?__
 
 > __Provide a single 
-> comprehensive security- enabled read/write data model for all VA VISTA data__ 
+> comprehensive security-enabled read/write data model for all VA VISTA data__ 
 > across all VA VISTA operational systems, establishing a common technical foundation
 > for __master data management__  and computable data representation and __exchange between 
 > VA and DoD clinical information systems__. --- PWS 1.1
 
 __Where?__
 
-> __All artifacts and deliverables__ shall be developed, version-controlled, stored, and delivered on an industry-standard __public Github__ repository (“Project Repository”). ... The Project Repository shall contain the one and only authoritative version of all artifacts produced under this contract. The government, all necessary stakeholders, and the __public__ shall have full read and download access of all artifacts on the Project Repository at all times --- PWS 1.6.15.1
+> __All artifacts and deliverables__ shall be developed, version-controlled, stored, and delivered on an industry-standard __public Github__ repository (“Project Repository”). ... The Project Repository shall contain the one and only authoritative version of all artifacts produced ... The government, all necessary stakeholders, and the __public__ shall have full read and download access of all artifacts on the Project Repository at all times --- PWS 1.6.15.1
 
 ## Architecture/Components
 
@@ -20,7 +20,9 @@ __Where?__
 
 ## Deliverables and Schedule
 
-The Project organizes deliverables in five “tracks” each backed by one or more Gits in the Project Repository.
+###  Tracks
+The Project organizes deliverables in five “tracks” each backed by one or more Gits in the Project Repository. Tracks A through D are the  technical tracks and are sequentially dependent on the completion of each preceeding track. The Project Management (PM) track is a parallel track spanning all the technical tracks.
+
 
 Track | Name | Description | GIT | Tech Deliverables
 :---: | :---: | :--- | :--- | :---:
@@ -30,9 +32,13 @@ C | MVDM | Master VISTA Data Model (MVDM) - definition and implementation of mas
 D | MVDMmap | Mapping MVDM to other models such as FHIR | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | 3
 PM | Project Management | Business/Project Management  | [documents](https://github.com/vistadataproject/documents) | &nbsp;
 
-The following list of deliverables builds on the deliverables list in the Project’s PWS (Section 8.2). Two types of change were made to that list to better distinguish and plan work:
-  * larger deliverables such a #7 were split to highlight incremental delivery
-  * extra deliverables, labeled with _E_ for Extra, were identified to better expose distinct pieces of work that are required by other deliverables. For example, E2 delivers a VDM Package that implements the VDM Model (#7). This parallels the MVDM Module (#11) that implements the MVDM Model (#10).
+### Deliverables
+
+The following list of deliverables builds on the deliverables list in the Project’s PWS (Section 8.2). Two types of change were made to that list to better distinguish and plan work: 
+
+  *  Larger deliverables such a #7 were split to highlight incremental delivery:  
+  *  Extra deliverables, labeled with _E_ for Extra, were identified to better expose distinct pieces of work that are required by other deliverables. For example, E2 delivers a VDM Package that implements the VDM Model (#7). This parallels the MVDM Module (#11) that implements the MVDM Model (#10).
+ 
 
 \# | Track | Name | Schedule | Git | Content(s) | Format(s) | PWS Section | 
 :---: | :---: | :---: | :---: | :---: | :--- | :---: | :--- 
@@ -63,7 +69,7 @@ E2.2 | B | VDM Package | Q1 &#8594; Q4 | [VDM](https://github.com/vistadataproje
 12 | C |  [MVDM] Normalization Reports | Q2 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Documents VDM to MVDM mapping as implemented in Deliverable #11. | Markdown | 5.3.2
 14 | C |  Report on [MVDM] Exposure of older models | Q4 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Describe how older, cruder models could be handled in the MVDM | Markdown | 5.3.2
 28 | C |  Prototype Patient-centric Data Security | Q3 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | First document and then provide a self- contained prototype ("Patient Security Prototype") that shows how PIKS- enabled annotations enable patient-centric secure queries. The prototype will enhance FQS and have an example client | Javascript, Markdown | 5.4.1
-35 | C |  VISTA Application model(s)/Prototype(s) [Tests] | Q2 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | MVDM write back tests (tier 1 through 3), enabled by vdmn.js configurations. Test scenarios for Deliverable #11. | Javascript, Python | 5.4.2
+35 | C |  VISTA Application model(s)/Prototype(s) [Tests] | Q2 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | MVDM write back tests (tier 1 through 3), enabled by mvdm.js configurations. Test scenarios for Deliverable #11. | Javascript, Python | 5.4.2
 36 | C |  Meta-model(s) [VPR] Prototype(s) | Q2 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) | Test code that shows how well the MVDM supports VPR (Read-only) convenience methods - read-only side of #35 | Javascript, Python | 5.4.2
 &nbsp; ||||||
 &nbsp; ||||||
@@ -81,9 +87,10 @@ E2.2 | B | VDM Package | Q1 &#8594; Q4 | [VDM](https://github.com/vistadataproje
 5	| PM |  Quarterly Strategic Communications Message | Quarterly | documents | project progress and feasibility of transition to production | &nbsp; | 5.2
 
 Notes:
-  * 27 technical deliverables (in _VDM_, _MVDM_, _MVDMmap_ aswell as 3 from Infrastructure) are enumerated above.
-  * E1-4 are deliverables required but not explicitly enumerated in the PWS.
-  * Deliverable #’s have gaps. The following PWS deliverables were removed as redundant or out of scope per government determination: 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
+
+  * Enumerated above are 27 technical deliverables within four tracks ( _VDM_, _MVDM_, _MVDMmap_, and _Infrastructure_).
+  * Deliverables E1-4 are required but not explicitly enumerated in the PWS.
+  * Deliverable #’s have gaps. The following PWS deliverables were retired as redundant or out of scope per government determination: 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
   * There is a substantial difference in complexity between read-only and read-write models and implementations. To write anything demands knowledge of rules that go beyond the demands of reading. As a result, both VDM and MVDM models and packages will be delivered in two phases, with read coming first. 
     * VDM "Read" and its package (#7.1 and #E1.1) are due in Q1; Deliverables #8, #15, #18, #19, #25, #33 only require such read-only functionality and are due in Q2
     * MVDM "Read" and its module (#10.1 and #11.1) are due in Q2: Deliverables #28, #36 and all of track D rely only on MVDM ("Read").
@@ -130,7 +137,7 @@ More artifacts may be identified as work proceeds.
 13. | Example Query Clients | Python, Javascript | Example command line clients that show how to use the FQS | 25
 14. | FQS Web Client | Javascript, HTML | Browser based client for using the FQS | 33
 15. | Metadata Cacher	| Javascript | queries (VISTA Application) metadata using VDM Package | 15
-16. | FHIR Translator | Javascript, Translation rules | prototypes showing mapping from VDMN to FHIR | 39
+16. | FHIR Translator | Javascript, Translation rules | prototypes showing mapping from MVDM to FHIR | 39
 17. | Web-based Rules Hub | Javascript, HTML | host for Translation rules | 32
 18. | Document Generators	| Various |	Generators of documentation leveraging common packages such as Sphinx and JSDoc and translators from Markdown to PDF and HTML | E4
 
@@ -151,6 +158,21 @@ Per the PWS, all non PM documentation will be delivered on the Project Gits in t
 
 In addition, programmer documentation will be generated for _VDM Package_, _MVDM Module_ and _FQS_.
 
+
+## Model and Metadata Transformations
+
+ Input | Software | Output
+:--- | :--- | --- 
+Fileman DD 			| DDJLD Maker 	|  dd.jsonld 
+RPC models  				| RPCJLD Maker 	| rpc.jsonld
+VPR RPC models 			| VPR Maker 		|  vpr.jsonld
+dd.jsonld + rpc.jsonld   	| VDM Maker 		| vdm.jsonld  
+vdm.jsonld + vpr.jsonld 	| MVDM Maker 		| mvdm.jsonld
+vdm.jsonld 			| PIKS Generator 	| piks.jsonld
+MVDM 				| MVDMmap 		| FHIR
+Markdown 			| Doc Generator	|  PDF, HTML
+
+
 ## Formats and Licenses of Deliverables 
 
 From PWS 8.2 ...
@@ -166,7 +188,7 @@ The forms and licenses are in keeping with the requirement that <q>All artifacts
 
 ## Government Furnished Artifacts 
 
-From PWS 3.1 - within 30 days of contract award the Government will provide contractor access to:
+From PWS 3.1 - within 30 days of Project start the Government will provide access to:
 
   1. Data Dictionary (^DD) extract from at least five current operational VISTAs. These data dictionaries contain no patient data, PHI, or PII (i.e. no sensitive information).
   2. Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions.13 The metadata does not contain any patient data, PHI, or PII (i.e. no sensitive information).
@@ -175,15 +197,13 @@ From PWS 3.1 - within 30 days of contract award the Government will provide cont
 within the NIPRed network, as it will have non de-identified patient data. 
   5. A VISTA with real but de-identified patient data
 
-In addition, the Project requested that within 30 days of contract award the Government provide access to:
+In addition, the Project requested that within 30 days of Project start the Government provide access to:
 
   1. A copy of the latest version of the VPR RPC software and documentation.
   2. The latest copy of the FileMan namespace spreadsheet.
-  3. A FileMan namespace exclusively for the Project to allow for the creation of Project files and fields in FileMan (VDM, VDMN, etc.)
+  3. A FileMan namespace exclusively for the Project to allow for the creation of Project files and fields in FileMan (VDM, MVDM, etc.)
   4. Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
   5. Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
   6. VA VISTA Sandbox Account with full Linux VM.
-
-
 
 
