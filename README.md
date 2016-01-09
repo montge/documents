@@ -1,4 +1,4 @@
-# VISTA Data Project Overview
+# VISTA Data Project
 
 ## Objective and Method of Delivery
 
@@ -160,13 +160,13 @@ Per the PWS, all non PM documentation will be delivered on the Project Gits in t
 In addition, programmer documentation will be generated for _VDM Package_, _MVDM Module_ and _FQS_.
 
 
-## Summary of Data and Metadata Transformations
+## Model and Metadata Transformations
 
  Input | Software | Output
 :---: | :--- | --- 
 Fileman DD 			| DDJLD Maker 	|  dd.jsonld 
-RPCs  				| RPCJLD Maker 	| rpc.jsonld
-VPR RPCs  			| VPR Maker 		|  vpr.jsonld
+RPC models  				| RPCJLD Maker 	| rpc.jsonld
+VPR RPC models 			| VPR Maker 		|  vpr.jsonld
 dd.jsonld + rpc.jsonld   	| VDM Maker 		| vdm.jsonld  
 vdm.jsonld + vpr.jsonld 	| MVDM Maker 		| mvdm.jsonld
 vdm.jsonld 			| PIKS Generator 	| piks.jsonld
