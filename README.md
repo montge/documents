@@ -1,4 +1,4 @@
-# VISTA Data Project
+# VISTA Meta Data Project
 
 ## Objective and Method of Delivery
 
