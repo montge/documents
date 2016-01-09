@@ -192,7 +192,7 @@ In addition, the Project requested that within 30 days of Project start the Gove
   6. VA VISTA Sandbox Account with full Linux VM.
 
 
-## Summary of Model and Metadata Transformations
+## Model and Metadata Transformations
 
  Input | Software | Output
 :--- | :--- | --- 
