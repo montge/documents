@@ -96,12 +96,12 @@ Notes:
 
 27 Technical Deliverables involve:
   * 8 MetaData Definitions/System Configurations
-  * 18 Software Applications
+  * 18 Software 
   * 6 Documents
 
 More artifacts may be identified as work proceeds.
 
-### Metadata Definitions and System Configurations
+#### Metadata Definitions and System Configurations
 
 \# | Name | Format | Functon | Deliverable(s)
 :---: | :---: | :---: | :--- | :---:
@@ -114,7 +114,7 @@ More artifacts may be identified as work proceeds.
 7. | nodeVISTA Scenarios | GT.M and Cache Databases | VISTA databases for testing and demonstrations | Part of E2.2 Development
 8. | MVDM to FHIR Rules | Rules Format | Translation rules (MVDM to FHIR) | Part of 39
 
-### Software
+#### Software
 
 \# | Name | Language | Function | Deliverable(s) 
 :---: | :---: | :---: | --- | :---: 
@@ -139,7 +139,7 @@ More artifacts may be identified as work proceeds.
 
 Note that _VDM Package_ and _MVDM Module_ are the key software artifacts of the Project. Other software either helps in their development or configuration or illustrates their use.
 
-### Documents/Web Site
+#### Documents/Web Site
 
 Per the PWS, all non PM documentation will be delivered on the Project Gits in the Markdown format.
 
