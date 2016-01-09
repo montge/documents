@@ -158,21 +158,6 @@ Per the PWS, all non PM documentation will be delivered on the Project Gits in t
 
 In addition, programmer documentation will be generated for _VDM Package_, _MVDM Module_ and _FQS_.
 
-
-## Model and Metadata Transformations
-
- Input | Software | Output
-:--- | :--- | --- 
-Fileman DD 			| DDJLD Maker 	|  dd.jsonld 
-RPC models  				| RPCJLD Maker 	| rpc.jsonld
-VPR RPC models 			| VPR Maker 		|  vpr.jsonld
-dd.jsonld + rpc.jsonld   	| VDM Maker 		| vdm.jsonld  
-vdm.jsonld + vpr.jsonld 	| MVDM Maker 		| mvdm.jsonld
-vdm.jsonld 			| PIKS Generator 	| piks.jsonld
-MVDM 				| MVDMmap 		| FHIR
-Markdown 			| Doc Generator	|  PDF, HTML
-
-
 ## Formats and Licenses of Deliverables 
 
 From PWS 8.2 ...
@@ -206,4 +191,17 @@ In addition, the Project requested that within 30 days of Project start the Gove
   5. Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
   6. VA VISTA Sandbox Account with full Linux VM.
 
+
+## Summary of Model and Metadata Transformations
+
+ Input | Software | Output
+:--- | :--- | --- 
+Fileman DD 			| DDJLD Maker 	|  dd.jsonld 
+RPC models  				| RPCJLD Maker 	| rpc.jsonld
+VPR RPC models 			| VPR Maker 		|  vpr.jsonld
+dd.jsonld + rpc.jsonld   	| VDM Maker 		| vdm.jsonld  
+vdm.jsonld + vpr.jsonld 	| MVDM Maker 		| mvdm.jsonld
+vdm.jsonld 			| PIKS Generator 	| piks.jsonld
+MVDM 				| MVDMmap 		| FHIR
+Markdown 			| Doc Generator	|  PDF, HTML
 
