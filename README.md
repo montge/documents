@@ -88,9 +88,10 @@ E2.2 | B | VDM Package | Q1 &#8594; Q4 | [VDM](https://github.com/vistadataproje
 5	| PM |  Quarterly Strategic Communications Message | Quarterly | documents | project progress and feasibility of transition to production | &nbsp; | 5.2
 
 Notes:
-  * 27 technical deliverables (in _VDM_, _MVDM_, _MVDMmap_ aswell as 3 from Infrastructure) are enumerated above.
-  * E1-4 are deliverables required but not explicitly enumerated in the PWS.
-  * Deliverable #’s have gaps. The following PWS deliverables were removed as redundant or out of scope per government determination: 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
+
+  * Enumerated above are 27 technical deliverables within four tracks ( _VDM_, _MVDM_, _MVDMmap_, and _Infrastructure_).
+  * Deliverables E1-4 are required but not explicitly enumerated in the PWS.
+  * Deliverable #’s have gaps. The following PWS deliverables were retired as redundant or out of scope per government determination: 6, 16, 17, 20-24, 26, 27, 29-31, 34, 37, 38
   * There is a substantial difference in complexity between read-only and read-write models and implementations. To write anything demands knowledge of rules that go beyond the demands of reading. As a result, both VDM and MVDM models and packages will be delivered in two phases, with read coming first. 
     * VDM "Read" and its package (#7.1 and #E1.1) are due in Q1; Deliverables #8, #15, #18, #19, #25, #33 only require such read-only functionality and are due in Q2
     * MVDM "Read" and its module (#10.1 and #11.1) are due in Q2: Deliverables #28, #36 and all of track D rely only on MVDM ("Read").
@@ -158,6 +159,21 @@ Per the PWS, all non PM documentation will be delivered on the Project Gits in t
 
 In addition, programmer documentation will be generated for _VDM Package_, _MVDM Module_ and _FQS_.
 
+
+## Summary of Data and Metadata Transformations
+
+ Input | Software | Output
+:---: | :--- | --- 
+Fileman DD 			| DDJLD Maker 	|  dd.jsonld 
+RPCs  				| RPCJLD Maker 	| rpc.jsonld
+VPR RPCs  			| VPR Maker 		|  vpr.jsonld
+dd.jsonld + rpc.jsonld   	| VDM Maker 		| vdm.jsonld  
+vdm.jsonld + vpr.jsonld 	| MVDM Maker 		| mvdm.jsonld
+vdm.jsonld 			| PIKS Generator 	| piks.jsonld
+MVDM 				| MVDMmap 		| FHIR
+Markdown 			| Doc Generator	|  PDF, HTML
+
+
 ## Formats and Licenses of Deliverables 
 
 From PWS 8.2 ...
@@ -192,5 +208,16 @@ In addition, the Project requested that within 30 days of Project start the Gove
   6. VA VISTA Sandbox Account with full Linux VM.
 
 
+## Credits
+This project builds on the work of many.
+
+Who | Work | In Project Track | Comment
+:--- | --- | :---: | ---
+George Timson<br>Tom Munnecke | FileMan | VDM | The pair who made VISTA
+Nancy Anthracite | Opening up VISTA | &nbsp; | Advocated tirelessly for in-the-open VISTA development
+Rob Tweed | Node/M | Infrastructure | Integrated node.js with VISTA and MUMPS ("nodeVISTA")
+Manu Sporny | JSON-LD | MVDM | Created and promoted the JSON-LD standard
+Kevin Meldrum | VPR RPC | MVDM | Created a JSON-based mechanism for accessing VISTA's patient data 
+Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VISTA for today 
 
 
