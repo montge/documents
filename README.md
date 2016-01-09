@@ -181,23 +181,3 @@ Code (Software) | Source code, and all dependent code, with full version control
 
 The forms and licenses are in keeping with the requirement that <q>All artifacts and deliverables shall be developed, version-controlled, stored, and delivered on an industry-standard public Github repository (“Project Repository”)</q>.
 
-## Government Furnished Artifacts 
-
-From PWS 3.1 - within 30 days of Project start the Government will provide access to:
-
-  1. Data Dictionary (^DD) extract from at least five current operational VISTAs. These data dictionaries contain no patient data, PHI, or PII (i.e. no sensitive information).
-  2. Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions.13 The metadata does not contain any patient data, PHI, or PII (i.e. no sensitive information).
-  3. Copy of a VISTA with test patients used by VA for internal projects
-  4. Copy of at least one real operational VISTA ("Prod Clone" or “Test VISTA”) which would be kept
-within the NIPRed network, as it will have non de-identified patient data. 
-  5. A VISTA with real but de-identified patient data
-
-In addition, the Project requested that within 30 days of Project start the Government provide access to:
-
-  1. A copy of the latest version of the VPR RPC software and documentation.
-  2. The latest copy of the FileMan namespace spreadsheet.
-  3. A FileMan namespace exclusively for the Project to allow for the creation of Project files and fields in FileMan (VDM, MVDM, etc.)
-  4. Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
-  5. Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
-  6. VA VISTA Sandbox Account with full Linux VM.
-
