@@ -39,7 +39,6 @@ The following list of deliverables builds on the deliverables list in the Projec
   *  Larger deliverables such a #7 were split to highlight incremental delivery:  
   *  Extra deliverables, labeled with _E_ for Extra, were identified to better expose distinct pieces of work that are required by other deliverables. For example, E2 delivers a VDM Package that implements the VDM Model (#7). This parallels the MVDM Module (#11) that implements the MVDM Model (#10).
  
-__CHANGE PER PMP__
 
 \# | Track | Name | Schedule | Git | Content(s) | Format(s) | PWS Section | 
 :---: | :---: | :---: | :---: | :---: | :--- | :---: | :--- 
@@ -70,7 +69,7 @@ E2.2 | B | VDM Package | Q1 &#8594; Q4 | [VDM](https://github.com/vistadataproje
 12 | C |  [MVDM] Normalization Reports | Q2 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Documents VDM to MVDM mapping as implemented in Deliverable #11. | Markdown | 5.3.2
 14 | C |  Report on [MVDM] Exposure of older models | Q4 | [MVDM](https://github.com/vistadataproject/MVDM) (Wiki) | Describe how older, cruder models could be handled in the MVDM | Markdown | 5.3.2
 28 | C |  Prototype Patient-centric Data Security | Q3 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | First document and then provide a self- contained prototype ("Patient Security Prototype") that shows how PIKS- enabled annotations enable patient-centric secure queries. The prototype will enhance FQS and have an example client | Javascript, Markdown | 5.4.1
-35 | C |  VISTA Application model(s)/Prototype(s) [Tests] | Q2 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | MVDM write back tests (tier 1 through 3), enabled by vdmn.js configurations. Test scenarios for Deliverable #11. | Javascript, Python | 5.4.2
+35 | C |  VISTA Application model(s)/Prototype(s) [Tests] | Q2 &#8594; Q4 | [MVDM](https://github.com/vistadataproject/MVDM) | MVDM write back tests (tier 1 through 3), enabled by mvdm.js configurations. Test scenarios for Deliverable #11. | Javascript, Python | 5.4.2
 36 | C |  Meta-model(s) [VPR] Prototype(s) | Q2 &#8594; Q3 | [MVDM](https://github.com/vistadataproject/MVDM) | Test code that shows how well the MVDM supports VPR (Read-only) convenience methods - read-only side of #35 | Javascript, Python | 5.4.2
 &nbsp; ||||||
 &nbsp; ||||||
@@ -138,7 +137,7 @@ More artifacts may be identified as work proceeds.
 13. | Example Query Clients | Python, Javascript | Example command line clients that show how to use the FQS | 25
 14. | FQS Web Client | Javascript, HTML | Browser based client for using the FQS | 33
 15. | Metadata Cacher	| Javascript | queries (VISTA Application) metadata using VDM Package | 15
-16. | FHIR Translator | Javascript, Translation rules | prototypes showing mapping from VDMN to FHIR | 39
+16. | FHIR Translator | Javascript, Translation rules | prototypes showing mapping from MVDM to FHIR | 39
 17. | Web-based Rules Hub | Javascript, HTML | host for Translation rules | 32
 18. | Document Generators	| Various |	Generators of documentation leveraging common packages such as Sphinx and JSDoc and translators from Markdown to PDF and HTML | E4
 
@@ -202,7 +201,7 @@ In addition, the Project requested that within 30 days of Project start the Gove
 
   1. A copy of the latest version of the VPR RPC software and documentation.
   2. The latest copy of the FileMan namespace spreadsheet.
-  3. A FileMan namespace exclusively for the Project to allow for the creation of Project files and fields in FileMan (VDM, VDMN, etc.)
+  3. A FileMan namespace exclusively for the Project to allow for the creation of Project files and fields in FileMan (VDM, MVDM, etc.)
   4. Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
   5. Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
   6. VA VISTA Sandbox Account with full Linux VM.
