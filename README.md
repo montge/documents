@@ -21,7 +21,7 @@ __Where?__
 ## Deliverables and Schedule
 
 ###  Tracks
-The Project organizes deliverables in five “tracks” each backed by one or more Gits in the Project Repository. Tracks A through D are  technical deliverables and are sequentially dependent on the completion of each preceeding track. The Project Management (PM) track is a parallel and independent track.
+The Project organizes deliverables in five “tracks” each backed by one or more Gits in the Project Repository. Tracks A through D are the  technical tracks and are sequentially dependent on the completion of each preceeding track. The Project Management (PM) track is a parallel track spanning all the technical tracks.
 
 
 Track | Name | Description | GIT | Tech Deliverables
