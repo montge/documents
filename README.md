@@ -38,7 +38,6 @@ In addition to the deliverables listed in the Project’s PWS (Section 8.2), mor
 
 \# | Track | Name | WBS | Git | Content(s) | Format(s) | PWS Section | 
 :---: | :---: | :---: | :---: | :---: | :--- | :---: | :--- 
-&nbsp; ||||||
 1A | PM | Non-disclosure/Non-Use Agreement	| Q1 | &nbsp; | &nbsp; | &nbsp; | 6.1
 1B | PM |  Quality Control Plan [QCP] | Q1 | documents | an effective quality control program |  &nbsp; | 1.6.1
 1C | PM |  Phase-out Migration Plan | Q4 | documents | elaborates the artifacts to be transitioned on the Project Repository, and a schedule for transition completion |  &nbsp; | 1.6.17
