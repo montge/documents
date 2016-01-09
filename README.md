@@ -34,11 +34,7 @@ PM | Project Management | Business/Project Management  | [documents](https://git
 
 ### Deliverables
 
-The following list of deliverables builds on the deliverables list in the Project’s PWS (Section 8.2). Two types of change were made to that list to better distinguish and plan work: 
-
-  *  Larger deliverables such a #7 were split to highlight incremental delivery:  
-  *  Extra deliverables, labeled with _E_ for Extra, were identified to better expose distinct pieces of work that are required by other deliverables. For example, E2 delivers a VDM Package that implements the VDM Model (#7). This parallels the MVDM Module (#11) that implements the MVDM Model (#10).
- 
+In addition to the deliverables listed in the Project’s PWS (Section 8.2), more deliverables were identified for planning purposes. Such deliverables have been identified with a prefix of “E”. Deliverables 7, 10, and 11 were divided and designated .1 and .2 for VDM and MVDM, respectively.
 
 \# | Track | Name | Schedule | Git | Content(s) | Format(s) | PWS Section | 
 :---: | :---: | :---: | :---: | :---: | :--- | :---: | :--- 
@@ -158,6 +154,19 @@ Per the PWS, all non PM documentation will be delivered on the Project Gits in t
 
 In addition, programmer documentation will be generated for _VDM Package_, _MVDM Module_ and _FQS_.
 
+#### Model and Metadata Transformations
+
+ Input | Software | Output
+:--- | :--- | --- 
+Fileman DD 			| DDJLD Maker 	|  dd.jsonld 
+RPC models  				| RPCJLD Maker 	| rpc.jsonld
+VPR RPC models 			| VPR Maker 		|  vpr.jsonld
+dd.jsonld + rpc.jsonld   	| VDM Maker 		| vdm.jsonld  
+vdm.jsonld + vpr.jsonld 	| MVDM Maker 		| mvdm.jsonld
+vdm.jsonld 			| PIKS Generator 	| piks.jsonld
+MVDM 				| MVDMmap 		| FHIR
+Markdown 			| Doc Generator	|  PDF, HTML
+
 ## Formats and Licenses of Deliverables 
 
 From PWS 8.2 ...
@@ -190,18 +199,4 @@ In addition, the Project requested that within 30 days of Project start the Gove
   4. Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
   5. Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
   6. VA VISTA Sandbox Account with full Linux VM.
-
-
-## Model and Metadata Transformations
-
- Input | Software | Output
-:--- | :--- | --- 
-Fileman DD 			| DDJLD Maker 	|  dd.jsonld 
-RPC models  				| RPCJLD Maker 	| rpc.jsonld
-VPR RPC models 			| VPR Maker 		|  vpr.jsonld
-dd.jsonld + rpc.jsonld   	| VDM Maker 		| vdm.jsonld  
-vdm.jsonld + vpr.jsonld 	| MVDM Maker 		| mvdm.jsonld
-vdm.jsonld 			| PIKS Generator 	| piks.jsonld
-MVDM 				| MVDMmap 		| FHIR
-Markdown 			| Doc Generator	|  PDF, HTML
 
