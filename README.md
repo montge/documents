@@ -32,7 +32,8 @@ PM | Project Management | Business/Project Management  | [documents](https://git
 
 In addition to the deliverables listed in the Project's PWS (section 8.2), additional deliverables were added to better distinguish and plan work:
   * larger deliverables such a #7 were split to highlight incremental delivery
-  * extra deliverables, labeled with _E_ for Extra, were identified to better expose distinct pieces of work that are required by other deliverables. For example, E2 delivers a VDM Package that implements the VDM Model (#7). This parallels the MVDM Module (#11) that implements the MVDM Model (#10).
+  * extra deliverables, labeled with _E_ for Extra, were identified to better expose distinct pieces of work that are required by other deliverables. 
+__CHANGE PER PMP__
 
 \# | Track | Name | Schedule | Git | Content(s) | Format(s) | PWS Section | 
 :---: | :---: | :---: | :---: | :---: | :--- | :---: | :--- 
