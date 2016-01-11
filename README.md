@@ -36,7 +36,7 @@ PM | Project Management | Business/Project Management  | [documents](https://git
 
 In addition to the deliverables listed in the Project’s PWS (Section 8.2), more deliverables were identified for planning purposes. Such deliverables have been identified with a prefix of “E”. Deliverables 7, 10, and 11 were divided and designated .1 and .2 for VDM and MVDM, respectively.
 
-| Track | Name | WBS | Git | Content(s) | Format(s) | PWS Section | PWS# 
+Track | Name | WBS | Git | Content(s) | Format(s) | PWS Section | PWS# 
 :---: | :---: | :---: | :---: | :---: | :--- | :---: | :--- 
 PM | Non-disclosure/Non-Use Agreement	| Q1 | &nbsp; | &nbsp; | &nbsp;  | 6.1 |1A 
 PM |  Quality Control Plan [QCP] | Q1 | documents | an effective quality control program |  &nbsp; | 1.6.1 | 1B
