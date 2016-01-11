@@ -1,0 +1,53 @@
+Track,Name,WBS,Git,Content(s),Format(s),PWS Section,PWS#
+PM,Non-disclosure/Non-Use Agreement,Q1, , , ,6.1,1A
+PM,Quality Control Plan [QCP],Q1,documents,an effective quality control program, ,1.6.1,1B
+PM,Phase-out Migration Plan,Q4,documents,"elaborates the artifacts to be transitioned on the Project Repository, and a schedule for transition completion", ,1.6.17,1C
+PM,Program Management Plan (PMP),Q1,documents,"strategy to accomplish the tasks and include the risk, quality and technical management approach, work breakdown structure (WBS), schedule management approach, schedule, cost requirements, and proposed staffing", ,5.2,2
+PM,Program Schedule and Monthly Updates,Monthly,documents,"schedule, updated monthly", ,5.2,3
+PM,Monthly Progress Report,Monthly, ,includes project status and financial management reporting, ,5.2,4
+PM,Quarterly Strategic Communications Message,Quarterly,documents,project progress and feasibility of transition to production, ,5.2,5
+ ,,,,,,,
+ ,,,,,,,
+A,Artifact Repository,Q1, ,Project Gits, ,8.2,1AA
+A,Website,Q1 → Q4,Website,"website, infographics to showcase the contents of the VDM and MVDM Subset","HTML, Javascript (d3.js)",5.3.2,13
+A,FileMan TEST VISTA [“nodeVISTA”],Q1 → Q4,nodeVISTA,a test VISTA (“nodeVISTA”) that hosts different test datasets (“nodeVISTA Scenarios”),"VISTA System, Vagrant", ,E3
+A,Document Generators,Q1 → Q3,documents,Programmer documentation will be generated using tools such as Sphinx (http://sphinx-doc.org/) and JSDoc (http://usejsdoc.org/). Important Markdown-formatted documents need to be translated into PDF and HTML,Various, ,E4
+ ,,,,,,,
+ ,,,,,,,
+B,Machine Processable VISTA Data Model (VDM) “Read Only”,Q1,VDM,"vdm.jsonld, the native VISTA data model in JSON-LD based on one or more dd.jsonld's.
+
+VDM Maker, a program that creates vdm.jsonld from dd.jsonld's.
+
+This version will support query/read (“VDM (read)”).","JSON-LD, Python, Javascript",5.3.1,7.1
+B,Machine Processable VISTA Data Model (VDM),Q2 → Q4,VDM,"vdm.jsonld, enhanced by write-data in _dd.jsonld_s and rpc.jsonld.
+
+VDM Maker must process more information from dd.jsonld's and process rpc.jsonld.","JSON-LD, Python, Javascript",5.3.1,7.2
+B,"Date-stamped FileMan Data Model Implementations (Definitions) (cross refs, triggers ...)",Q1 → Q2,VDM,"dd.jsonld, a data dictionary captured in JSON-LD
+
+DDJLD Maker, a program that caches and interprets the dictionaries from VISTAs in JSON-LD form. MUMPS code reduction will be needed for write-back support","JSON-LD, Python, Javascript",5.3.1,8
+B,RPC Model,Q1 → Q3,"VDM, nodeVISTA","formal definition of the model implicit in “write-back RPCs”, rpc.jsonld. Required for write support in vdm.jsonld (#7.2/#E2.2). Created with RPCJLD Maker. It may encompass VISTA Options (file 101) too","JSON-LD, Python", ,E1
+B,VDM Package “Read-only”,Q1,VDM,a package that implements the VDM inside a VISTA. It will allow any FileMan data to be queried according to the VDM.,"Javascript (node.js), MUMPS (KIDS)", ,E2.1
+B,VDM Package,Q1 → Q4,"VDM, nodeVISTA","Will add support for creating, updating and deleting (full CRUD) VISTA Data enabled by a write-back supporting VDM (#7.2). Initial write-back testing (in Q1) will be directly against nodeVISTA (“nodeVISTA Commands”)","Javascript (node.js), MUMPS (KIDS)", ,E2.2
+B,(Document) Approach to “Live VDM” Maintenance of Current State,Q4,VDM (Wiki),"In a wiki page, describe ways in which dd.jsonld definitions and hence vdm.jsonld could keep pace with changes in VISTAs",Markdown,5.3.1,9
+B,"Date Stamped (Application) Meta Data for lab, surgery and other applications",Q2,VDM,Metadata Cacher that queries meta-data using VDM package (Read),"Python, JSON-LD",5.3.3,15
+B,Machine-processable [PIKS] Annotations,Q2,VDM,Distinguish patient data from other types of VISTA data in a formal definition piks.jsonld. A VDM PIKS definition enables MVDM PIKS which in turn enables patient-centric security (#28),JSON-LD,5.3.4,18
+B,Software code [for PIKS],Q2,VDM,PIKS Annotation Generator. Relies on VDM Package (Read) to create a piks.jsonld,Python,5.3.4,19
+B,Prototype query access to VISTA Data against VDM [“FQS”],Q2,VDM,Example Query clients that query (read-only) nodeVISTA using a REST-based FileMan Query Service (FQS) implemented over VDM Package (Read),"Javascript, Python, JSON-LD",5.4.1,25
+B,Prototype Web-Based Query Interface to FileMan [VDM] Data,Q2 → Q3,VDM,FQS Web Client for using VDM Package (Read),Javascript,5.4.1,33
+,,,,,,, 
+,,,,,,, 
+C,Master VISTA Data Model (MVDM) “Read-only”,Q1 → Q2,MVDM,"mvdm.jsonld, a formal “MVDM Subset” definition with much of the scope of the VPR RPC which must be formally captured in vpr.jsonld.",JSON-LD,5.3.2,10.1
+C,Master VISTA Data Model (MVDM),Q2 → Q4,MVDM,full CRUD support rounded out for mvdm.jsonld.,JSON-LD,5.3.2,10.2
+C,[MVDM over VDM] Heuristic (mapping) code “Read-only” [_MVDM Module_],Q2,MVDM,mapping tables and rules implemented in a MVDM module that delivers a read-only version of MVDM over the VDM Package “Read-only”.,"Javascript (node.js), JSON",5.3.2,11.1
+C,[MVDM over VDM] Heuristic (mapping) code [_MVDM Module_],Q3 → Q4,MVDM,full CRUD support added to MVDM Module (Read).,"Javascript (node.js), JSON",5.3.2,11.2
+C,[MVDM] Normalization Reports,Q2 → Q4,MVDM (Wiki),Documents VDM to MVDM mapping as implemented in Deliverable #11.,Markdown,5.3.2,12
+C,Report on [MVDM] Exposure of older models,Q4,MVDM (Wiki),"Describe how older, cruder models could be handled in the MVDM",Markdown,5.3.2,14
+C,Prototype Patient-centric Data Security,Q3 → Q4,MVDM,First document and then provide a self- contained prototype (“Patient Security Prototype”) that shows how PIKS- enabled annotations enable patient-centric secure queries. The prototype will enhance FQS and have an example client,"Javascript, Markdown",5.4.1,28
+C,VISTA Application model(s)/Prototype(s) [Tests],Q2 → Q4,MVDM,"MVDM write back tests (tier 1 through 3), enabled by mvdm.js configurations. Test scenarios for Deliverable #11.","Javascript, Python",5.4.2,35
+C,Meta-model(s) [VPR] Prototype(s),Q2 → Q3,MVDM,Test code that shows how well the MVDM supports VPR (Read-only) convenience methods - read-only side of #35,"Javascript, Python",5.4.2,36
+,,,,,,, 
+,,,,,,, 
+D,Prototype Web-based Rules Hub,Q3,MVDMmap,"Prototype a sharable, crowd source-able mechanism to exchange and grow a library of open, standards-based, validated, and exchangeable transformation rules",Web-based interface,5.4.1,32
+D,Reference model(s)/Prototype(s) [“FHIR Translator”],Q3 → Q4,MVDMmap,Prototypes that demonstrate mapping from MVDM to FHIR,Javascript and/or other translation rules languages,5.4.2,39
+D,Document VISTA-ese vs. FHIR,Q3 → Q4,MVDMmap,Human-readable mapping descriptions,Markdown,5.4.2,40
+ ,,,,,,,
