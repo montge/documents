@@ -5,8 +5,7 @@ This project builds on the work of many.
 
 Who | Work | In Project Track  | Comment
 :--- | --- | :---: | ---
-[George Timson] and <br>Tom Munnecke | [VA FileMan](https://en.wikipedia.org/wiki/FileMan) | [VDM](https://github.com/vistadataproject/VDM
-) | The pair who concieved and built VISTA on a metadata-driven architecture
+[George Timson] and <br>Tom Munnecke | [VA FileMan](https://en.wikipedia.org/wiki/FileMan) | [VDM](https://github.com/vistadataproject/VDM) | The pair who concieved and built VISTA on a metadata-driven architecture
 Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | &nbsp;  | Advocated tirelessly for in-the-open VISTA development
 David Wicksell and <br>Rob tweed | Node/M | Infrastructure | Integrated node.js with VISTA and MUMPS ("nodeVISTA")
 Manu Sporny | [JSON-LD](http://json-ld.org/) | MVDM |  Created and promoted the JSON-LD standard
