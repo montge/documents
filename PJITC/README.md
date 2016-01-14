@@ -10,6 +10,15 @@ Located in Kihei, HI, the Pacific JITC’s Integrated Test and Evaluation Center
 
 The ITEC provides the infrastructure to support projects focused on piloting, prototyping, and proof of concept to refine requirements. This allows the customer to focus efforts on the applications rather than the necessary IT infrastructure/environment. Providing a rapidly deployable, least constrictive, yet secure, environment, the ITEC is capable of being the compute resource for both short- and long-term projects.
 
+
+Links:
+* [Website](http://www.health.mil/About-MHS/Defense-Health-Agency/Health-IT/Health-IT-Innovation-and-Advanced-Technology-Development/Pacific-Joint-Information-Technology-Center)
+* [Fact Sheet](https://github.com/vistadataproject/documents/blob/master/PJITC/PJITC-Overview-HIT_Research-Jan2015.pdf)
+* [Services](http://deploytech.dhhq.health.mil/pacificjitc/services.aspx)
+* [Support Areas](http://www.health.mil/Military-Health-Topics/Technology/Support-Areas/Health-IT-Research-and-Innovation/Joint-Integrated-Test-and-Evaluation-Center)
+
+
+
 ITEC Resources and Services, include, but are not limited to the following:
 
 Computing Resources
@@ -67,12 +76,5 @@ Security
     Customer environments logically isolated
     Environments secured behind firewall
     Remote access through IPSEC encrypted VPN
-
-
-Links:
-* [Website](http://www.health.mil/About-MHS/Defense-Health-Agency/Health-IT/Health-IT-Innovation-and-Advanced-Technology-Development/Pacific-Joint-Information-Technology-Center)
-* [Fact Sheet](https://github.com/vistadataproject/documents/blob/master/PJITC/PJITC-Overview-HIT_Research-Jan2015.pdf)
-* [Services](http://deploytech.dhhq.health.mil/pacificjitc/services.aspx)
-* [Support Areas](http://www.health.mil/Military-Health-Topics/Technology/Support-Areas/Health-IT-Research-and-Innovation/Joint-Integrated-Test-and-Evaluation-Center)
 
 
