@@ -1,18 +1,10 @@
 ### Pacific Joint Information Technology Center
 
-The Pacific JITC is the Military Health System's (MHS's) research center for joint concept technology development, prototyping, and piloting of IM/IT products and services to support the Department of Defense (DoD) medical readiness requirements and IT modernization needs across the medical continuum of care. The Pacific JITC is composed of two major components: The Integrated Test and Evaluation Center (ITEC), and the Biotechnology Hui. See below for details about each component.
-
-Based in Hawaii, the mission of Pacific JITC is to rapidly research, test and develop warfighter medical solutions and products through pilots or prototypes that provide mission critical value and actionable information to the DoD, including the Services, Combatant Commanders, and the Department of Veterans Affairs (VA).
-
-Pacific JITC provides services for early-stage (pre-Milestone B) IM/IT development. This early piloting allows the MHS to be agile and flexible in determining what IT solution is best, most cost effective and acceptable to the functional community before a major acquisition is launched. >>Read more about Pacific JITC's offerings
-
-Pacific JITC falls under the administrative purview of the Health IT Directorate's Innovation and Advanced Technology Development (IATD) Division. 
+The Pacific JITC is the Military Health System's (MHS's) research center for joint concept technology development, prototyping, and piloting of IM/IT products and services to support the Department of Defense (DoD) medical readiness requirements and IT modernization needs across the medical continuum of care. The Pacific JITC is composed of two major components: The Integrated Test and Evaluation Center (ITEC), and the Biotechnology Hui.    Based in Hawaii, the mission of Pacific JITC is to rapidly research, test and develop warfighter medical solutions and products through pilots or prototypes that provide mission critical value and actionable information to the DoD, including the Services, Combatant Commanders, and the Department of Veterans Affairs (VA).
 
 ### Pacific JITC’s Integrated Test and Evaluation Center
 
-Located in Kihei, HI, the Pacific JITC’s Integrated Test and Evaluation Center (ITEC) is the first DoD/VA integrated lab to virtualize critical legacy systems. This center provides an agile computing environment that supports military health and interagency research & development, testing, and evaluation missions.
-
-The ITEC provides the infrastructure to support projects focused on piloting, prototyping, and proof of concept to refine requirements, as well as early analysis of commercial off-the-shelf (COTS) products considered for entry into the MHS production environment. This allows the customer to focus efforts on the applications rather than the necessary IT infrastructure/environment. Providing a rapidly deployable, least constrictive, yet secure, environment, the ITEC is capable of being the compute resource for both short- and long-term projects.
+Located in Kihei, HI, the Pacific JITC’s Integrated Test and Evaluation Center (ITEC) is the first DoD/VA integrated lab to virtualize mission-critical enterprise systems. This center provides an agile computing environment that supports military health and interagency research & development, testing, and evaluation missions.  The ITEC provides the infrastructure to support projects focused on piloting, prototyping, and proof of concept to refine requirements. This allows the customer to focus efforts on the applications rather than the necessary IT infrastructure/environment. Providing a rapidly deployable, least constrictive, yet secure, environment, the ITEC is capable of being the compute resource for both short- and long-term projects.
 
 ITEC Resources and Services, include, but are not limited to the following:
 
