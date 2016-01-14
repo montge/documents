@@ -2,7 +2,7 @@
 
 As presently stated in the PWS, within 30 days of contract award the Government will provide access to:
 
-#### VISTA Versions
+#### VISTA Versions / Components
 
 VISTA | PHI | Notes
 --- |--- | ---
@@ -15,7 +15,7 @@ VISTA: <br>Production | YES | Copy of at least one real operational VISTA ("Prod
 
 In addition, the Project requests the additional GFE and GFI be provided within 30 days of contract award to successfully execute the Project:
 
-#### VISTA Dependencies / Components
+#### VISTA Dependencies
 
 Item | Notes
 ---- | ----
