@@ -1,4 +1,4 @@
-The Project understands that the GFE and GFI set forth in the PWS will be provided to the Team in a timely manner to ensure successfully completion of the Project. As presently stated in the PWS, within 30 days of contract award the Government will provide contractor access to:
+As presently stated in the PWS, within 30 days of contract award the Government will provide access to:
   1. Data Dictionary (DD) extracts from at least five current operational VISTA systems. These data dictionaries contain no patient data, PHI, or PII (i.e., no sensitive information).
   2. Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions. The metadata does not contain any patient data, PHI, or PII (i.e., no sensitive information).
   3. Copy of a VISTA with test patients used by VA for internal projects.
