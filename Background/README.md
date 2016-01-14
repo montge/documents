@@ -7,8 +7,8 @@ Who | Work | In Project Track  | Comment
 :--- | --- | :---: | ---
 [George Timson] and <br>Tom Munnecke | [VA FileMan](https://en.wikipedia.org/wiki/FileMan) | [VDM](https://github.com/vistadataproject/VDM) | The pair who concieved and built VISTA on a metadata-driven architecture
 Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | &nbsp;  | Advocated tirelessly for in-the-open VISTA development
-David Wicksell and <br>Rob tweed | Node/M | Infrastructure | Integrated node.js with VISTA and MUMPS ("nodeVISTA")
-Manu Sporny | [JSON-LD](http://json-ld.org/) | [MVDM](https://github.com/vistadataproject/MVDM) |  Created and promoted the JSON-LD standard
+David Wicksell and <br>Rob tweed | Node/M | Infrastructure | Integrated node.js with VISTA and MUMPS
+Manu Sporny | [JSON-LD](http://json-ld.org/) | [nodeVISTA](https://github.com/vistadataproject/nodeVISTA) |  Created and promoted the JSON-LD standard
 Kevin Meldrum | [VA's Virtual Patient Record (VPR)](http://www.va.gov/vdl/application.asp?appid=197) | [MVDM](https://github.com/vistadataproject/MVDM) |  Created a JSON-based mechanism for accessing VISTA's patient data 
 Chris Edwards | [Vagrant Installer for VISTA](https://www.osehra.org/blog/automated-vista-installation-and-testing-using-vagrant) | Infrastructure | Automated installation of VISTA environemnt
 
