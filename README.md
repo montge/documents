@@ -16,8 +16,6 @@ __Where?__
 
 ## Architecture/Components
 
-![SKS Pieces Diagram](/images/vdp-overview5?raw=true)
-
 ![VDP Components Diagram](https://github.com/vistadataproject/documents/blob/master/images/vdp-overview5.png)
 
 
