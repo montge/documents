@@ -16,7 +16,7 @@ __Where?__
 
 ## Architecture/Components
 
-![SKS Pieces Diagram](/images/vdpComponents.png?raw=true)
+![SKS Pieces Diagram](/images/vdp-overview5?raw=true)
 
 ## Deliverables and Schedule
 
