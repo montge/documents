@@ -4,11 +4,11 @@ As presently stated in the PWS, within 30 days of contract award the Government 
 
 Item | Notes
 --- |---
-  1. Data Dictionary (DD) extracts from at least five current operational VISTA systems. | These data dictionaries contain no patient data, PHI, or PII (i.e., no sensitive information).
-  2. Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. | Metadata from this must be complete and without any alterations or redactions. The metadata does not contain any patient data, PHI, or PII (i.e., no sensitive information).
-  3. Copy of a VISTA with test patients used by VA for internal projects. | 
-  4. Copy of at least one real operational VISTA ("Prod Clone" or “Test VISTA”)  | Thi will be kept within the NIPR network, as it will have non de-identified patient data.
-  5. A VISTA with real but de-identified patient data. | 
+  1. Data Dictionary (DD)  | Data Dictionary (DD) extracts from at least five current operational VISTA systems. These data dictionaries contain no patient data, PHI, or PII (i.e., no sensitive information).
+  2. Master |  Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions. The metadata does not contain any patient data, PHI, or PII (i.e., no sensitive information).
+  3. Test Patients | Copy of a VISTA with test patients used by VA for internal projects.
+  4. Production Clone | Copy of at least one real operational VISTA ("Prod Clone" or “Test VISTA”). This will be kept within the NIPR network, as it will have non de-identified patient data.
+  5. De-identified | A VISTA with real but de-identified patient data. 
 
 In addition, the Project requests the additional GFE and GFI be provided within 30 days of contract award to successfully execute the Project:
   1. A copy of the latest version of the VPR RPC software and documentation.
