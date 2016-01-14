@@ -26,3 +26,5 @@ Fileman
 VISTA
 * https://en.wikipedia.org/wiki/VistA
 * http://www.hardhats.org/index.html
+* http://nist.gov/healthcare/upload/NIST-Siegel-PART-1.pdf
+
