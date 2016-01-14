@@ -16,7 +16,7 @@ __Where?__
 
 ## Architecture/Components
 
-![VDP Components Diagram](https://github.com/vistadataproject/documents/blob/master/images/vdp-overview5.png)
+![VDP Components Diagram](https://github.com/vistadataproject/documents/blob/master/images/vdp-component2.png)
 
 
 ## Deliverables and Schedule
