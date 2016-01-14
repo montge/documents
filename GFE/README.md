@@ -2,6 +2,8 @@
 
 As presently stated in the PWS, within 30 days of contract award the Government will provide access to:
 
+#### VISTA Versions or Components
+
 VISTA<br>(Version or Component) | PHI | Notes
 --- |--- | ---
 Data Dictionary (DD) Extracts  | NO | Data Dictionary (DD) extracts from at least five current operational VISTA systems. These data dictionaries contain no patient data, PHI, or PII (i.e., no sensitive information).
@@ -12,6 +14,8 @@ Production Clone | YES | Copy of at least one real operational VISTA ("Productio
 
 
 In addition, the Project requests the additional GFE and GFI be provided within 30 days of contract award to successfully execute the Project:
+
+#### Other Items
 
 Item | Notes
 ---- | ----
