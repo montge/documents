@@ -26,11 +26,11 @@ The PJITC ITEC provides a number of security options:
     NIPRNET
     Classified capable*
 
-    
-DISA: http://disa.mil/Network-Services/Data
-NIPRNET:  https://en.wikipedia.org/wiki/NIPRNet
-NIPRNET vs SIPRNET: http://www.differencebetween.net/technology/protocols-formats/differences-between-niprnet-and-siprnet/
-Sensitive but Unclassified IP Data: http://disa.mil/Network-Services/Data/SBU-IP#Section2
+Security Links:
+* DISA: http://disa.mil/Network-Services/Data
+* NIPRNET:  https://en.wikipedia.org/wiki/NIPRNet
+* NIPRNET vs SIPRNET: http://www.differencebetween.net/technology/protocols-formats/differences-between-niprnet-and-siprnet/
+* Sensitive but Unclassified IP Data: http://disa.mil/Network-Services/Data/SBU-IP#Section2
 
 
 SBU IP Data provides point-to-point connectivity to DISA mission partners. This unclassified IP data service for internet connectivity and information transfer supports Department of Defense (DoD) applications such as e-mail, web services, and file transfer. The SBU IP Data service also provides DoD customers with centralized and protected access to the public internet. NIPRNet provides support to SBU IP Data telecommunication services for combat support applications to the DoD, Joint Chiefs of Staff (JCS), Military Departments (MILDEPS), Combatant Commands (COCOM), and senior leadership. It provides seamless, interoperable, common user IP services to customers with access data rates ranging from 56 kilobits per second (Kbps) to 2.4 gigabits per second (Gbps) via direct connections to a NIPRNet router, and services to the Tactical community via Integrated Tactical-Strategic Data Network /Standard Tactical Entry Point (ITSDN/STEP) sites. It also provides access to the internet through controlled Internet Access Points.
