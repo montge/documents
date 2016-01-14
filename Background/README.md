@@ -5,12 +5,12 @@ This project builds on the work of many.
 
 Who | Work | In Project Track  | Comment
 :--- | --- | :---: | ---
-[George Timson](* http://www.hardhats.org/fileman/FMmain.html) and <br>[Tom Munnecke](http://munnecke.com/blog/?cat=120) | FileMan | VDM | | The pair who concieved and built VISTA on a metadata-driven architecture
-[Nancy Anthracite](http://worldvista.org/WorldVistA/Executive_Team) | Opening up VISTA | &nbsp; |  | Advocated tirelessly for in-the-open VISTA development
-[David Wicksell](https://github.com/dlwicksell/nodem) and <br>[Rob tweed](https://github.com/robtweed/node-mdb) | Node/M | Infrastructure | | Integrated node.js with VISTA and MUMPS ("nodeVISTA")
+[George Timson](* http://www.hardhats.org/fileman/FMmain.html) and <br>[Tom Munnecke](http://munnecke.com/blog/?cat=120) | FileMan | VDM | The pair who concieved and built VISTA on a metadata-driven architecture
+[Nancy Anthracite](http://worldvista.org/WorldVistA/Executive_Team) | Opening up VISTA | &nbsp;  | Advocated tirelessly for in-the-open VISTA development
+[David Wicksell](https://github.com/dlwicksell/nodem) and <br>[Rob tweed](https://github.com/robtweed/node-mdb) | Node/M | Infrastructure | Integrated node.js with VISTA and MUMPS ("nodeVISTA")
 Manu Sporny | [JSON-LD](http://json-ld.org/) | MVDM |  | Created and promoted the JSON-LD standard
-Kevin Meldrum | VPR RPC | MVDM |  | Created a JSON-based mechanism for accessing VISTA's patient data 
-Chris Edwards | Vagrant Installer for VISTA | Infrastructure |  | Packaged VISTA for today 
+Kevin Meldrum | VPR RPC | MVDM |  Created a JSON-based mechanism for accessing VISTA's patient data 
+Chris Edwards | Vagrant Installer for VISTA | Infrastructure | Packaged VISTA for today 
 
 
 ## Links
