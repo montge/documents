@@ -6,7 +6,7 @@ As presently stated in the PWS, within 30 days of contract award the Government 
 
 VISTA | PHI | Notes
 --- |--- | ---
-VISTA: DD Extracts  | NO | Data Dictionary (DD) extracts from at least five current operational VISTA systems. These data dictionaries contain no patient data, PHI, or PII (i.e., no sensitive information).
+VISTA: <br>DD Extracts  | NO | Data Dictionary (DD) extracts from at least five current operational VISTA systems. These data dictionaries contain no patient data, PHI, or PII (i.e., no sensitive information).
 VISTA: Master | NO | Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions. The metadata does not contain any patient data, PHI, or PII (i.e., no sensitive information).
 VISTA: Test Patients | NO | Copy of a VISTA with test patients used by VA for internal projects.
 VISTA: De-identified | NO | A VISTA with real but de-identified patient data. 
