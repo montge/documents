@@ -20,8 +20,8 @@ In addition, the Project requests the additional GFE and GFI be provided within 
 Item | Notes
 ---- | ----
 VPR RPC | A copy of the latest version of the VPR RPC software and documentation.
-Namespaces table | The latest copy of the FileMan namespace spreadsheet.
-New namespace | A FileMan namespace exclusively for the Team to allow for the creation of Project files and fields in FileMan.
+Fileman Namespaces Listing | The latest copy of the FileMan namespace spreadsheet.
+New Fileman Namespace | A FileMan namespace exclusively for the Team to allow for the creation of Project files and fields in FileMan.
 Integration Agreements | Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
 Cache Licenses | Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
 Sandbox account | VA VISTA Sandbox Account with full Linux VM.
