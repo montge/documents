@@ -11,7 +11,9 @@ Item | Notes
   De-identified | A VISTA with real but de-identified patient data. 
 
 In addition, the Project requests the additional GFE and GFI be provided within 30 days of contract award to successfully execute the Project:
+
 Item | Notes
+---- | ----
 VPR RPC | A copy of the latest version of the VPR RPC software and documentation.
 Fileman namespaces | The latest copy of the FileMan namespace spreadsheet.
 New namespace | A FileMan namespace exclusively for the Team to allow for the creation of Project files and fields in FileMan.
