@@ -9,8 +9,8 @@ George Timson and <br>Tom Munnecke | [FileMan](https://en.wikipedia.org/wiki/Fil
 Kevin Meldrum | [Virtual Patient Record (VPR)](http://www.va.gov/vdl/application.asp?appid=197) | [MVDM](https://github.com/vistadataproject/MVDM) |  Created a JSON-based mechanism for accessing VISTA's patient data 
 Manu Sporny | [JSON-LD](http://json-ld.org/) | [MVDM](https://github.com/vistadataproject/MVDM)  |  Created and promoted the JSON-LD standard
 David Wicksell and <br>Rob tweed | Node/M | Infrastructure <br>[nodeVISTA](https://github.com/vistadataproject/nodeVISTA) | Integrated node.js with VISTA and MUMPS
-Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | &nbsp;  | Advocated tirelessly for in-the-open VISTA development
 Chris Edwards | [Vagrant Installer for VISTA](https://www.osehra.org/blog/automated-vista-installation-and-testing-using-vagrant) | Infrastructure | Automated installation of VISTA environemnt
+Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | &nbsp;  | Advocated tirelessly for in-the-open VISTA development
 
 ## Links
 
