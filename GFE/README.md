@@ -3,7 +3,7 @@
 As presently stated in the PWS, within 30 days of contract award the Government will provide access to:
 
 Item | PHI | Notes
---- |---
+--- |--- | ---
 VISTA Data Dictionary (DD) Extracts  | NO | Data Dictionary (DD) extracts from at least five current operational VISTA systems. These data dictionaries contain no patient data, PHI, or PII (i.e., no sensitive information).
 VISTA (Master) | NO | Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions. The metadata does not contain any patient data, PHI, or PII (i.e., no sensitive information).
 VISTA (Test Patients) | NO | Copy of a VISTA with test patients used by VA for internal projects.
