@@ -2,20 +2,20 @@
 
 As presently stated in the PWS, within 30 days of contract award the Government will provide access to:
 
-#### VISTA Versions or Components
+#### VISTA Versions
 
 VISTA | PHI | Notes
 --- |--- | ---
 Data Dictionary (DD) Extracts  | NO | Data Dictionary (DD) extracts from at least five current operational VISTA systems. These data dictionaries contain no patient data, PHI, or PII (i.e., no sensitive information).
-Master | NO | Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions. The metadata does not contain any patient data, PHI, or PII (i.e., no sensitive information).
-Test Patients | NO | Copy of a VISTA with test patients used by VA for internal projects.
-De-identified | NO | A VISTA with real but de-identified patient data. 
-Production Clone | YES | Copy of at least one real operational VISTA ("Production Clone" or “Test VISTA”). This will be kept within the NIPR network, as it will have non de-identified patient data.
+VISTA: Master | NO | Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions. The metadata does not contain any patient data, PHI, or PII (i.e., no sensitive information).
+VISTA: Test Patients | NO | Copy of a VISTA with test patients used by VA for internal projects.
+VISTA: De-identified | NO | A VISTA with real but de-identified patient data. 
+VISTA: Production | YES | Copy of at least one real operational VISTA ("Production Clone" or “Test VISTA”). This will be kept within the NIPR network, as it will have non de-identified patient data.
 
 
 In addition, the Project requests the additional GFE and GFI be provided within 30 days of contract award to successfully execute the Project:
 
-#### Other Items
+#### VISTA Dependencies / Components
 
 Item | Notes
 ---- | ----
