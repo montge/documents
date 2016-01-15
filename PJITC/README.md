@@ -30,7 +30,8 @@ The NIPRNet Hardening program is a Defense-in-Depth Information Assurance (IA) a
 
 In addition, the NIPRNet Federated Gateway (NFG) architecture implements enterprise capabilities that support additional DoD-wide solutions that protect against dangerous protocols, secure DoD-wide Domain Name Service (DNS), and secure enterprise-wide support to the teleworking workforce. This creates a clear boundary between DoD and others; enables improved sharing with key partners; and focuses cyber-attack detection, diagnosis, and reaction on the most important DoD missions. This gives DoD some ability to maneuver at the boundary in response to cyber-attacks.
 
-The PJITC ITEC provides all DISA-compliant security, including the following:
+
+#### The PJITC ITEC provides all DISA-compliant security, including the following:
 
     .COM
     NIPRNET
