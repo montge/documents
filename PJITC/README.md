@@ -13,11 +13,12 @@ The ITEC provides the infrastructure to support projects focused on piloting, pr
 
 __PJITC / ITEC Links__
 
-* [Website](http://www.health.mil/About-MHS/Defense-Health-Agency/Health-IT/Health-IT-Innovation-and-Advanced-Technology-Development/Pacific-Joint-Information-Technology-Center) and [Website 2](http://health.mil/pjitc
+* [Website](http://www.health.mil/About-MHS/Defense-Health-Agency/Health-IT/Health-IT-Innovation-and-Advanced-Technology-Development/Pacific-Joint-Information-Technology-Center)
+* [Website 2](http://health.mil/pjitc
 http://www.health.mil/Military-Health-Topics/Technology/Support-Areas/Health-IT-Research-and-Innovation/Joint-Integrated-Test-and-Evaluation-Center)
 * [Fact Sheet](https://github.com/vistadataproject/documents/blob/master/PJITC/PJITC-Overview-HIT_Research-Jan2015.pdf)
 * [Services](http://deploytech.dhhq.health.mil/pacificjitc/services.aspx)
-* [Support Areas](http://www.health.mil/Military-Health-Topics/Technology/Support-Areas/Health-IT-Research-and-Innovation/Joint-Integrated-Test-and-Evaluation-Center)
+* [Overview and Computing Resources](http://www.health.mil/Military-Health-Topics/Technology/Support-Areas/Health-IT-Research-and-Innovation/Joint-Integrated-Test-and-Evaluation-Center)
 
 
 __PJITC / ITEC Data Security__
@@ -44,66 +45,5 @@ __Links__
 * [NIPRNET](https://en.wikipedia.org/wiki/NIPRNet)
 * [NIPRNET vs SIPRNET](http://www.differencebetween.net/technology/protocols-formats/differences-between-niprnet-and-siprnet)
 * [Sensitive but Unclassified IP Data](http://disa.mil/Network-Services/Data/SBU-IP#Section2)
-
-
-
-
-## ITEC Resources and Services
-
-Computing Resources
-
-    HP ProLiant Server Series
-
-Computing Capability
-
-    150 3 GHz multicore processors
-    Resource balancing
-    Virtual failover of hosted resources
-
-Memory
-
-    3.92 TB physical RAM
-
-Storage
-
-    Over 220T total disk space
-
-Operating System
-
-    Windows (2003, 2008, XP, 7)
-    Red Hat Enterprise Linux
-    UNIX Capable
-
-Networks
-
-    .COM
-    NIPRNET
-    Classified capable*
-
-Services
-Customer Operating Environments
-
-    Virtual hosting services for R&D and interagency requirements
-    Unclassified and classified hosting*
-    Systems and data administration
-    Information Assurance support
-    Configuration Management
-    Support desk
-    Integration support
-    Maintain virtual library of approved baseline systems
-    Host systems documentation library
-
-Testing
-
-    R&D testing
-    Interoperability
-    IV&V testing
-    Independent hosting
-
-Security
-
-    Customer environments logically isolated
-    Environments secured behind firewall
-    Remote access through IPSEC encrypted VPN
 
 
