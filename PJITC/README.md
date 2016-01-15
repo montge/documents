@@ -20,7 +20,7 @@ http://www.health.mil/Military-Health-Topics/Technology/Support-Areas/Health-IT-
 * [Support Areas](http://www.health.mil/Military-Health-Topics/Technology/Support-Areas/Health-IT-Research-and-Innovation/Joint-Integrated-Test-and-Evaluation-Center)
 
 
-### PJITC ITEC Data Security
+__PJITC / ITEC Data Security__
 
 The Defense Information Services Agency (DISA) Data Services portfolio provides best effort IP-based services across the DoD enterprise based on the classification level of the information accessible, including Sensitive but Unclassified (SBU), Secret and Top Secret/Sensitive Compartmented Information (TS/SCI).
 
@@ -31,7 +31,7 @@ The NIPRNet Hardening program is a Defense-in-Depth Information Assurance (IA) a
 In addition, the NIPRNet Federated Gateway (NFG) architecture implements enterprise capabilities that support additional DoD-wide solutions that protect against dangerous protocols, secure DoD-wide Domain Name Service (DNS), and secure enterprise-wide support to the teleworking workforce. This creates a clear boundary between DoD and others; enables improved sharing with key partners; and focuses cyber-attack detection, diagnosis, and reaction on the most important DoD missions. This gives DoD some ability to maneuver at the boundary in response to cyber-attacks.
 
 
-#### The PJITC ITEC provides all DISA-compliant security, including the following:
+__The PJITC ITEC provides all DISA-compliant security, including the following:__
 
     .COM
     NIPRNET
