@@ -13,7 +13,8 @@ The ITEC provides the infrastructure to support projects focused on piloting, pr
 
 __PJITC / ITEC Links__
 
-* [Website](http://www.health.mil/About-MHS/Defense-Health-Agency/Health-IT/Health-IT-Innovation-and-Advanced-Technology-Development/Pacific-Joint-Information-Technology-Center)
+* [Website](http://www.health.mil/About-MHS/Defense-Health-Agency/Health-IT/Health-IT-Innovation-and-Advanced-Technology-Development/Pacific-Joint-Information-Technology-Center) and [Website 2](http://health.mil/pjitc
+http://www.health.mil/Military-Health-Topics/Technology/Support-Areas/Health-IT-Research-and-Innovation/Joint-Integrated-Test-and-Evaluation-Center)
 * [Fact Sheet](https://github.com/vistadataproject/documents/blob/master/PJITC/PJITC-Overview-HIT_Research-Jan2015.pdf)
 * [Services](http://deploytech.dhhq.health.mil/pacificjitc/services.aspx)
 * [Support Areas](http://www.health.mil/Military-Health-Topics/Technology/Support-Areas/Health-IT-Research-and-Innovation/Joint-Integrated-Test-and-Evaluation-Center)
