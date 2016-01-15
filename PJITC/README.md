@@ -12,7 +12,6 @@ The ITEC provides the infrastructure to support projects focused on piloting, pr
 
 
 __PJITC / ITEC Links__
-
 * [PJITC Main Website](http://health.mil/pjitc)
 * [Pilots, Projects, and Initiatives](http://www.health.mil/About-MHS/Defense-Health-Agency/Health-IT/Health-IT-Innovation-and-Advanced-Technology-Development/Pacific-Joint-Information-Technology-Center)
 * [Fact Sheet](https://github.com/vistadataproject/documents/blob/master/PJITC/PJITC-Overview-HIT_Research-Jan2015.pdf)
@@ -21,7 +20,6 @@ __PJITC / ITEC Links__
 
 
 __PJITC / ITEC Data Security__
-
 The Defense Information Services Agency (DISA) Data Services portfolio provides best effort IP-based services across the DoD enterprise based on the classification level of the information accessible, including Sensitive but Unclassified (SBU), Secret and Top Secret/Sensitive Compartmented Information (TS/SCI).
 
 SBU IP Data provides point-to-point connectivity to DISA mission partners. This unclassified IP data service for internet connectivity and information transfer supports Department of Defense (DoD) applications such as e-mail, web services, and file transfer. The SBU IP Data service also provides DoD customers with centralized and protected access to the public internet. NIPRNet provides support to SBU IP Data telecommunication services for combat support applications to the DoD, Joint Chiefs of Staff (JCS), Military Departments (MILDEPS), Combatant Commands (COCOM), and senior leadership. It provides seamless, interoperable, common user IP services to customers with access data rates ranging from 56 kilobits per second (Kbps) to 2.4 gigabits per second (Gbps) via direct connections to a NIPRNet router, and services to the Tactical community via Integrated Tactical-Strategic Data Network /Standard Tactical Entry Point (ITSDN/STEP) sites. It also provides access to the internet through controlled Internet Access Points.
@@ -32,10 +30,9 @@ In addition, the NIPRNet Federated Gateway (NFG) architecture implements enterpr
 
 
 __The PJITC ITEC provides all DISA-compliant security, including the following:__
-
-    .COM
-    NIPRNET
-    Classified capable*
+* .COM
+* NIPRNET
+* Classified capable*
 
 
 __Links__
