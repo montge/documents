@@ -20,9 +20,9 @@ http://www.health.mil/Military-Health-Topics/Technology/Support-Areas/Health-IT-
 * [Support Areas](http://www.health.mil/Military-Health-Topics/Technology/Support-Areas/Health-IT-Research-and-Innovation/Joint-Integrated-Test-and-Evaluation-Center)
 
 
-## PJITC Data Security: Defense Information Services Agency (DISA)
+### PJITC ITEC Data Security
 
-The Data Services portfolio provides best effort IP-based services across the DoD enterprise based on the classification level of the information accessible, including Sensitive but Unclassified (SBU), Secret and Top Secret/Sensitive Compartmented Information (TS/SCI).
+The Defense Information Services Agency (DISA) Data Services portfolio provides best effort IP-based services across the DoD enterprise based on the classification level of the information accessible, including Sensitive but Unclassified (SBU), Secret and Top Secret/Sensitive Compartmented Information (TS/SCI).
 
 SBU IP Data provides point-to-point connectivity to DISA mission partners. This unclassified IP data service for internet connectivity and information transfer supports Department of Defense (DoD) applications such as e-mail, web services, and file transfer. The SBU IP Data service also provides DoD customers with centralized and protected access to the public internet. NIPRNet provides support to SBU IP Data telecommunication services for combat support applications to the DoD, Joint Chiefs of Staff (JCS), Military Departments (MILDEPS), Combatant Commands (COCOM), and senior leadership. It provides seamless, interoperable, common user IP services to customers with access data rates ranging from 56 kilobits per second (Kbps) to 2.4 gigabits per second (Gbps) via direct connections to a NIPRNet router, and services to the Tactical community via Integrated Tactical-Strategic Data Network /Standard Tactical Entry Point (ITSDN/STEP) sites. It also provides access to the internet through controlled Internet Access Points.
 
