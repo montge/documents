@@ -2,7 +2,7 @@
 
 As presently stated in the PWS, within 30 days of contract award the Government will provide access to:
 
-### VISTA Artifacts
+### VISTA Systems
 
 VISTA | PHI | PJITC<br>Security<br>Level | Notes
 --- |--- | --- | ---
