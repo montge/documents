@@ -23,7 +23,7 @@ Node/MUMPS binding | |
 MUMPS | |
 VISTA/Fileman | |
 JSON-LD | |
-HTML5 | | [HTML5](https://www.w3.org/html/logo/downloads/HTML5_Logo.svg)
+HTML5 | | ![HTML5](https://www.w3.org/html/logo/downloads/HTML5_Logo.svg)
 CSS3 | | 
 Python | |
 Markdown | | 
