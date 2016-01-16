@@ -2,7 +2,7 @@
 
 ## Architecture/Components
 
-![VDP Components Overview](https://github.com/vistadataproject/documents/blob/master/images/vdp-overview8.png)
+![VDP Components Overview](/images/vdp-overview8.png)
 
 ## Objective and Method of Delivery
 
