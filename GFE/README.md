@@ -20,7 +20,7 @@ In addition, the Project requests additional GFE and GFI be provided within 30 d
 VISTA | Contains<br>PHI? | DISA<br>Security<br>Level | Notes
 :---: |:---: | :---: | :---
 VPR RPC | NO | NA |  A copy of the latest version of the VPR RPC software and documentation.
-Fileman Namespaces Listing | The latest copy of the FileMan namespace spreadsheet.
+Fileman Namespaces Listing | | | The latest copy of the FileMan namespace spreadsheet.
 New Fileman Namespace |NO |NA | A FileMan namespace exclusively for the Team to allow for the creation of Project files and fields in FileMan.
 Integration Agreements | NO | NA | Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
 Cache Licenses | NO | NA | Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
