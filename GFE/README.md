@@ -6,11 +6,11 @@ As presently stated in the PWS, within 30 days of contract award the Government 
 
 VISTA | Contains<br>PHI? | DISA<br>Security<br>Level | Notes
 :---: |:---: | :---: | :---
-Data Dictionary  | NO | .COM | Data Dictionary (DD) extracts from at least five current operational VISTA systems. These data dictionaries contain no patient data, PHI, or PII (i.e., no sensitive information).  These DD are automatically extracted from any VISTA instance and converted to the JSON-LD form using the "DDJLD Maker" routine, seen on the architectural diagram [here](https://github.com/vistadataproject/documents/blob/master/README.md)
-Master | NO | .COM | Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions. The metadata does not contain any patient data, PHI, or PII (i.e., no sensitive information).
+Data Dictionary  | NO | .COM | Data Dictionary (DD) extracts from at least five current operational VISTA systems. These DD are automatically extracted from any VISTA instance and converted to the JSON-LD form using the "DDJLD Maker" routine, as seen on the architectural diagram [here](https://github.com/vistadataproject/documents/blob/master/README.md). <br> These data dictionaries contain no patient data, PHI, or PII (i.e., no sensitive information).  
+Master | NO | .COM | Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions. <br>The metadata does not contain any patient data, PHI, or PII (i.e., no sensitive information).
 Test Patients | NO | .COM | Copy of a VISTA with test patients used by VA for internal projects.
 De-identified | NO | .COM | A VISTA with real but de-identified patient data. 
-Production | YES | NIPRNET |Copy of at least one real operational VISTA ("Production Clone" or “Test VISTA”). This will be kept within the NIPR network, as it will have non de-identified patient data.
+Production | YES | NIPRNET |Copy of at least one real operational VISTA ("Production Clone" or “Test VISTA”). <br>This will be kept within the NIPR network, as it will have non de-identified patient data.
 
 
 In addition, the Project requests the additional GFE and GFI be provided within 30 days of contract award to successfully execute the Project:
