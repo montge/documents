@@ -17,26 +17,26 @@ In addition, the Project requests the additional GFE and GFI be provided within 
 
 ### VISTA Dependencies
 
-Item | Notes
----- | ----
-VPR RPC | A copy of the latest version of the VPR RPC software and documentation.
+VISTA | Contains<br>PHI? | DISA<br>Security<br>Level | Notes
+:---: |:---: | :---: | :---
+VPR RPC | NO | NA |  A copy of the latest version of the VPR RPC software and documentation.
 Fileman Namespaces Listing | The latest copy of the FileMan namespace spreadsheet.
-New Fileman Namespace | A FileMan namespace exclusively for the Team to allow for the creation of Project files and fields in FileMan.
-Integration Agreements | Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
-Cache Licenses | Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
-Sandbox account | VA VISTA Sandbox Account with full Linux VM.
+New Fileman Namespace |NO |NA | A FileMan namespace exclusively for the Team to allow for the creation of Project files and fields in FileMan.
+Integration Agreements | NO | NA | Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
+Cache Licenses | NO | NA | Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
+Sandbox account | NO | NA | VA VISTA Sandbox Account with full Linux VM.
 
 In the absence of Government written disagreement as to the provision of the above stated GFE/GFI, the Team will understand that such GFE/GFI will be delivered within 30 days of contract award.
 
 
 ### GFE/GFI Data Security
 
-The Defense Information Services Agency (DISA) Data Services portfolio provides best effort Internet Protocol (IP)-based services across the DoD enterprise based on the classification level of the information accessible, including Sensitive but Unclassified (SBU), Secret and Top Secret/Sensitive Compartmented Information (TS/SCI).
-
-__The PJITC ITEC provides all DISA-compliant security, including the following:__
+__The PJITC ITEC provides the highest level of information security available in the U.S. Department of Defense, including the following:__
 * .COM
 * NIPRNET
 * Classified
+
+The Defense Information Services Agency (DISA) Data Services portfolio provides best effort Internet Protocol (IP)-based services across the DoD enterprise based on the classification level of the information accessible, including Sensitive but Unclassified (SBU), Secret and Top Secret/Sensitive Compartmented Information (TS/SCI).
 
 SBU IP Data provides point-to-point connectivity to DISA mission partners. This unclassified IP data service for internet connectivity and information transfer supports Department of Defense (DoD) applications such as e-mail, web services, and file transfer. The SBU IP Data service also provides DoD customers with centralized and protected access to the public internet. 
 
