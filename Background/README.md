@@ -14,7 +14,7 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | &nbsp;  | Advocat
 
 
 ## Technologies
-Name | Link | Icon
+Name | Link | Logo
 :--- | :--- | :---:
 Javascript |  | 
 D3.js | |
@@ -23,7 +23,7 @@ Node/MUMPS binding | |
 MUMPS | |
 VISTA/Fileman | |
 JSON-LD | |
-HTML5 | | https://www.w3.org/html/logo/downloads/HTML5_Logo.svg
+HTML5 | | [HTML5](https://www.w3.org/html/logo/downloads/HTML5_Logo.svg)
 CSS3 | | 
 Python | |
 Markdown | | 
