@@ -16,9 +16,9 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | &nbsp;  | Advocat
 ## Technologies
 Name | Logo | 
 :--- | :--- | :---:
-Github          | ![github](https://www.google.com/search?q=github+logo&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjqqr6gn6_KAhVCwj4KHcVdB68Q_AUIBygB&biw=1068&bih=1186)
-D3.js           | ![D3js](https://www.google.com/search?q=d3.js+logo&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjewey4n6_KAhWBVz4KHR4qDkAQ_AUIBygB&biw=1068&bih=1186)
-JSON-LD         | ![JSONLD](https://www.google.com/search?q=json-ld+logo&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjNhI3On6_KAhVGNj4KHYLwBA0Q_AUIBygB&biw=1068&bih=1186)
+Github          | ![github](
+D3.js           | ![D3js](
+JSON-LD         | ![JSONLD](
 HTML5           | ![HTML5](https://www.w3.org/html/logo/downloads/HTML5_Logo.svg)
 CSS3            | ![CSS3](
 Markdown        | ![markdown](
