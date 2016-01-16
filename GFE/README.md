@@ -4,9 +4,9 @@ As presently stated in the PWS, within 30 days of contract award the Government 
 
 ### VISTA Systems
 
-VISTA | PHI | DISA<br>Security<br>Level | Notes
+VISTA<br>Version or<Component> | Contains<br>PHI? | DISA<br>Security<br>Level | Notes
 --- |--- | --- | ---
->DD Extracts  | NO | .COM | Data Dictionary (DD) extracts from at least five current operational VISTA systems. These data dictionaries contain no patient data, PHI, or PII (i.e., no sensitive information).  These DD are automatically extracted from any VISTA instance and converted to the JSON-LD form using the "DDJLD Maker" routine, seen on the architectural diagram [here](https://github.com/vistadataproject/documents/blob/master/README.md)
+DD Extracts  | NO | .COM | Data Dictionary (DD) extracts from at least five current operational VISTA systems. These data dictionaries contain no patient data, PHI, or PII (i.e., no sensitive information).  These DD are automatically extracted from any VISTA instance and converted to the JSON-LD form using the "DDJLD Maker" routine, seen on the architectural diagram [here](https://github.com/vistadataproject/documents/blob/master/README.md)
 Master | NO | .COM | Current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions. The metadata does not contain any patient data, PHI, or PII (i.e., no sensitive information).
 Test Patients | NO | .COM | Copy of a VISTA with test patients used by VA for internal projects.
 De-identified | NO | .COM | A VISTA with real but de-identified patient data. 
