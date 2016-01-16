@@ -14,18 +14,20 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | &nbsp;  | Advocat
 
 
 ## Technologies
-* Javascript
-* Node.js
-* MUMPS
-* VISTA/Fileman
-* Node/M binding
-* JSON-LD
-* D3.js
-* HTML5
-* CSS3
-* Python
-* Markdown
-* Github
+Name | Link | Icon
+:--- | :--- | :---:
+Javascript |  | 
+D3.js | |
+Node.js |  | 
+Node/MUMPS binding | | 
+MUMPS | |
+VISTA/Fileman | |
+JSON-LD | |
+HTML5 | |
+CSS3 | | 
+Python | |
+Markdown | | 
+Github | |
 
 
 
