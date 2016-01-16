@@ -12,6 +12,23 @@ David Wicksell and <br>Rob tweed | Node/M | Infrastructure <br>[nodeVISTA](https
 Chris Edwards | [Vagrant Installer for VISTA](https://www.osehra.org/blog/automated-vista-installation-and-testing-using-vagrant) | Infrastructure | Automated installation of VISTA environemnt
 Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | &nbsp;  | Advocated tirelessly for in-the-open VISTA development
 
+
+## Technologies
+* Javascript
+* Node.js
+* MUMPS
+* VISTA/Fileman
+* Node/M binding
+* JSON-LD
+* D3.js
+* HTML5
+* CSS3
+* Python
+* Markdown
+* Github
+
+
+
 ## Links
 
 VISTA
