@@ -22,7 +22,7 @@ __Where?__
 >__All artifacts and deliverables__ shall be developed, version-controlled, stored, and delivered on an industry-standard __public Github__ repository (“Project Repository”). ... The Project Repository shall contain the one and only authoritative version of all artifacts produced ... The government, all necessary stakeholders, and the __public__ shall have full read and download access of all artifacts on the Project Repository at all times --- PWS 1.6.15.1
 
 
-## Deliverables
+## Technical Deliverables
 
 27 Technical Deliverables involve:
   * 8 MetaData Definitions/System Configurations
@@ -111,7 +111,7 @@ Code (Software) | Source code, and all dependent code, with full version control
 The forms and licenses are in keeping with the requirement that <q>All artifacts and deliverables shall be developed, version-controlled, stored, and delivered on an industry-standard public Github repository (“Project Repository”)</q>.
 
 
-## Deliverables and Schedule
+# Deliverables and Schedule
 
 ###  Tracks
 
@@ -129,7 +129,7 @@ PM | Project Management | Business/Project Management  | [documents](https://git
 
 
 
-### Deliverables in Detail
+### Deliverables
 
 In addition to the deliverables listed in the Project’s PWS (Section 8.2), additional deliverables were identified for planning purposes. Such deliverables have been identified with a prefix of “E”. Deliverables 7, 10, and 11 were divided and designated .1 and .2 for VDM and MVDM, respectively.
 
