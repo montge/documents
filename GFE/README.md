@@ -17,14 +17,14 @@ In addition, the Project requests additional GFE and GFI be provided within 30 d
 
 ### VISTA Dependencies
 
-VISTA | DISA<br>Security | Notes
-:---: |:---: | :---: | :---
-VPR RPC | NA |  A copy of the latest version of the VPR RPC software and documentation.
+Artifact(s) | Notes
+:---  | :---
+VPR RPC  |  A copy of the latest version of the VPR RPC software and documentation.
 Fileman Namespaces Listing | NA | The latest copy of the FileMan namespace spreadsheet.
-New Fileman Namespace |NA | A FileMan namespace exclusively for the Team to allow for the creation of Project files and fields in FileMan.
+New Fileman Namespace  | A FileMan namespace exclusively for the Team to allow for the creation of Project files and fields in FileMan.
 Integration Agreements  | NA | Access to the most up-to-date VISTA Integrations Agreements (sometimes called IAs), or Database Administrator Integration Agreements (DBIAs).
-Cache Licenses | NA | Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
-Sandbox account | NA | VA VISTA Sandbox Account with full Linux VM.
+Cache Licenses  | Sufficient InterSystems Cache licenses to host FileMan Test VISTA systems.
+Sandbox account  | VA VISTA Sandbox Account with full Linux VM.
 
 In the absence of Government written disagreement as to the provision of the above stated GFE/GFI, the Team will understand that such GFE/GFI will be delivered within 30 days of contract award.
 
