@@ -1,6 +1,7 @@
 # VISTA Data Project
 
 ## Architecture/Components
+.
 
 
 
@@ -9,7 +10,7 @@
 
 
 
-
+.
 ## Objective and Method of Delivery
 
 __What?__
