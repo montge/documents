@@ -29,14 +29,14 @@ Sandbox account | NO | NA | VA VISTA Sandbox Account with full Linux VM.
 In the absence of Government written disagreement as to the provision of the above stated GFE/GFI, the Team will understand that such GFE/GFI will be delivered within 30 days of contract award.
 
 
-### GFE/GFI Data Security
+## Information Security
 
 __The PJITC ITEC provides the highest level of information security available in the U.S. Department of Defense, including the following:__
 * .COM
 * NIPRNET
 * Classified
 
-The Defense Information Services Agency (DISA) Data Services portfolio provides best effort Internet Protocol (IP)-based services across the DoD enterprise based on the classification level of the information accessible, including Sensitive but Unclassified (SBU), Secret and Top Secret/Sensitive Compartmented Information (TS/SCI).
+The Defense Information Services Agency (DISA) Data Services portfolio provides the most secure Internet Protocol (IP)-based services possible across the DoD enterprise based on the classification level of the information accessible, including Sensitive but Unclassified (SBU), Secret and Top Secret/Sensitive Compartmented Information (TS/SCI).
 
 SBU IP Data provides point-to-point connectivity to DISA mission partners. This unclassified IP data service for internet connectivity and information transfer supports Department of Defense (DoD) applications such as e-mail, web services, and file transfer. The SBU IP Data service also provides DoD customers with centralized and protected access to the public internet. 
 
