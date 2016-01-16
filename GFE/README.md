@@ -34,7 +34,7 @@ In the absence of Government written disagreement as to the provision of the abo
 __The PJITC ITEC provides the highest level of information security available in the U.S. Department of Defense, including the following:__
 * .COM
 * NIPRNET
-* Classified
+* Classified (Secret, Top Secret, Sensitive Compartmental)
 
 The Defense Information Services Agency (DISA) Data Services portfolio provides the most secure Internet Protocol (IP)-based services possible across the DoD enterprise based on the classification level of the information accessible, including Sensitive but Unclassified (SBU), Secret and Top Secret/Sensitive Compartmented Information (TS/SCI).
 
