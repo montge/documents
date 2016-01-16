@@ -45,7 +45,7 @@ __The NIPRNet Hardening program__ is a Defense-in-Depth Information Assurance (I
 In addition, the __NIPRNet Federated Gateway (NFG)__ architecture implements enterprise capabilities that support additional DoD-wide solutions that protect against dangerous protocols, secure DoD-wide Domain Name Service (DNS), and secure enterprise-wide support to the teleworking workforce. This creates a clear boundary between DoD and others; enables improved sharing with key partners; and focuses cyber-attack detection, diagnosis, and reaction on the most important DoD missions. This gives DoD some ability to maneuver at the boundary in response to cyber-attacks.
 
 
-__Data Security Links__
+__Department of Defense Data Security Links__
 * [DISA](http://disa.mil/Network-Services/Data)
 * [NIPRNET](https://en.wikipedia.org/wiki/NIPRNet)
 * [NIPRNET vs SIPRNET](http://www.differencebetween.net/technology/protocols-formats/differences-between-niprnet-and-siprnet)
