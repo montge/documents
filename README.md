@@ -129,7 +129,7 @@ PM | Project Management | Business/Project Management  | [documents](https://git
 
 
 
-### Deliverables
+### Deliverables in Detail
 
 In addition to the deliverables listed in the Project’s PWS (Section 8.2), additional deliverables were identified for planning purposes. Such deliverables have been identified with a prefix of “E”. Deliverables 7, 10, and 11 were divided and designated .1 and .2 for VDM and MVDM, respectively.
 
