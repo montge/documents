@@ -46,9 +46,11 @@ Github          | 	| https://en.wikipedia.org/wiki/GitHub <br> https://github.co
 
 
 
+
+
 ## Standards
 <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge.svg" height=50>
-<img src="http://www.unixstickers.com/image/cache/data/stickers/css3/css3_unofficial_shaped-600x600.png" height=75>
+<img src="http://www.unixstickers.com/image/cache/data/stickers/css3/css3_unofficial_shaped-600x600.png" height=50>
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" height=50>
 <img src="http://json-ld.org/images/json-ld-logo.png" width=50>
 
