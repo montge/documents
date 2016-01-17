@@ -39,8 +39,8 @@ Javascript 5      | [5061](http://www.va.gov/TRM/StandardPage.asp?tid=5061) | ht
 HTML 5           | [5201](http://www.va.gov/TRM/StandardPage.asp?tid=5201) | https://en.wikipedia.org/wiki/HTML5
 CSS 3			| [5194](http://www.va.gov/TRM/StandardPage.asp?tid=5194) | https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3
 JSON			| [7349](http://www.va.gov/TRM/StandardPage.asp?tid=7349 )| https://en.wikipedia.org/wiki/JSON <br> http://json.org/
-JSON-LD         | ——	| https://en.wikipedia.org/wiki/JSON-LD <br> http://json-ld.org
 RDF			| [6405](http://www.va.gov/TRM/StandardPage.asp?tid=6405) | https://en.wikipedia.org/wiki/Resource_Description_Framework <br> https://www.w3.org/RDF/
+JSON-LD         | 	| https://en.wikipedia.org/wiki/JSON-LD <br> http://json-ld.org
 Markdown        | 	| https://en.wikipedia.org/wiki/Markdown
 Creative Commons | 	| https://en.wikipedia.org/wiki/Creative_Commons <br> https://creativecommons.org
 Apache 2        | 	| https://en.wikipedia.org/wiki/Apache_License <br> https://www.apache.org/licenses/
