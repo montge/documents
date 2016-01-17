@@ -16,11 +16,13 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  
 
 ## Technologies
 
-<img src=" https://practicalanalytics.files.wordpress.com/2011/08/cube.jpg   " width=100>
-<img src="http://www.intersystems.com/assets/architecture-chart-2011_med.jpg  " width=100>
-<img src=" https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg " width=100>
-<img src=" https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg " width=100>
-<img src=" https://upload.wikimedia.org/wikipedia/en/1/15/Logo_D3.svg " width=100>
+<img src=" https://practicalanalytics.files.wordpress.com/2011/08/cube.jpg   " width=50>
+<img src="http://www.intersystems.com/assets/architecture-chart-2011_med.jpg  " width=75>
+<img src=" https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg " height=50>
+<img src=" https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg " width=75>
+<img src=" https://upload.wikimedia.org/wikipedia/en/1/15/Logo_D3.svg " width=50>
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg" height=50>
+<img src="http://www.git-scm.com/images/logos/downloads/Git-Logo-1788C.png" height=50>
 
 
 
@@ -46,13 +48,14 @@ Github          | 	| https://en.wikipedia.org/wiki/GitHub <br> https://github.co
 ## Standards
 <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge.svg" height=50>
 <img src="http://json-ld.org/images/json-ld-logo.png" width=50>
-<img src="http://www.git-scm.com/images/logos/downloads/Git-Logo-1788C.png" height=50>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" height=50>
+
 
 
 Name | VA TRM  | Reference
 :--- | :--- | :---
 M-Standard | [7404](http://www.va.gov/TRM/VAStandardPage.asp?tid=7404) | http://www.va.gov/TRM/files/SACC_2008.pdf <br> http://71.174.62.16/Demo/AnnoStd
-Javascript 5      | [5061](http://www.va.gov/TRM/StandardPage.asp?tid=5061) | https://en.wikipedia.org/wiki/JavaScript
+JS 5      | [5061](http://www.va.gov/TRM/StandardPage.asp?tid=5061) | https://en.wikipedia.org/wiki/JavaScript
 HTML 5           | [5201](http://www.va.gov/TRM/StandardPage.asp?tid=5201) | https://en.wikipedia.org/wiki/HTML5
 CSS 3			| [5194](http://www.va.gov/TRM/StandardPage.asp?tid=5194) | https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3
 JSON			| [7349](http://www.va.gov/TRM/StandardPage.asp?tid=7349 )| https://en.wikipedia.org/wiki/JSON <br> http://json.org/
