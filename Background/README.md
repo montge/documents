@@ -18,7 +18,6 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  
 Name | VA TRM  | Reference
 :--- | :--- | :--- 
 M-Technology	| [6402](http://www.va.gov/TRM/StandardPage.asp?tid=6402) | https://en.wikipedia.org/wiki/M_technology
-M-Standard | [7404](http://www.va.gov/TRM/VAStandardPage.asp?tid=7404) | http://www.va.gov/TRM/files/SACC_2008.pdf
 M-Technology (Cache)| [10](http://www.va.gov/TRM/ToolPage.asp?tid=10) | http://www.intersystems.com/our-products/cache/cache-overview <br> http://docs.intersystems.com/cache20152/csp/docbook/featuremapCache.csp
 M-Technology (Fidelity) | [6632](http://www.va.gov/TRM/ToolPage.asp?tid=6632) | https://en.wikipedia.org/wiki/GT.M <br> http://www.fisglobal.com/Solutions/Services/Database-Engine <br> http://www.fisglobal.com/Solutions/Services/Database-Engine/User-Documentation
 Node.js		| [6716](http://www.va.gov/TRM/ToolPage.asp?tid=6716)	| https://en.wikipedia.org/wiki/Node.js <br> https://nodejs.org/en
@@ -35,6 +34,7 @@ Github          | 	| https://en.wikipedia.org/wiki/GitHub <br> https://github.co
 ## Standards
 Name | VA TRM  | Reference
 :--- | :--- | :---
+M-Standard | [7404](http://www.va.gov/TRM/VAStandardPage.asp?tid=7404) | http://www.va.gov/TRM/files/SACC_2008.pdf
 Javascript 5      | [5061](http://www.va.gov/TRM/StandardPage.asp?tid=5061) | https://en.wikipedia.org/wiki/JavaScript
 HTML 5           | [5201](http://www.va.gov/TRM/StandardPage.asp?tid=5201) | https://en.wikipedia.org/wiki/HTML5
 CSS 3			| [5194](http://www.va.gov/TRM/StandardPage.asp?tid=5194) | https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3
