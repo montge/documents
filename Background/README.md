@@ -14,24 +14,24 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | &nbsp;  | Advocat
 
 
 ## Technologies
-Name | VA Technical Reference | External Links
+Name | VA TRM  | Reference
 :--- | :--- | :--- 
-M-Technology	| http://www.va.gov/TRM/StandardPage.asp?tid=6402 | https://en.wikipedia.org/wiki/M_technology
-M-Standard | http://www.va.gov/TRM/VAStandardPage.asp?tid=7404 | http://www.va.gov/TRM/files/SACC_2008.pdf
-Cache	 M-Technology| http://www.va.gov/TRM/ToolPage.asp?tid=10 | http://www.intersystems.com/our-products/cache/cache-overview <br> http://docs.intersystems.com/cache20152/csp/docbook/featuremapCache.csp
-Fidelity M-Technology | http://www.va.gov/TRM/ToolPage.asp?tid=6632 | https://en.wikipedia.org/wiki/GT.M <br> http://www.fisglobal.com/Solutions/Services/Database-Engine <br> http://www.fisglobal.com/Solutions/Services/Database-Engine/User-Documentation
-JS 5      | http://www.va.gov/TRM/StandardPage.asp?tid=5061 | https://en.wikipedia.org/wiki/JavaScript
-HTML 5           | http://www.va.gov/TRM/StandardPage.asp?tid=5201 | https://en.wikipedia.org/wiki/HTML5
-CSS 3			| http://www.va.gov/TRM/StandardPage.asp?tid=5194 | https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3
-Node.js		| http://www.va.gov/TRM/ToolPage.asp?tid=6716	| https://en.wikipedia.org/wiki/Node.js <br> https://nodejs.org/en
-Express.js		| http://www.va.gov/TRM/ToolPage.asp?tid=7729 | http://expressjs.com/
-D3.js           | http://www.va.gov/TRM/ToolPage.asp?tid=8059 | https://en.wikipedia.org/wiki/D3.js <br> http://d3js.org
-RDF			| http://www.va.gov/TRM/StandardPage.asp?tid=6405 |
-JSON-LD         | 	| https://en.wikipedia.org/wiki/JSON-LD <br> http://json-ld.org
-Vagrant		| http://www.va.gov/TRM/ToolPage.asp?tid=7306 | https://www.vagrantup.com
-WebStorm		| http://www.va.gov/TRM/ToolPage.asp?tid=7774 | 
-Python          | http://www.va.gov/TRM/StandardPage.asp?tid=5702 | https://en.wikipedia.org/wiki/Python_programming_language <br> https://www.python.org
-JSON			| http://www.va.gov/TRM/StandardPage.asp?tid=7349 | 
+M-Technology	| [6402](http://www.va.gov/TRM/StandardPage.asp?tid=6402) | https://en.wikipedia.org/wiki/M_technology
+M-Standard | [7404](http://www.va.gov/TRM/VAStandardPage.asp?tid=7404) | http://www.va.gov/TRM/files/SACC_2008.pdf
+M-Technology (Cache)| [10](http://www.va.gov/TRM/ToolPage.asp?tid=10) | http://www.intersystems.com/our-products/cache/cache-overview <br> http://docs.intersystems.com/cache20152/csp/docbook/featuremapCache.csp
+M-Technology (Fidelity) | [6632](http://www.va.gov/TRM/ToolPage.asp?tid=6632) | https://en.wikipedia.org/wiki/GT.M <br> http://www.fisglobal.com/Solutions/Services/Database-Engine <br> http://www.fisglobal.com/Solutions/Services/Database-Engine/User-Documentation
+JS 5      | [5061](http://www.va.gov/TRM/StandardPage.asp?tid=5061) | https://en.wikipedia.org/wiki/JavaScript
+HTML 5           | [5201](http://www.va.gov/TRM/StandardPage.asp?tid=5201) | https://en.wikipedia.org/wiki/HTML5
+CSS 3			| [5194](http://www.va.gov/TRM/StandardPage.asp?tid=5194) | https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3
+Node.js		| [6716](http://www.va.gov/TRM/ToolPage.asp?tid=6716)	| https://en.wikipedia.org/wiki/Node.js <br> https://nodejs.org/en
+Express.js		| [7729](http://www.va.gov/TRM/ToolPage.asp?tid=7729) | http://expressjs.com/
+D3.js           | [8059](http://www.va.gov/TRM/ToolPage.asp?tid=8059) | https://en.wikipedia.org/wiki/D3.js <br> http://d3js.org
+RDF			| [6405](http://www.va.gov/TRM/StandardPage.asp?tid=6405) | https://en.wikipedia.org/wiki/Resource_Description_Framework <br> https://www.w3.org/RDF/
+JSON-LD         | ——	| https://en.wikipedia.org/wiki/JSON-LD <br> http://json-ld.org
+Vagrant		| [7306](http://www.va.gov/TRM/ToolPage.asp?tid=7306) | https://www.vagrantup.com
+WebStorm		| [7774](http://www.va.gov/TRM/ToolPage.asp?tid=7774) | http://www.jetbrains.com/webstorm/
+Python          | [5702](http://www.va.gov/TRM/StandardPage.asp?tid=5702) | https://en.wikipedia.org/wiki/Python_programming_language <br> https://www.python.org
+JSON			| [7349](http://www.va.gov/TRM/StandardPage.asp?tid=7349 )| https://en.wikipedia.org/wiki/JSON <br> http://json.org/
 NPM             | 	| https://en.wikipedia.org/wiki/Npm_%28software%29 <br> https://www.npmjs.com/
 git             |	| https://en.wikipedia.org/wiki/Git_software<br>http://www.git-scm.com
 Github          | 	| https://en.wikipedia.org/wiki/GitHub <br> https://github.com <br> https://government.github.com
