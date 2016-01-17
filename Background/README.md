@@ -1,4 +1,4 @@
-Documents, presentations and people that led to this project.
+People, technologies, and presentations that led to this project.
 
 ## Credits
 This project builds on the work of many.
@@ -14,47 +14,58 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | &nbsp;  | Advocat
 
 
 ## Technologies
-Name | Logo | Link(s)
-:--- | :---: | :---
-git             | ![git](http://www.git-scm.com/images/logos/downloads/Git-Logo-1788C.png) | 
-Github          | ![github](
-D3.js           | ![D3js](http://json-ld.org/images/json-ld-logo.png)           | http://json-ld.org/
-JSON-LD         | ![JSONLD](
-HTML5           | ![HTML5](https://www.w3.org/html/logo/downloads/HTML5_Badge.svg)
-CSS3            | ![CSS3](
-Markdown        | ![markdown](
-Javascript      | ![JS](
-NPM             | ![NPM](
-Node.js         | ![nodejs](
-Node/MUMPS      | ![nodeM](
-MUMPS           | ![MUMPS](
-VISTA/Fileman   | ![Fileman](
-Python          | ![python](
-Creative Commons | ![CCO](
-Apache 2        | ![Apache2](
-
-
+Name | VA Technical Reference | External Links
+:--- | :--- | :--- 
+M-Technology	| http://www.va.gov/TRM/StandardPage.asp?tid=6402 | https://en.wikipedia.org/wiki/M_technology
+M-Standard | http://www.va.gov/TRM/VAStandardPage.asp?tid=7404 | http://www.va.gov/TRM/files/SACC_2008.pdf
+Cache	 M-Technology| http://www.va.gov/TRM/ToolPage.asp?tid=10 | http://www.intersystems.com/our-products/cache/cache-overview <br> http://docs.intersystems.com/cache20152/csp/docbook/featuremapCache.csp
+Fidelity M-Technology | http://www.va.gov/TRM/ToolPage.asp?tid=6632 | https://en.wikipedia.org/wiki/GT.M <br> http://www.fisglobal.com/Solutions/Services/Database-Engine <br> http://www.fisglobal.com/Solutions/Services/Database-Engine/User-Documentation
+JS 5      | http://www.va.gov/TRM/StandardPage.asp?tid=5061 | https://en.wikipedia.org/wiki/JavaScript
+HTML 5           | http://www.va.gov/TRM/StandardPage.asp?tid=5201 | https://en.wikipedia.org/wiki/HTML5
+CSS 3			| http://www.va.gov/TRM/StandardPage.asp?tid=5194 | https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3
+Node.js		| http://www.va.gov/TRM/ToolPage.asp?tid=6716	| https://en.wikipedia.org/wiki/Node.js <br> https://nodejs.org/en
+Express.js		| http://www.va.gov/TRM/ToolPage.asp?tid=7729 | http://expressjs.com/
+D3.js           | http://www.va.gov/TRM/ToolPage.asp?tid=8059 | https://en.wikipedia.org/wiki/D3.js <br> http://d3js.org
+RDF			| http://www.va.gov/TRM/StandardPage.asp?tid=6405 |
+JSON-LD         | 	| https://en.wikipedia.org/wiki/JSON-LD <br> http://json-ld.org
+Vagrant		| http://www.va.gov/TRM/ToolPage.asp?tid=7306 | https://www.vagrantup.com
+WebStorm		| http://www.va.gov/TRM/ToolPage.asp?tid=7774 | 
+Python          | http://www.va.gov/TRM/StandardPage.asp?tid=5702 | https://en.wikipedia.org/wiki/Python_programming_language <br> https://www.python.org
+JSON			| http://www.va.gov/TRM/StandardPage.asp?tid=7349 | 
+NPM             | 	| https://en.wikipedia.org/wiki/Npm_%28software%29 <br> https://www.npmjs.com/
+git             |	| https://en.wikipedia.org/wiki/Git_software<br>http://www.git-scm.com
+Github          | 	| https://en.wikipedia.org/wiki/GitHub <br> https://github.com <br> https://government.github.com
+Markdown        | 	| https://en.wikipedia.org/wiki/Markdown
+Creative Commons | 	| https://en.wikipedia.org/wiki/Creative_Commons <br> https://creativecommons.org
+Apache 2        | 	| https://en.wikipedia.org/wiki/Apache_License <br> https://www.apache.org/licenses/
 
 
 ## Links
 
 VISTA
+
 * https://en.wikipedia.org/wiki/VistA
 * http://www.hardhats.org/index.html
 * http://nist.gov/healthcare/upload/NIST-Siegel-PART-1.pdf
 * https://en.wikipedia.org/wiki/WorldVistA
 * http://worldvista.org/
 
-
 Fileman
-* https://en.wikipedia.org/wiki/FileMan
+
+* * https://en.wikipedia.org/wiki/FileMan
 * http://www.hardhats.org/fileman/FMmain.html
 * http://munnecke.com/blog/?cat=120
 
-
 NodeVISTA
+
 * [Intersystems](https://www.google.com/search?q=intersystems+cache+node.js+VISTA&espv=2&biw=1025&bih=666&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiLtN7gmqjKAhUELaYKHaoODKAQ_AUICCgD&dpr=1.25#imgrc=_)
 * https://robtweed.wordpress.com/2014/07/24/vista-evolution-whats-wrong-with-this-picture
 * https://github.com/dlwicksell/nodem
 * https://github.com/robtweed/node-mdb
 
+
+## Logos
+
+![](http://json-ld.org/images/json-ld-logo.png) 
+![](http://www.git-scm.com/images/logos/downloads/Git-Logo-1788C.png)
+![](https://www.w3.org/html/logo/downloads/HTML5_Badge.svg)
