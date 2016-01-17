@@ -26,9 +26,6 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  
 
 
 
-
-
-
 Name | VA TRM  | Reference
 :--- | :--- | :--- 
 M-Technology	| [6402](http://www.va.gov/TRM/StandardPage.asp?tid=6402) | https://en.wikipedia.org/wiki/M_technology
@@ -43,6 +40,11 @@ WebStorm		| [7774](http://www.va.gov/TRM/ToolPage.asp?tid=7774) | http://www.jet
 Python          | [5702](http://www.va.gov/TRM/StandardPage.asp?tid=5702) | https://en.wikipedia.org/wiki/Python_programming_language <br> https://www.python.org
 git             |	| https://en.wikipedia.org/wiki/Git_software<br>http://www.git-scm.com
 Github          | 	| https://en.wikipedia.org/wiki/GitHub <br> https://github.com <br> https://government.github.com
+
+
+
+
+
 
 
 ## Standards
