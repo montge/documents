@@ -46,11 +46,14 @@ Github          | 	| https://en.wikipedia.org/wiki/GitHub <br> https://github.co
 
 
 
-
 ## Standards
+<a href="http://www.w3.org/html/logo/">
+<img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-graphics-semantics.png" width="197" height="64" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics">
+</a>
 <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge.svg" height=50>
-<img src="http://json-ld.org/images/json-ld-logo.png" width=50>
+<img src="http://www.unixstickers.com/image/cache/data/stickers/css3/css3_unofficial_shaped-600x600.png" height=75>
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" height=50>
+<img src="http://json-ld.org/images/json-ld-logo.png" width=50>
 
 
 
