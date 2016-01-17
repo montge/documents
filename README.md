@@ -16,14 +16,11 @@ __Where?__
 >__All artifacts and deliverables__ shall be developed, version-controlled, stored, and delivered on an industry-standard __public Github__ repository (“Project Repository”). ... The Project Repository shall contain the one and only authoritative version of all artifacts produced ... The government, all necessary stakeholders, and the __public__ shall have full read and download access of all artifacts on the Project Repository at all times --- PWS 1.6.15.1
 
 
-
-# Deliverables and Schedule
-
-###  Tracks
+###  Deliverables Tracks
 
 The Project organizes deliverables in five “tracks” each backed by one or more Gits in the Project Repository.
 
-Track | Name | Description | Git | Tech Deliverables
+Track | Name | Description | Git | Technical Deliverables
 :---: | :---: | :--- | :--- | :---:
 A | Infrastructure | Project infrastructure including Test VISTA (“nodeVISTA”), gits, tooling, website | [nodeVISTA](https://github.com/vistadataproject/nodeVISTA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), [documents](https://github.com/vistadataproject/documents) | 3
 B | VDM | VISTA Data Model (VDM) - native model exposure and package implementation for any specific VISTA | [VDM](https://github.com/vistadataproject/VDM) | 12
@@ -124,7 +121,7 @@ Markdown 			| Doc Generator	|  PDF, HTML
 
 
 
-### Deliverables
+### Deliverables Schedule
 
 In addition to the deliverables listed in the Project’s PWS (Section 8.2), additional deliverables were identified for planning purposes. Such deliverables have been identified with a prefix of “E”. Deliverables 7, 10, and 11 were divided and designated .1 and .2 for VDM and MVDM, respectively.
 
