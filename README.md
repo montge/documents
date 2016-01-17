@@ -26,10 +26,24 @@ The Project organizes deliverables in five “tracks” each backed by one or mo
 Track | Name | Description | Git | Tech Deliverables
 :---: | :---: | :--- | :--- | :---:
 A | Infrastructure | Project infrastructure including Test VISTA (“nodeVISTA”), gits, tooling, website | [nodeVISTA](https://github.com/vistadataproject/nodeVISTA), [Website](https://github.com/vistadataproject/vistadataproject.github.io), [documents](https://github.com/vistadataproject/documents) | 3
-B | VDM | VISTA Data Model (VDM) - native model exposure and package implementation | [VDM](https://github.com/vistadataproject/VDM) | 12
-C | MVDM | Master VISTA Data Model (MVDM) - definition and implementation of master data model for VISTA | [MVDM](https://github.com/vistadataproject/MVDM) | 9
+B | VDM | VISTA Data Model (VDM) - native model exposure and package implementation for any specific VISTA | [VDM](https://github.com/vistadataproject/VDM) | 12
+C | MVDM | Master VISTA Data Model (MVDM) - definition and implementation of master data model spanning all VISTA instances | [MVDM](https://github.com/vistadataproject/MVDM) | 9
 D | MVDMmap | Mapping MVDM to other models such as FHIR | [MVDMmap](https://github.com/vistadataproject/MVDMmap) | 3
 PM | Project Management | Business/Project Management  | [documents](https://github.com/vistadataproject/documents) | &nbsp;
+
+
+#### Formats and Licenses of Deliverables 
+
+From PWS 8.2 ...
+
+Artifact | Format(s) | License
+:---: | :--- | :--- 
+Data | CSV if tabular structure; JSON-LD for all other structures. | Creative Commons CC0
+Metadata | JSON-LD | Creative Commons CC0
+Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0
+Code (Software) | Source code, and all dependent code, with full version control history | Apache 2.0
+
+The forms and licenses are in keeping with the requirement that <q>All artifacts and deliverables shall be developed, version-controlled, stored, and delivered on an industry-standard public Github repository (“Project Repository”)</q>.
 
 
 
@@ -108,18 +122,6 @@ vdm.jsonld 			| PIKS Generator 	| piks.jsonld
 MVDM 				| MVDMmap 		| FHIR
 Markdown 			| Doc Generator	|  PDF, HTML
 
-## Formats and Licenses of Deliverables 
-
-From PWS 8.2 ...
-
-Artifact | Format(s) | License
-:---: | :--- | :--- 
-Data | CSV if tabular structure; JSON-LD for all other structures. | Creative Commons CC0
-Metadata | JSON-LD | Creative Commons CC0
-Documents | Markdown (git Markdown or Docbook). From this HTML and PDF shall be auto-generated | Creative Commons CC0
-Code (Software) | Source code, and all dependent code, with full version control history | Apache 2.0
-
-The forms and licenses are in keeping with the requirement that <q>All artifacts and deliverables shall be developed, version-controlled, stored, and delivered on an industry-standard public Github repository (“Project Repository”)</q>.
 
 
 ### Deliverables
