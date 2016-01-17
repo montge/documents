@@ -1,3 +1,4 @@
+# Credits
 People, technologies, and standards that led to this project.
 
 ## People
