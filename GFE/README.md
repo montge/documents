@@ -4,7 +4,7 @@ As presently stated in the PWS, within 30 days of contract award the Government 
 
 ### VISTA Systems
 
-VISTA<br>System | DISA<br>Security Level | Notes
+VISTA<br>System | DISA<br>Security | Notes
 :---: | :---: | :---
 Data Dictionary  | NA | Data Dictionary (DD) extracts from at least five current operational VISTA systems. These DD are automatically extracted from any VISTA instance and converted to the JSON-LD form using the "DDJLD Maker" routine, as seen on the architectural diagram [here](https://github.com/vistadataproject/documents/blob/master/README.md). These data dictionaries contain no patient data, PHI, or PII (i.e., no sensitive information).  
 Master | NA | A copy of the current authoritative Master ("Platinum") version of VISTA as maintained internally by the VA. Metadata from this must be complete and without any alterations or redactions. The metadata does not contain any patient data, PHI, or PII (i.e., no sensitive information).
@@ -31,12 +31,11 @@ In the absence of Government written disagreement as to the provision of the abo
 
 ## Information Security
 
-__The PJITC ITEC provides the highest level of information security available in the U.S. Department of Defense leveraging the DISA security architecture.__
+__The PJITC ITEC provides the highest level of information security available within the DoD security architecture.__
 
 The Defense Information Services Agency (DISA) Data Services portfolio provides the most secure Internet Protocol (IP)-based services possible across the DoD enterprise, based on the classification level of the information accessible, including Sensitive but Unclassified (SBU), Secret and Top Secret/Sensitive Compartmented Information (TS/SCI).
 
 SBU IP Data provides point-to-point connectivity to DISA mission partners. This unclassified IP data service for internet connectivity and information transfer supports Department of Defense (DoD) applications such as e-mail, web services, and file transfer. The SBU IP Data service also provides DoD customers with centralized and protected access to the public internet. 
-
 
 __NIPRNet__ provides support to SBU IP Data telecommunication services for combat support applications to the DoD, Joint Chiefs of Staff (JCS), Military Departments (MILDEPS), Combatant Commands (COCOM), and senior leadership. It provides seamless, interoperable, common user IP services to customers with access data rates ranging from 56 kilobits per second (Kbps) to 2.4 gigabits per second (Gbps) via direct connections to a NIPRNet router, and services to the Tactical community via Integrated Tactical-Strategic Data Network /Standard Tactical Entry Point (ITSDN/STEP) sites. It also provides access to the internet through controlled Internet Access Points.
 
