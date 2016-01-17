@@ -2,7 +2,7 @@
 
 ## Architecture/Components
 
-![VDP Components Overview](/images/vdp-overview2.png)
+![VDP Components Overview](/images/vdp-overview.png)
 
 
 ## Objective and Method of Delivery
