@@ -52,6 +52,5 @@ __Data Security Links__
 
 
 ![](/images/pjitc/itec_3.png)
-![](/images/pjitc/itec_4.png)
 
 
