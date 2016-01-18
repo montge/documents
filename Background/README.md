@@ -30,6 +30,9 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  
 
 ## Presentations
 
+![](/images/logos-presentations/60h/fmql.jpg)
+![](/images/logos-presentations/60h/linkedVISTA.jpg)
+
 Who | Title | Comment
 :--- | :--- | :---
 Conor Dowling | Fileman Query Language  | This describes the tool and method of exposing VISTA's data through Fileman. (2014) [PDF](https://github.com/vistadataproject/documents/blob/master/Background/FMQL_Corner-2014.pdf)
