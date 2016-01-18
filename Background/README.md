@@ -15,7 +15,7 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  
 
 
 ## Technologies
-[img](/images/logos-tech/square/m-tech.fw.png)
+[](/images/logos-tech/square/m-tech.fw.png)
 
 <img src="/images/logos-tech/square/m-tech.fw.png" height=50>
 <img src="/logos-tech/square/js5.png" height=50>
