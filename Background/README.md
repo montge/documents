@@ -24,6 +24,7 @@ Chris Edwards | [Vagrant Installer for VISTA](https://www.osehra.org/blog/automa
 Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  | Advocated tirelessly for in-the-open VISTA development
 
 
+[](/images/logos-other/linkedin/in-40.png)
 
 
 
