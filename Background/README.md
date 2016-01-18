@@ -25,6 +25,12 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  
 
 ## Presentations
 
+Who | Title | Link  | Comment
+:--- | --- | :---: | ---
+Conor Dowling | | PDF |
+Rafael Richards | | PDF HTML |
+* https://github.com/vistadataproject/documents/blob/master/Background/Linked_VISTA-2015.pdf
+
 
 ## Technologies
 ![](/images/logos-tech/square/60h/m-tech.fw.jpg)
