@@ -1,5 +1,9 @@
+https://github.com/vistadataproject/documents/blob/master/Background/linked-vista-key-png/linked-vista.001.png
+
+
 #_
-<img src="/linked-vista-key-png/linked-vista.001.png" width=700>
+![](/linked-vista-key-png/linked-vista.001.png)
+
 #_
 <img src="/linked-vista-key-png/linked-vista.002.png" width=700>
 #_
