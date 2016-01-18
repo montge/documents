@@ -25,10 +25,10 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  
 
 ## Presentations
 
-Who | Title Link
-:--- | :---
-Conor Dowling | Mastering VISTA's Data [PDF](https://github.com/vistadataproject/documents/blob/master/Background/Data_Centric_VistA-2012.pdf)<br>Fileman Query Language [PDF](https://github.com/vistadataproject/documents/blob/master/Background/FMQL_Corner-2014.pdf)
-Rafael Richards |Linked VISTA [PDF](https://github.com/vistadataproject/documents/blob/master/Background/Linked_VISTA-2015.pdf)
+Who | Title Link | Comment
+:--- | :--- | :---
+Conor Dowling | Mastering VISTA's Data ([PDF](https://github.com/vistadataproject/documents/blob/master/Background/Data_Centric_VistA-2012.pdf))<br>Fileman Query Language ([PDF](https://github.com/vistadataproject/documents/blob/master/Background/FMQL_Corner-2014.pdf))
+Rafael Richards |Linked VISTA ([PDF](https://github.com/vistadataproject/documents/blob/master/Background/Linked_VISTA-2015.pdf))
 
 
 
