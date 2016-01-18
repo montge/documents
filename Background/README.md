@@ -2,7 +2,7 @@
 People, presentations, technologies, and standards that led to this project.
 
 
-## Architecture and Design
+### Architecture and Design
 ![](/images/logos-presentations/60h/linkedVISTA.jpg)
 <img src="http://yosemiteproject.org/images/100/steering-rafael-richards_100.jpg" height=60>
 ![](/images/logos-presentations/60h/fmql.jpg)
@@ -15,7 +15,7 @@ Who | Design | Comment
 [Conor_Dowling](https://www.linkedin.com/in/conor-dowling-4306832b) | [Fileman Query Language](https://github.com/vistadataproject/documents/blob/master/Background/presentations/FMQL_Corner-2014.pdf)  | This describes the tools and method of comprehensively exposing all of VISTA's data through Fileman. (2014) [PDF](https://github.com/vistadataproject/documents/blob/master/Background/presentations/FMQL_Corner-2014.pdf)
 
 
-## VISTA Infrastructure
+### VISTA Infrastructure
 This project builds on the work of many.
 
 <img src ="http://www.hardhats.org/images/vol_Bella.jpg" height=60>
@@ -49,7 +49,7 @@ Nancy_Anthracite | [Opening up VISTA](http://worldvista.org) | PM   | Advocated 
 
 
 
-## Technologies
+### Technologies
 ![](/images/logos-tech/square/60h/m-tech.fw.jpg)
 ![](/images/logos-tech/square/60h/js5.jpg)
 ![](/images/logos-tech/square/60h/node-js.jpg)
@@ -80,7 +80,7 @@ Github          | 	| https://en.wikipedia.org/wiki/GitHub <br> https://github.co
 
 
 
-## Standards
+### Standards
 ![](/images/logos-tech/square/60h/html5.jpg)
 ![](/images/logos-tech/square/60h/js5.jpg)
 ![](/images/logos-tech/square/60h/css3.jpg)
@@ -109,7 +109,7 @@ Apache Software Foundation        | 	| https://en.wikipedia.org/wiki/Apache_Lice
 
 
 
-## Links
+### Links
 
 VISTA
 
