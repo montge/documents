@@ -4,7 +4,7 @@ People, technologies, and standards that led to this project.
 ## People
 This project builds on the work of many.
 
-http://www.hardhats.org/images/vol_Bella.jpg
+<img src ="http://www.hardhats.org/images/vol_Bella.jpg" height=60>
 
 
 Who | Work | In Project Track  | Comment
