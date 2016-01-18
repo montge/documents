@@ -6,6 +6,7 @@ This project builds on the work of many.
 
 <img src ="http://www.hardhats.org/images/vol_Bella.jpg" height=60>
 <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fassets.fiercemarkets.net%2Ffiles%2Fgovernmentit%2Ffierceimages%2Fmunneke.jpg&f=1" height=60>
+<img src ="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Finnotribe.com%2Fwp-content%2Fuploads%2F2013%2F08%2FMSporny.jpg&f=1" height=60>
 
 
 
