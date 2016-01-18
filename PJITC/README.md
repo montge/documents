@@ -1,5 +1,8 @@
 ### Pacific Joint Information Technology Center (PJITC)
 
+![pjitc](/images/pjitc/pjitc_a.png)
+
+
 The Pacific JITC is the Military Health System's (MHS's) research center for joint concept technology development, prototyping, and piloting of IT products and services to support the Department of Defense (DoD) medical readiness requirements and IT modernization needs across the medical continuum of care. The Pacific JITC is composed of two major components: The Integrated Test and Evaluation Center (ITEC), and the Biotechnology Hui.  
 
 Based in Hawaii, the mission of Pacific JITC is to rapidly research, test and develop warfighter medical solutions and products through pilots or prototypes that provide mission critical value and actionable information to the DoD, including the Services, Combatant Commanders, and the Department of Veterans Affairs (VA).
