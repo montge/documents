@@ -1,6 +1,8 @@
 
 #_
-![](/linked-vista-key-png/linked-vista.001.png)
+
+![image](/linked-vista-key-png/linked-vista.001.png)
+
 #_
 <img src="/linked-vista-key-png/linked-vista.002.png" width=700>
 #_
