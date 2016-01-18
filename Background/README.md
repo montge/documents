@@ -25,11 +25,10 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  
 
 ## Presentations
 
-Who | Title | Link  | Comment
+Who | Year/Title | Link  | Comment
 :--- | --- | :---: | ---
-Conor Dowling | | PDF |
-Rafael Richards | | PDF HTML |
-* https://github.com/vistadataproject/documents/blob/master/Background/Linked_VISTA-2015.pdf
+Conor Dowling | 2012 Mastering VISTA's Data | [PDF](https://github.com/vistadataproject/documents/blob/master/Background/Data_Centric_VistA-2012.pdf) |
+Rafael Richards |2015 / Linked VISTA | [PDF](https://github.com/vistadataproject/documents/blob/master/Background/Linked_VISTA-2015.pdf) |
 
 
 ## Technologies
