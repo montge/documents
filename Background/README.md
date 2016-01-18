@@ -8,7 +8,8 @@ This project builds on the work of many.
 <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fassets.fiercemarkets.net%2Ffiles%2Fgovernmentit%2Ffierceimages%2Fmunneke.jpg&f=1" height=60>
 <img src ="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Finnotribe.com%2Fwp-content%2Fuploads%2F2013%2F08%2FMSporny.jpg&f=1" height=60>
 <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.M5eb475ec8ff319f7c6fa1e5e3840e39bo1%26amp%3Bpid%3D15.1&f=1" height=60>
-
+<img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.openhealthnews.com%2Fsites%2Fopenhealthnews.com%2Ffiles%2Frob_sm.png&f=1" height=60>
+<img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fworldvista.org%2FWorldVistA%2FAnthracite_Nancy.jpg&f=1" height=60>
 
 
 Who | Work | In Project Track  | Comment
