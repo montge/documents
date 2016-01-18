@@ -19,10 +19,24 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  
 
 ## Technologies
 
+![](/images/logos-tech/square/60h/asf.jpg)
+![](/images/logos-tech/square/60h/cache.jpg)
+![](/images/logos-tech/square/60h/CC.jpg)
+![](/images/logos-tech/square/60h/d3-js.jpg)
+![](/images/logos-tech/square/60h/git.jpg)
+![](/images/logos-tech/square/60h/github.jpg)
+![](/images/logos-tech/square/60h/html5.jpg)
 ![](/images/logos-tech/square/60h/js5.jpg)
-![](/images/logos-tech/square/60h/js5.jpg)
-![](/images/logos-tech/square/60h/js5.jpg)
-![](/images/logos-tech/square/60h/js5.jpg)
+![](/images/logos-tech/square/60h/json.jpg)
+![](/images/logos-tech/square/60h/jsonld.jpg)
+![](/images/logos-tech/square/60h/m-tech.fw.jpg)
+![](/images/logos-tech/square/60h/markdown.jpg)
+![](/images/logos-tech/square/60h/node-js.jpg)
+![](/images/logos-tech/square/60h/npm.jpg)
+![](/images/logos-tech/square/60h/python.jpg)
+![](/images/logos-tech/square/60h/rdf.jpg)
+![](/images/logos-tech/square/60h/vagrant.jpg)
+![](/images/logos-tech/square/60h/webstorm.jpg)
 
 
 <img src="/images/logos-tech/square/m-tech.fw.png" height=50>
