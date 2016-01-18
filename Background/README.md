@@ -6,7 +6,7 @@ This project builds on the work of many.
 
 Who | Work | In Project Track  | Comment
 :--- | --- | :---: | ---
-George Timson<br>Tom Munnecke | [FileMan](https://en.wikipedia.org/wiki/FileMan) | [VDM](https://github.com/vistadataproject/VDM) | The pair who concieved and built VISTA on a metadata-centric architecture
+George_Timson<br>Tom_Munnecke | [FileMan](https://en.wikipedia.org/wiki/FileMan) | [VDM](https://github.com/vistadataproject/VDM) | The pair who concieved and built VISTA on a metadata-centric architecture
 Kevin Meldrum | [Virtual Patient Record (VPR)](http://www.va.gov/vdl/application.asp?appid=197) | [MVDM](https://github.com/vistadataproject/MVDM) |  Created a JSON-based mechanism for accessing VISTA's patient data 
 Manu Sporny | [JSON-LD](http://json-ld.org/) | [MVDM](https://github.com/vistadataproject/MVDM)  |  Created and promoted the JSON-LD standard
 David Wicksell<br>Rob tweed | Node/M | Infrastructure <br>([nodeVISTA](https://github.com/vistadataproject/nodeVISTA)) | Integrated node.js with VISTA and MUMPS
