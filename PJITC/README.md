@@ -5,7 +5,6 @@ Based in Hawaii, the mission of Pacific JITC is to rapidly research, test and de
 
 ![pjitc](/images/pjitc/pjitc_a.png)
 ![pjitc](/images/pjitc/pjitc_b.png)
-![pjitc](/images/pjitc/pjitc_c.png)
 
 
 
