@@ -3,11 +3,11 @@ People, presentations, technologies, and standards that led to this project.
 
 
 ## Architecture and Design
-
-![](/images/logos-presentations/60h/fmql.jpg)
 ![](/images/logos-presentations/60h/linkedVISTA.jpg)
-<img src="http://yosemiteproject.org/images/100/steering-conor-dowling-square_100.jpg" height=60>
 <img src="http://yosemiteproject.org/images/100/steering-rafael-richards_100.jpg" height=60>
+![](/images/logos-presentations/60h/fmql.jpg)
+<img src="http://yosemiteproject.org/images/100/steering-conor-dowling-square_100.jpg" height=60>
+
 
 Who | Design | Comment
 :--- | :--- | :---
