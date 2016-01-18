@@ -1,11 +1,15 @@
 # Pacific Joint Information Technology Center (PJITC)
-![pjitc](/images/pjitc/pjitc_a.png)
-![pjitc](/images/pjitc/pjitc_b.png)
+![pjitc](/images/pjitc/pjitc_1.png)
+![pjitc](/images/pjitc/pjitc_2.png)
+![pjitc](/images/pjitc/pjitc_3.png)
 
 
 # PJITC Integrated Test and Evaluation Center (ITEC)
-![](/images/pjitc/itec_1.png)
-![](/images/pjitc/itec_2.png)
+![](/images/pjitc/itec_a.png)
+![](/images/pjitc/itec_b.png)
+![](/images/pjitc/itec_c.png)
+![](/images/pjitc/itec_d.png)
+![](/images/pjitc/itec_e.png)
 
 
 ### PJITC / ITEC Links
