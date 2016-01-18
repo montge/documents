@@ -1,7 +1,10 @@
 # Credits
 People, presentations, technologies, and standards that led to this project.
 
-[](/images/logos-other/linkedin/in-40.png)
+![](/images/logos-other/linkedin/in-20.png)
+![](/images/logos-other/linkedin/in-25.png)
+![](/images/logos-other/linkedin/in-30.png)
+![](/images/logos-other/linkedin/in-40.png)
 
 
 ## People
