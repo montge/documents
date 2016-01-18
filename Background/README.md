@@ -46,14 +46,14 @@ Github          | 	| https://en.wikipedia.org/wiki/GitHub <br> https://github.co
 
 
 ## Standards
-<img src="/logos-tech/square/html5.png" height=50>
-<img src="/logos-tech/square/js5.png" height=50>
-<img src="/logos-tech/square/css3.png" height=50>
-<img src="/logos-tech/square/json.png" height=50>
-<img src="/logos-tech/square/jsonld.png" height=50>
-<img src="/logos-tech/square/markdown.png" height=50>
-<img src="/logos-tech/square/CC.jpg" height=50>
-<img src="/logos-tech/square/asf.png" height=50>
+<img src="/images/logos-tech/square/html5.png" height=50>
+<img src="/images/logos-tech/square/js5.png" height=50>
+<img src="/images/logos-tech/square/css3.png" height=50>
+<img src="/images/logos-tech/square/json.png" height=50>
+<img src="/images/logos-tech/square/jsonld.png" height=50>
+<img src="/images/logos-tech/square/markdown.png" height=50>
+<img src="/images/logos-tech/square/CC.jpg" height=50>
+<img src="/images/logos-tech/square/asf.png" height=50>
 
 
 
