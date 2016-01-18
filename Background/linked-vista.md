@@ -2,5 +2,7 @@
 
 ![image](/linkedvista/key/001.png)
 
-<img src="/linkedvista/key/001.png" width=700>
+![VDP Components Overview](/images/vdp-overview.png)
+
+<img src="/linkedvista/key/001.png">
 
