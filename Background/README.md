@@ -18,37 +18,17 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  
 
 
 ## Technologies
-
-![](/images/logos-tech/square/60h/asf.jpg)
-![](/images/logos-tech/square/60h/cache.jpg)
-![](/images/logos-tech/square/60h/CC.jpg)
-![](/images/logos-tech/square/60h/d3-js.jpg)
-![](/images/logos-tech/square/60h/git.jpg)
-![](/images/logos-tech/square/60h/github.jpg)
-![](/images/logos-tech/square/60h/html5.jpg)
-![](/images/logos-tech/square/60h/js5.jpg)
-![](/images/logos-tech/square/60h/json.jpg)
-![](/images/logos-tech/square/60h/jsonld.jpg)
 ![](/images/logos-tech/square/60h/m-tech.fw.jpg)
-![](/images/logos-tech/square/60h/markdown.jpg)
+![](/images/logos-tech/square/60h/js5.jpg)
 ![](/images/logos-tech/square/60h/node-js.jpg)
 ![](/images/logos-tech/square/60h/npm.jpg)
-![](/images/logos-tech/square/60h/python.jpg)
-![](/images/logos-tech/square/60h/rdf.jpg)
-![](/images/logos-tech/square/60h/vagrant.jpg)
+![](/images/logos-tech/square/60h/d3-js.jpg)
 ![](/images/logos-tech/square/60h/webstorm.jpg)
+![](/images/logos-tech/square/60h/vagrant.jpg)
+![](/images/logos-tech/square/60h/python.jpg)
+![](/images/logos-tech/square/60h/git.jpg)
+![](/images/logos-tech/square/60h/github.jpg)
 
-
-<img src="/images/logos-tech/square/m-tech.fw.png" height=50>
-<img src="/images/logos-tech/square/js5.png" height=50>
-<img src="/images/logos-tech/square/node-js.png" height=50>
-<img src="/images/logos-tech/square/npm.png" height=50>
-<img src="/images/logos-tech/square/d3-js.png" height=50>
-<img src="/images/logos-tech/square/webstorm.png" height=50>
-<img src="/images/logos-tech/square/vagrant.png" height=50>
-<img src="/images/logos-tech/square/python.jpg" height=50>
-<img src="/images/logos-tech/square/git.png" height=50>
-<img src="/images/logos-tech/square/github.png" height=50>
 
 
 Name | VA TRM  | Reference
@@ -70,15 +50,15 @@ Github          | 	| https://en.wikipedia.org/wiki/GitHub <br> https://github.co
 
 
 ## Standards
-<img src="/images/logos-tech/square/html5.png" height=50>
-<img src="/images/logos-tech/square/js5.png" height=50>
-<img src="/images/logos-tech/square/css3.png" height=50>
-<img src="/images/logos-tech/square/json.png" height=50>
-<img src="/images/logos-tech/square/jsonld.png" height=50>
-<img src="/images/logos-tech/square/markdown.png" height=50>
-<img src="/images/logos-tech/square/CC.jpg" height=50>
-<img src="/images/logos-tech/square/asf.png" height=50>
-
+![](/images/logos-tech/square/60h/html5.jpg)
+![](/images/logos-tech/square/60h/js5.jpg)
+![](/images/logos-tech/square/60h/css3.jpg)
+![](/images/logos-tech/square/60h/json.jpg)
+![](/images/logos-tech/square/60h/jsonld.jpg)
+![](/images/logos-tech/square/60h/rdf.jpg)
+![](/images/logos-tech/square/60h/markdown.jpg)
+![](/images/logos-tech/square/60h/CC.jpg)
+![](/images/logos-tech/square/60h/asf.jpg)
 
 
 Name | VA TRM  | Reference
