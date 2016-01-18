@@ -35,8 +35,8 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  
 
 Who | Title | Comment
 :--- | :--- | :---
-Conor Dowling | Fileman Query Language  | This describes the tool and method of exposing VISTA's data through Fileman. (2014) [PDF](https://github.com/vistadataproject/documents/blob/master/Background/FMQL_Corner-2014.pdf)
-Rafael Richards |Linked VISTA | This describes the creation of an enterprise cross-linked VISTA Data Model to provide VISTA master data management in VA. (2015) [PDF](https://github.com/vistadataproject/documents/blob/master/Background/Linked_VISTA-2015.pdf)
+Conor Dowling | Fileman Query Language  | This describes the tool and method of exposing VISTA's data through Fileman. (2014) [PDF](https://github.com/vistadataproject/documents/blob/master/Background/presentations/FMQL_Corner-2014.pdf)
+Rafael Richards |Linked VISTA | This describes the creation of an enterprise cross-linked VISTA Data Model to provide VISTA master data management in VA. (2015) [PDF](https://github.com/vistadataproject/documents/blob/master/Background/presentations/Linked_VISTA-2015.pdf)
 
 
 
