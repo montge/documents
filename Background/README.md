@@ -1,6 +1,18 @@
 # Credits
 People, presentations, technologies, and standards that led to this project.
 
+
+## Architecture and Design
+
+![](/images/logos-presentations/60h/fmql.jpg)
+![](/images/logos-presentations/60h/linkedVISTA.jpg)
+
+Who | Design | Comment
+:--- | :--- | :---
+[Conor_Dowling](https://www.linkedin.com/in/conor-dowling-4306832b) | [Fileman Query Language](https://github.com/vistadataproject/documents/blob/master/Background/presentations/FMQL_Corner-2014.pdf)  | This describes the tool and method of exposing VISTA's data through Fileman. (2014) [PDF](https://github.com/vistadataproject/documents/blob/master/Background/presentations/FMQL_Corner-2014.pdf)
+[Rafael_Richards](https://www.linkedin.com/in/rafaelrichardsmd) |[Linked VISTA](https://github.com/vistadataproject/documents/blob/master/Background/presentations/Linked_VISTA-2015.pdf) | This describes the creation of an enterprise cross-linked VISTA Data Model to provide VISTA master data management across the VA nationwide. (2015) [PDF](https://github.com/vistadataproject/documents/blob/master/Background/presentations/Linked_VISTA-2015.pdf)
+
+
 ## People
 This project builds on the work of many.
 
@@ -17,9 +29,6 @@ This project builds on the work of many.
 
 
 
-
-
-
 Who | Work | In Project Track  | Comment
 :---: | :---: | :--- | ---
 <br>George_Timson<br>[Tom_Munneke](https://www.linkedin.com/in/tom-munnecke-b171)| [FileMan](https://en.wikipedia.org/wiki/FileMan) | [VDM](https://github.com/vistadataproject/VDM) | The pair who concieved and built VISTA on a metadata-centric architecture
@@ -32,16 +41,6 @@ Nancy_Anthracite | [Opening up VISTA](http://worldvista.org) | PM   | Advocated 
 
 
 
-
-## Presentations
-
-![](/images/logos-presentations/60h/fmql.jpg)
-![](/images/logos-presentations/60h/linkedVISTA.jpg)
-
-Who | Title | Comment
-:--- | :--- | :---
-[Conor_Dowling](https://www.linkedin.com/in/conor-dowling-4306832b) | [Fileman Query Language](https://github.com/vistadataproject/documents/blob/master/Background/presentations/FMQL_Corner-2014.pdf)  | This describes the tool and method of exposing VISTA's data through Fileman. (2014) [PDF](https://github.com/vistadataproject/documents/blob/master/Background/presentations/FMQL_Corner-2014.pdf)
-[Rafael_Richards](https://www.linkedin.com/in/rafaelrichardsmd) |[Linked VISTA](https://github.com/vistadataproject/documents/blob/master/Background/presentations/Linked_VISTA-2015.pdf) | This describes the creation of an enterprise cross-linked VISTA Data Model to provide VISTA master data management across the VA nationwide. (2015) [PDF](https://github.com/vistadataproject/documents/blob/master/Background/presentations/Linked_VISTA-2015.pdf)
 
 
 
