@@ -18,6 +18,13 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  
 
 
 ## Technologies
+
+![](/images/logos-tech/square/60h/js5.jpg)
+![](/images/logos-tech/square/60h/js5.jpg)
+![](/images/logos-tech/square/60h/js5.jpg)
+![](/images/logos-tech/square/60h/js5.jpg)
+
+
 <img src="/images/logos-tech/square/m-tech.fw.png" height=50>
 <img src="/images/logos-tech/square/js5.png" height=50>
 <img src="/images/logos-tech/square/node-js.png" height=50>
