@@ -1,6 +1,6 @@
 ## Government Furnished Equipment and Information (GFE / GFI)
 
-As presently stated in the PWS, within 30 days of contract award the Government will provide access to:
+As stated in the PWS, within 30 days of contract award the Government will provide access to:
 
 ### VISTA Systems
 
