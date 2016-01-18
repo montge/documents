@@ -27,7 +27,7 @@ Who | Work | In Project Track  | Comment
 [Manu_Sporny](https://www.linkedin.com/in/manusporny) | [JSON-LD](http://json-ld.org/) | [MVDM](https://github.com/vistadataproject/MVDM)  |  Created and promoted the JSON-LD standard
 [David_Wicksell](https://www.linkedin.com/in/dlwicksell) <br>[Rob_Tweed](https://www.linkedin.com/in/rob-tweed-a5419629)| Node/M | Infrastructure <br>([nodeVISTA](https://github.com/vistadataproject/nodeVISTA)) | Integrated node.js with MUMPS and VISTA. 
 Chris_Edwards | [Vagrant Installer for VISTA](https://www.osehra.org/blog/automated-vista-installation-and-testing-using-vagrant) | Infrastructure | Automated installation of VISTA environemnt
-Nancy_Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  | Advocated tirelessly for in-the-open VISTA development
+Nancy_Anthracite | [Opening up VISTA](http://worldvista.org) | PM   | Advocated tirelessly for in-the-open VISTA development (Github)
 
 
 
