@@ -17,8 +17,6 @@ The ITEC provides the infrastructure to support projects focused on piloting, pr
 
 ![](/images/pjitc/itec_1.png)
 ![](/images/pjitc/itec_2.png)
-![](/images/pjitc/itec_3.png)
-
 
 __PJITC / ITEC Links__
 * [PJITC Main Website](http://health.mil/pjitc)
@@ -51,5 +49,9 @@ __Data Security Links__
 * [NIPRNET](https://en.wikipedia.org/wiki/NIPRNet)
 * [NIPRNET vs SIPRNET](http://www.differencebetween.net/technology/protocols-formats/differences-between-niprnet-and-siprnet)
 * [Sensitive but Unclassified IP Data](http://disa.mil/Network-Services/Data/SBU-IP#Section2)
+
+
+![](/images/pjitc/itec_3.png)
+![](/images/pjitc/itec_4.png)
 
 
