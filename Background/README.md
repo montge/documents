@@ -12,6 +12,12 @@ This project builds on the work of many.
 <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.openhealthnews.com%2Fsites%2Fopenhealthnews.com%2Ffiles%2Frob_sm.png&f=1" height=60>
 <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fblogcdn.uber.com%2Fwp-content%2Fuploads%2F2014%2F07%2Fperson-icon.png&f=1" height=60>
 <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fworldvista.org%2FWorldVistA%2FAnthracite_Nancy.jpg&f=1" height=60>
+<img src="http://yosemiteproject.org/images/100/steering-conor-dowling-square_100.jpg" height=60>
+<img src="http://yosemiteproject.org/images/100/steering-rafael-richards_100.jpg" height=60>
+
+
+
+
 
 
 Who | Work | In Project Track  | Comment
