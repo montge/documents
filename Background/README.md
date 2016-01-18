@@ -6,6 +6,8 @@ People, presentations, technologies, and standards that led to this project.
 
 ![](/images/logos-presentations/60h/fmql.jpg)
 ![](/images/logos-presentations/60h/linkedVISTA.jpg)
+<img src="http://yosemiteproject.org/images/100/steering-conor-dowling-square_100.jpg" height=60>
+<img src="http://yosemiteproject.org/images/100/steering-rafael-richards_100.jpg" height=60>
 
 Who | Design | Comment
 :--- | :--- | :---
@@ -13,7 +15,7 @@ Who | Design | Comment
 [Conor_Dowling](https://www.linkedin.com/in/conor-dowling-4306832b) | [Fileman Query Language](https://github.com/vistadataproject/documents/blob/master/Background/presentations/FMQL_Corner-2014.pdf)  | This describes the tools and method of comprehensively exposing all of VISTA's data through Fileman. (2014) [PDF](https://github.com/vistadataproject/documents/blob/master/Background/presentations/FMQL_Corner-2014.pdf)
 
 
-## People
+## Infrastructure
 This project builds on the work of many.
 
 <img src ="http://www.hardhats.org/images/vol_Bella.jpg" height=60>
@@ -24,8 +26,7 @@ This project builds on the work of many.
 <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.openhealthnews.com%2Fsites%2Fopenhealthnews.com%2Ffiles%2Frob_sm.png&f=1" height=60>
 <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fblogcdn.uber.com%2Fwp-content%2Fuploads%2F2014%2F07%2Fperson-icon.png&f=1" height=60>
 <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fworldvista.org%2FWorldVistA%2FAnthracite_Nancy.jpg&f=1" height=60>
-<img src="http://yosemiteproject.org/images/100/steering-conor-dowling-square_100.jpg" height=60>
-<img src="http://yosemiteproject.org/images/100/steering-rafael-richards_100.jpg" height=60>
+
 
 
 
