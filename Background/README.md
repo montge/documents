@@ -16,10 +16,10 @@ This project builds on the work of many.
 
 Who | Work | In Project Track  | Comment
 :--- | --- | :---: | ---
-George_Timson<br>Tom_Munnecke | [FileMan](https://en.wikipedia.org/wiki/FileMan) | [VDM](https://github.com/vistadataproject/VDM) | The pair who concieved and built VISTA on a metadata-centric architecture  [TM](https://www.linkedin.com/in/tom-munnecke-b171) ![](/images/logos-other/linkedin/in-20.png)
-Kevin Meldrum | [Virtual Patient Record (VPR)](http://www.va.gov/vdl/application.asp?appid=197) | [MVDM](https://github.com/vistadataproject/MVDM) |  Created a JSON-based mechanism for accessing VISTA's patient data [KM](https://www.linkedin.com/in/kevin-meldrum-35a1a115) ![](/images/logos-other/linkedin/in-20.png)
-Manu Sporny | [JSON-LD](http://json-ld.org/) | [MVDM](https://github.com/vistadataproject/MVDM)  |  Created and promoted the JSON-LD standard [MS](https://www.linkedin.com/in/manusporny) ![](/images/logos-other/linkedin/in-20.png)
-David Wicksell<br>Rob tweed | Node/M | Infrastructure <br>([nodeVISTA](https://github.com/vistadataproject/nodeVISTA)) | Integrated node.js with MUMPS and VISTA. [DW](https://www.linkedin.com/in/dlwicksell) [RT](https://www.linkedin.com/in/rob-tweed-a5419629) ![](/images/logos-other/linkedin/in-20.png)
+George_Timson<br>[Tom_Munneke](https://www.linkedin.com/in/tom-munnecke-b171)| [FileMan](https://en.wikipedia.org/wiki/FileMan) | [VDM](https://github.com/vistadataproject/VDM) | The pair who concieved and built VISTA on a metadata-centric architecture
+[Kevin_Meldrum](https://www.linkedin.com/in/kevin-meldrum-35a1a115)| [Virtual Patient Record (VPR)](http://www.va.gov/vdl/application.asp?appid=197) | [MVDM](https://github.com/vistadataproject/MVDM) |  Created a JSON-based mechanism for accessing VISTA's patient data 
+[Manu_SpornyS](https://www.linkedin.com/in/manusporny) | [JSON-LD](http://json-ld.org/) | [MVDM](https://github.com/vistadataproject/MVDM)  |  Created and promoted the JSON-LD standard
+[David_Wicksell](https://www.linkedin.com/in/dlwicksell) <br>[Rob_Tweed](https://www.linkedin.com/in/rob-tweed-a5419629)| Node/M | Infrastructure <br>([nodeVISTA](https://github.com/vistadataproject/nodeVISTA)) | Integrated node.js with MUMPS and VISTA. 
 Chris Edwards | [Vagrant Installer for VISTA](https://www.osehra.org/blog/automated-vista-installation-and-testing-using-vagrant) | Infrastructure | Automated installation of VISTA environemnt
 Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  | Advocated tirelessly for in-the-open VISTA development
 
