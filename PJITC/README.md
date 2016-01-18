@@ -14,7 +14,6 @@ Based in Hawaii, the mission of Pacific JITC is to rapidly research, test and de
 ![](/images/pjitc/itec_1.png)
 ![](/images/pjitc/itec_2.png)
 ![](/images/pjitc/itec_3.png)
-![](/images/pjitc/itec_4.png)
 
 
 Located in Kihei, HI, the Pacific JITC’s Integrated Test and Evaluation Center (ITEC) is the first DoD/VA integrated lab to virtualize  mission-critical enterprise systems. This center provides an agile computing environment that supports military health and interagency research & development, testing, and evaluation missions.  
