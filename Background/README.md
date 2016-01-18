@@ -1,5 +1,5 @@
 # Credits
-People, technologies, and standards that led to this project.
+People, presentations, technologies, and standards that led to this project.
 
 ## People
 This project builds on the work of many.
@@ -23,6 +23,8 @@ David Wicksell<br>Rob tweed | Node/M | Infrastructure <br>([nodeVISTA](https://g
 Chris Edwards | [Vagrant Installer for VISTA](https://www.osehra.org/blog/automated-vista-installation-and-testing-using-vagrant) | Infrastructure | Automated installation of VISTA environemnt
 Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  | Advocated tirelessly for in-the-open VISTA development
 
+## Presentations
+
 
 ## Technologies
 ![](/images/logos-tech/square/60h/m-tech.fw.jpg)
@@ -37,13 +39,12 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  
 ![](/images/logos-tech/square/60h/github.jpg)
 
 
-
 Name | VA TRM  | Reference
 :--- | :--- | :--- 
-M-Technology	| [6402](http://www.va.gov/TRM/StandardPage.asp?tid=6402) | https://en.wikipedia.org/wiki/M_technology
-M-Technology (Cache)| [10](http://www.va.gov/TRM/ToolPage.asp?tid=10) | http://www.intersystems.com/our-products/cache/cache-overview <br> http://www.intersystems.com/our-products/cache/tech-guide/chapter-2/#integrated-database-access <br> http://docs.intersystems.com/cache20152/csp/docbook/featuremapCache.csp
-M-Technology (Fidelity) | [6632](http://www.va.gov/TRM/ToolPage.asp?tid=6632) | https://en.wikipedia.org/wiki/GT.M <br> http://www.fisglobal.com/Solutions/Services/Database-Engine <br> http://www.fisglobal.com/Solutions/Services/Database-Engine/User-Documentation
-JS 5      | [5061](http://www.va.gov/TRM/StandardPage.asp?tid=5061) | https://en.wikipedia.org/wiki/JavaScript
+__M-Technology__	| [6402](http://www.va.gov/TRM/StandardPage.asp?tid=6402) | https://en.wikipedia.org/wiki/M_technology
+(Cache M)| [10](http://www.va.gov/TRM/ToolPage.asp?tid=10) | http://www.intersystems.com/our-products/cache/cache-overview <br> http://www.intersystems.com/our-products/cache/tech-guide/chapter-2/#integrated-database-access <br> http://docs.intersystems.com/cache20152/csp/docbook/featuremapCache.csp
+(Fidelity M) | [6632](http://www.va.gov/TRM/ToolPage.asp?tid=6632) | https://en.wikipedia.org/wiki/GT.M <br> http://www.fisglobal.com/Solutions/Services/Database-Engine <br> http://www.fisglobal.com/Solutions/Services/Database-Engine/User-Documentation
+Javascript      | [5061](http://www.va.gov/TRM/StandardPage.asp?tid=5061) | https://en.wikipedia.org/wiki/JavaScript
 Node.js			| [6716](http://www.va.gov/TRM/ToolPage.asp?tid=6716)	| https://en.wikipedia.org/wiki/Node.js <br> https://nodejs.org/en
 Node Package Manager (NPM)             | 	| https://en.wikipedia.org/wiki/Npm_%28software%29 <br> https://www.npmjs.com/
 Express.js		| [7729](http://www.va.gov/TRM/ToolPage.asp?tid=7729) | http://expressjs.com/
