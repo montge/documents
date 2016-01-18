@@ -1,11 +1,8 @@
 #_
-A Metadata-centric Approach to VISTA Master Data Management
 <img src="/linked-vista-key-png/linked-vista.001.png" width=700>
 #_
-A Linked Data Approach to Patient-Centric Care
 <img src="/linked-vista-key-png/linked-vista.002.png" width=700>
 #_
-Required to solve real-world problems
 <img src="/linked-vista-key-png/linked-vista.003.png" width=700>
 #_
 <img src="/linked-vista-key-png/linked-vista.004.png" width=700>
@@ -13,10 +10,8 @@ Required to solve real-world problems
 <img src="/linked-vista-key-png/linked-vista.005.png" width=700>
 #_
 <img src="/linked-vista-key-png/linked-vista.006.png" width=700>
-
 #_
 <img src="/linked-vista-key-png/linked-vista.007.png" width=700>
-
 #_
 <img src="/linked-vista-key-png/linked-vista.008.png" width=700>
 #_
