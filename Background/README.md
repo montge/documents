@@ -4,6 +4,9 @@ People, technologies, and standards that led to this project.
 ## People
 This project builds on the work of many.
 
+http://www.hardhats.org/images/vol_Bella.jpg
+
+
 Who | Work | In Project Track  | Comment
 :--- | --- | :---: | ---
 George_Timson<br>Tom_Munnecke | [FileMan](https://en.wikipedia.org/wiki/FileMan) | [VDM](https://github.com/vistadataproject/VDM) | The pair who concieved and built VISTA on a metadata-centric architecture
