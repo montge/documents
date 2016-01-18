@@ -18,15 +18,15 @@ Nancy Anthracite | [Opening up VISTA](http://worldvista.org) | PM <br>(Github)  
 [](/images/logos-tech/square/m-tech.fw.png)
 
 <img src="/images/logos-tech/square/m-tech.fw.png" height=100>
-<img src="/logos-tech/square/js5.png" height=50>
-<img src="/logos-tech/square/node-js.png" height=50>
-<img src="/logos-tech/square/npm.png" height=50>
-<img src="/logos-tech/square/d3-js.png" height=50>
-<img src="/logos-tech/square/webstorm.png" height=50>
-<img src="/logos-tech/square/vagrant.png" height=50>
-<img src="/logos-tech/square/python.jpg" height=50>
-<img src="/logos-tech/square/git.png" height=50>
-<img src="/logos-tech/square/github.png" height=50>
+<img src="/images/logos-tech/square/js5.png" height=50>
+<img src="/images/logos-tech/square/node-js.png" height=50>
+<img src="/images/logos-tech/square/npm.png" height=50>
+<img src="/images/logos-tech/square/d3-js.png" height=50>
+<img src="/images/logos-tech/square/webstorm.png" height=50>
+<img src="/images/logos-tech/square/vagrant.png" height=50>
+<img src="/images/logos-tech/square/python.jpg" height=50>
+<img src="/images/logos-tech/square/git.png" height=50>
+<img src="/images/logos-tech/square/github.png" height=50>
 
 
 Name | VA TRM  | Reference
